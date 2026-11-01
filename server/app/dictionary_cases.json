@@ -1,0 +1,194 @@
+{
+  "China": {
+    "phonetic": "ˈtʃaɪnə",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "中国"
+      }
+    ]
+  },
+  "china": {
+    "phonetic": "ˈtʃaɪnə",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "瓷；瓷器"
+      }
+    ]
+  },
+  "Miss": {
+    "phonetic": "mɪs",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "小姐（用于女子姓氏前的称呼）"
+      }
+    ]
+  },
+  "miss": {
+    "phonetic": "mɪs",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "错过；未赶上；未听到；未击中；想念"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "失误；未击中"
+      }
+    ]
+  },
+  "May": {
+    "phonetic": "meɪ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "五月"
+      }
+    ]
+  },
+  "may": {
+    "phonetic": "meɪ",
+    "meanings": [
+      {
+        "part_of_speech": "auxiliary verb",
+        "meaning": "可以；可能；但愿"
+      }
+    ]
+  },
+  "US": {
+    "phonetic": "ˌjuːˈes",
+    "meanings": [
+      {
+        "part_of_speech": "abbreviation",
+        "meaning": "美国（United States）"
+      }
+    ]
+  },
+  "us": {
+    "phonetic": "ʌs",
+    "meanings": [
+      {
+        "part_of_speech": "pronoun",
+        "meaning": "我们（宾格）"
+      }
+    ]
+  },
+  "Ms": {
+    "phonetic": "mɪz",
+    "meanings": [
+      {
+        "part_of_speech": "abbreviation",
+        "meaning": "女士（用于女性姓氏前，不说明婚姻状况）"
+      }
+    ]
+  },
+  "I": {
+    "phonetic": "aɪ",
+    "meanings": [
+      {
+        "part_of_speech": "pronoun",
+        "meaning": "我"
+      }
+    ]
+  },
+  "AI": {
+    "phonetic": "ˌeɪˈaɪ",
+    "meanings": [
+      {
+        "part_of_speech": "abbreviation",
+        "meaning": "人工智能（artificial intelligence）"
+      }
+    ]
+  },
+  "English": {
+    "phonetic": "ˈɪŋɡlɪʃ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "英语"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "英格兰的；英国人的；英语的"
+      }
+    ]
+  },
+  "Jew": {
+    "phonetic": "dʒuː",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "犹太人；犹太教徒"
+      }
+    ]
+  },
+  "Christmas": {
+    "phonetic": "ˈkrɪsməs",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "圣诞节"
+      }
+    ]
+  },
+  "Olympic": {
+    "phonetic": "əˈlɪmpɪk",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "奥林匹克运动会的；奥林匹亚的；奥林匹斯山的"
+      }
+    ]
+  },
+  "Mars": {
+    "phonetic": "mɑːrz",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "火星；玛尔斯（古罗马战神）"
+      }
+    ]
+  },
+  "PE": {
+    "phonetic": "ˌpiːˈiː",
+    "meanings": [
+      {
+        "part_of_speech": "abbreviation",
+        "meaning": "体育；体育课（physical education）"
+      }
+    ]
+  },
+  "Mrs": {
+    "phonetic": "ˈmɪsɪz",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "夫人；太太（用于已婚女性姓氏前）"
+      }
+    ]
+  },
+  "Mr": {
+    "phonetic": "ˈmɪstər",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "先生（用于男性姓氏前）"
+      }
+    ]
+  },
+  "Chinese": {
+    "phonetic": "ˌtʃaɪˈniːz",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "汉语；中文；中国人"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "中国的；汉语的"
+      }
+    ]
+  }
+}

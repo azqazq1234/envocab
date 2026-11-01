@@ -1,0 +1,17 @@
+export const partOfSpeechLabels: Record<string, string> = {
+  noun: "n.",
+  verb: "v.",
+  adjective: "adj.",
+  adverb: "adv.",
+  pronoun: "pron.",
+  preposition: "prep.",
+  conjunction: "conj.",
+  interjection: "interj.",
+  numeral: "num.",
+  article: "art.",
+  determiner: "det.",
+  "auxiliary verb": "aux.",
+  abbreviation: "abbr.",
+  phrase: "phr.",
+  "plural noun": "pl. n.",
+};

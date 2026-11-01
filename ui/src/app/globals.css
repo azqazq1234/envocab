@@ -1,0 +1,175 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-heading: var(--font-sans);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --app-footer-height: 56px;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.625rem;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+html,
+body,
+#main-content,
+#main-content * {
+  overscroll-behavior: none;
+}
+
+@keyframes word-input-caret-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.word-input-caret {
+  animation: word-input-caret-blink 1s steps(1, end) infinite;
+}
+
+@layer components {
+  .vocabulary-list {
+    --selection-width: calc(var(--spacing) * 10);
+    --score-width: calc(var(--spacing) * 17);
+    --english-width: calc(var(--spacing) * 30);
+    --groups-width: calc(var(--spacing) * 24);
+    --actions-width: calc(var(--spacing) * 17);
+    --visible-groups-width: 0px;
+    --fixed-width: calc(
+      var(--selection-width) + var(--score-width) + var(--english-width) +
+        var(--actions-width) + var(--visible-groups-width)
+    );
+    --chinese-min-width: 4.25rem;
+  }
+  .vocabulary-list[data-show-groups="true"] {
+    --groups-width: calc(var(--spacing) * 40);
+  }
+  .vocabulary-list:is([data-show-groups="true"], [data-show-types="true"]) {
+    --visible-groups-width: var(--groups-width);
+  }
+  .vocabulary-table td:not([colspan]):not(:nth-child(4)) {
+    @apply sticky z-10 bg-white;
+  }
+  .vocabulary-table th {
+    @apply sticky top-0 z-20 bg-white;
+  }
+  .vocabulary-table :is(th, td):first-child {
+    left: 0;
+  }
+  .vocabulary-table :is(th, td):nth-child(2) {
+    left: var(--selection-width);
+  }
+  .vocabulary-table :is(th, td):nth-child(3) {
+    left: calc(var(--selection-width) + var(--score-width));
+  }
+  .vocabulary-table :is(th, td):last-child:not([colspan]) {
+    right: 0;
+  }
+  .vocabulary-table-viewport::after {
+    /* Keep the Actions divider visible for empty and populated tables alike. */
+    content: "";
+    position: absolute;
+    top: 0;
+    height: min(100%, var(--actions-shadow-height, 100%));
+    right: var(--actions-shadow-right, 0px);
+    width: var(--actions-shadow-width, var(--actions-width));
+    z-index: 30;
+    pointer-events: none;
+    /* Match the header's soft shadow, rotated to the left edge only. */
+    box-shadow: -3px 0 12px -4px rgb(0 0 0 / 0.15);
+    clip-path: inset(0 100% 0 -12px);
+  }
+  .vocabulary-list:is([data-show-groups="true"], [data-show-types="true"]) :is(th, td):nth-last-child(2) {
+    right: var(--actions-width);
+  }
+  .vocabulary-table tr[data-word-id]:is(:hover, [data-state="selected"]) td {
+    background-color: var(--color-emerald-50);
+  }
+}

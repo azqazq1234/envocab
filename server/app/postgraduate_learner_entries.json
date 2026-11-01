@@ -1,0 +1,3858 @@
+{
+  "author": {
+    "phonetic": "'ɒ:θә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "作者；作家；创始人"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "撰写；创作"
+      }
+    ]
+  },
+  "being": {
+    "phonetic": "'bi:iŋ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "存在；生命；生物；人"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "是；存在；处于（be 的现在分词）"
+      }
+    ]
+  },
+  "issue": {
+    "phonetic": "'isju",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "问题；议题；争论点；一期刊物；期号；发行；发布"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "发表；发布；发行；发给；流出"
+      }
+    ]
+  },
+  "medium": {
+    "phonetic": "'mi:diәm",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "媒介；媒体；手段；介质"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "中等的；中号的；中等熟度的"
+      }
+    ]
+  },
+  "benefit": {
+    "phonetic": "'benifit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "益处；好处；利益；福利；补助金"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使受益；对……有益；受益于"
+      }
+    ]
+  },
+  "focus": {
+    "phonetic": "'fәukәs",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "焦点；中心；重点"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "集中注意力；聚焦；使对焦"
+      }
+    ]
+  },
+  "concern": {
+    "phonetic": "kәn'sә:n",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "担心；关切；关心的事；重要的事；公司；企业"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "涉及；与……有关；使担忧；使关心"
+      }
+    ]
+  },
+  "involve": {
+    "phonetic": "in'vɒlv",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "涉及；包含；需要；使参与；使卷入"
+      }
+    ]
+  },
+  "patent": {
+    "phonetic": "'pætnt. 'peitnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "专利；专利权；专利证书"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "专利的；受专利保护的；明显的；显而易见的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "取得……的专利权"
+      }
+    ]
+  },
+  "account": {
+    "phonetic": "ә'kaunt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "账户；账目；叙述；报告；解释；理由"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "认为；视为；解释；说明原因（account for）；占（比例，account for）"
+      }
+    ]
+  },
+  "approach": {
+    "phonetic": "ә'prәutʃ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "方法；途径；接近；通路"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "接近；临近；着手处理；与……接洽"
+      }
+    ]
+  },
+  "ensure": {
+    "phonetic": "in'ʃuә",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "确保；保证；使必然发生"
+      }
+    ]
+  },
+  "current": {
+    "phonetic": "'kʌrәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "电流；水流；气流；潮流；趋势"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "当前的；现行的；通用的；流通的"
+      }
+    ]
+  },
+  "agency": {
+    "phonetic": "'eidʒәnsi",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "机构；局；处；代理机构；中介；作用；力量"
+      }
+    ]
+  },
+  "associate": {
+    "phonetic": "ә'sәuʃieit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "同事；伙伴；合伙人"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "联想；联系；交往；结交"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "副的；准的；联合的"
+      }
+    ]
+  },
+  "critical": {
+    "phonetic": "'kritikәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "关键的；至关重要的；批评的；批判性的；危重的；临界的"
+      }
+    ]
+  },
+  "gender": {
+    "phonetic": "'dʒendә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "性别；社会性别；（语法上的）性"
+      }
+    ]
+  },
+  "grant": {
+    "phonetic": "grænt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "补助金；拨款；授予"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "授予；准许；承认"
+      }
+    ]
+  },
+  "prospect": {
+    "phonetic": "'prɒspekt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "前景；可能性；展望；景色；有希望的人或事物"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "勘探；探矿；寻找机会"
+      }
+    ]
+  },
+  "represent": {
+    "phonetic": ".repri'zent",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "代表；象征；表示；描绘；体现；相当于"
+      }
+    ]
+  },
+  "conservative": {
+    "phonetic": "kәn'sә:vәtiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "保守的；守旧的；谨慎的；（估计）偏低的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "保守者；保守派；保守党党员"
+      }
+    ]
+  },
+  "undergraduate": {
+    "phonetic": ".ʌndә'grædjuit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "本科生；大学本科在校生"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "本科生的；本科阶段的"
+      }
+    ]
+  },
+  "justify": {
+    "phonetic": "'dʒʌstifai",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "证明……正当；为……辩护；使有道理；使文本两端对齐"
+      }
+    ]
+  },
+  "dismiss": {
+    "phonetic": "dis'mis",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "解雇；免职；解散；让……离开；不予考虑；驳回"
+      }
+    ]
+  },
+  "crucial": {
+    "phonetic": "'kru:ʃәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "至关重要的；关键的；决定性的"
+      }
+    ]
+  },
+  "discipline": {
+    "phonetic": "'disiplin",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "纪律；自律；训练；学科；惩戒"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "训练；管教；惩戒；使自律"
+      }
+    ]
+  },
+  "multiple": {
+    "phonetic": "'mʌltipl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "多个的；多重的；多种多样的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "倍数"
+      }
+    ]
+  },
+  "concentrate": {
+    "phonetic": "'kɒnsәntreit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "集中；专心；使集中；浓缩"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "浓缩物；浓缩液"
+      }
+    ]
+  },
+  "appropriate": {
+    "phonetic": "ә'prәupriәt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "适当的；合适的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "挪用；盗用；拨出（款项）"
+      }
+    ]
+  },
+  "alternative": {
+    "phonetic": "ɒ:l'tә:nәtiv",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "可供选择的事物；替代方案"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "可供选择的；替代的；非传统的"
+      }
+    ]
+  },
+  "rival": {
+    "phonetic": "'raivl",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "竞争对手；可与之匹敌的人或事物"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "与……竞争；比得上"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "竞争的；对立的"
+      }
+    ]
+  },
+  "embrace": {
+    "phonetic": "im'breis",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "拥抱；欣然接受；包含"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "拥抱"
+      }
+    ]
+  },
+  "foundation": {
+    "phonetic": "faun'deiʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "基础；地基；基金会；建立；粉底"
+      }
+    ]
+  },
+  "stem": {
+    "phonetic": "stem",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "茎；干；柄；词干；船首"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "阻止；遏制；去掉……的茎；起源于（stem from）"
+      }
+    ]
+  },
+  "coach": {
+    "phonetic": "kәutʃ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "教练；长途客车；大巴；（火车）车厢；四轮大马车"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "训练；指导；辅导"
+      }
+    ]
+  },
+  "host": {
+    "phonetic": "hәust",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "主人；东道主；主持人；主机；宿主；许多（a host of）"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "主办；主持；招待"
+      }
+    ]
+  },
+  "contemporary": {
+    "phonetic": "kәn'tempәrәri",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "当代的；现代的；同时代的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "同时代的人；同龄人"
+      }
+    ]
+  },
+  "statistic": {
+    "phonetic": "stә'tistik",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "统计数据；统计数字；统计量"
+      }
+    ]
+  },
+  "commit": {
+    "phonetic": "kә'mit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "犯（罪或错）；做（不好的事）；承诺；使承担义务；投入；提交；托付"
+      }
+    ]
+  },
+  "revise": {
+    "phonetic": "ri'vaiz",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "修改；修订；修正；复习"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "修订稿；校样"
+      }
+    ]
+  },
+  "behalf": {
+    "phonetic": "bi'hɑ:f",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "利益；代表；方面（常用于 on behalf of，表示代表……或为了……）"
+      }
+    ]
+  },
+  "disorder": {
+    "phonetic": "dis'ɒ:dә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "混乱；无序；骚乱；紊乱；疾病"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使混乱；扰乱；使失调"
+      }
+    ]
+  },
+  "comprehensive": {
+    "phonetic": ".kɒmpri'hensiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "全面的；综合的；详尽的"
+      }
+    ]
+  },
+  "imagination": {
+    "phonetic": "i.mædʒi'neiʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "想象力；想象；幻想；想象出来的事物"
+      }
+    ]
+  },
+  "civil": {
+    "phonetic": "'sivәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "公民的；民事的；平民的；国内的；文明礼貌的"
+      }
+    ]
+  },
+  "render": {
+    "phonetic": "'rendә",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "使成为；使处于某种状态；提供；给予；呈现；翻译；演奏；渲染；粉刷"
+      }
+    ]
+  },
+  "channel": {
+    "phonetic": "'tʃænәl",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "渠道；途径；频道；水道；航道；海峡"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "引导；输送；把……用于"
+      }
+    ]
+  },
+  "counter": {
+    "phonetic": "'kauntә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "柜台；计数器；筹码"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "反驳；反击；抵制"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "相反的；对立的"
+      },
+      {
+        "part_of_speech": "adverb",
+        "meaning": "反方向地；相反地"
+      }
+    ]
+  },
+  "craft": {
+    "phonetic": "kræft",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "工艺；手艺；技巧；船；飞行器；诡计"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "精心制作"
+      }
+    ]
+  },
+  "navy": {
+    "phonetic": "'neivi",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "海军；藏青色；海军蓝"
+      }
+    ]
+  },
+  "mandate": {
+    "phonetic": "'mændeit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "授权；委托；命令；（选民授予的）执政权"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "授权；命令；强制要求；委任统治"
+      }
+    ]
+  },
+  "behave": {
+    "phonetic": "bi'heiv",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "表现；举止；行为；表现得体；运转"
+      }
+    ]
+  },
+  "frustrate": {
+    "phonetic": "'frʌstreit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "使沮丧；使受挫；阻挠；挫败"
+      }
+    ]
+  },
+  "lane": {
+    "phonetic": "lein",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "小路；小巷；车道；跑道；泳道"
+      }
+    ]
+  },
+  "literacy": {
+    "phonetic": "'litәrәsi",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "读写能力；识字；（某领域的）知识与运用能力"
+      }
+    ]
+  },
+  "artefact": {
+    "phonetic": "'ɑ:tifækt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "人工制品；手工艺品；文物；（实验或影像中的）人为假象；伪影"
+      }
+    ]
+  },
+  "stake": {
+    "phonetic": "steik",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "桩；柱；赌注；股份；利害关系；火刑柱"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "用桩支撑；以……打赌；拿……冒险"
+      }
+    ]
+  },
+  "anticipate": {
+    "phonetic": "æn'tisipeit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "预料；预期；期待；预先采取行动；先于……做"
+      }
+    ]
+  },
+  "sanction": {
+    "phonetic": "'sæŋkʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "批准；认可；制裁；处罚"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "批准；准许；认可；对……实施制裁"
+      }
+    ]
+  },
+  "distinction": {
+    "phonetic": "dis'tiŋkʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "区别；差别；特征；卓越；殊荣"
+      }
+    ]
+  },
+  "cast": {
+    "phonetic": "kɑ:st. kæst",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "投；抛；投射；铸造；分配角色；投票；使人产生（印象等）"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "全体演员；铸件；铸模；石膏绷带；投掷；（外表或性格的）特征"
+      }
+    ]
+  },
+  "vital": {
+    "phonetic": "'vaitl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "至关重要的；必不可少的；生命的；维持生命所必需的；充满活力的"
+      }
+    ]
+  },
+  "nasty": {
+    "phonetic": "'nɑ:sti",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "令人不快的；恶劣的；肮脏的；恶意的；严重的；难处理的"
+      }
+    ]
+  },
+  "gum": {
+    "phonetic": "gʌm",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "牙龈；树胶；胶质；口香糖"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "用胶粘；使黏住；使堵塞"
+      }
+    ]
+  },
+  "fragment": {
+    "phonetic": "'frægmәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "碎片；片段"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "（使）碎裂；（使）分裂"
+      }
+    ]
+  },
+  "recipient": {
+    "phonetic": "ri'sipiәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "接受者；领受者；受赠者"
+      }
+    ]
+  },
+  "instant": {
+    "phonetic": "'instәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "瞬间；片刻"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "立即的；即刻的；即食的；即溶的"
+      }
+    ]
+  },
+  "intensive": {
+    "phonetic": "in'tensiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "密集的；加强的；深入细致的；集约的"
+      }
+    ]
+  },
+  "consistent": {
+    "phonetic": "kәn'sistәnt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "一致的；一贯的；始终如一的；连续稳定的"
+      }
+    ]
+  },
+  "reign": {
+    "phonetic": "rein",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "统治；在位时期；任期"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "统治；在位；占主导地位"
+      }
+    ]
+  },
+  "premise": {
+    "phonetic": "'premis",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "前提；假定；（复数 premises）房屋及其附属土地；经营场所"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "以……为前提；预先提出"
+      }
+    ]
+  },
+  "marine": {
+    "phonetic": "mә'ri:n",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "海的；海生的；海运的；海事的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "海军陆战队员"
+      }
+    ]
+  },
+  "outrage": {
+    "phonetic": "'autreidʒ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "愤怒；义愤；暴行；令人震怒的事"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使震怒；激怒；严重侵犯"
+      }
+    ]
+  },
+  "bold": {
+    "phonetic": "bәuld",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "大胆的；无畏的；醒目的；粗体的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "粗体字"
+      }
+    ]
+  },
+  "reception": {
+    "phonetic": "ri'sepʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "接待；接待处；招待会；接收；接收效果；反响"
+      }
+    ]
+  },
+  "steer": {
+    "phonetic": "stiә",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "驾驶；操纵方向；引导；指导"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "阉公牛；（英）建议；指点"
+      }
+    ]
+  },
+  "edit": {
+    "phonetic": "'edit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "编辑；校订；修改；剪辑"
+      }
+    ]
+  },
+  "surgery": {
+    "phonetic": "'sә:dʒәri",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "外科；外科手术；（英）诊所；门诊时间；（议员的）接待时间"
+      }
+    ]
+  },
+  "predator": {
+    "phonetic": "'predәtә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "捕食者；捕食性动物；掠夺者；剥削者"
+      }
+    ]
+  },
+  "conductor": {
+    "phonetic": "kәn'dʌktә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "（乐队的）指挥；售票员；导体"
+      }
+    ]
+  },
+  "successive": {
+    "phonetic": "sәk'sesiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "连续的；接连的；相继的"
+      }
+    ]
+  },
+  "charter": {
+    "phonetic": "'tʃɑ:tә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "宪章；章程；特许状；包租"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "包租（飞机、船等）；特许设立；发给特许执照"
+      }
+    ]
+  },
+  "dictate": {
+    "phonetic": "'dikteit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "口述；口授；命令；规定；决定"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "命令；指令；要求"
+      }
+    ]
+  },
+  "biology": {
+    "phonetic": "bai'ɒlәdʒi",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "生物学；（某种生物的）生命活动和特征"
+      }
+    ]
+  },
+  "soar": {
+    "phonetic": "sɒ:",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "翱翔；高飞；高耸；急剧上升；飞涨"
+      }
+    ]
+  },
+  "delicate": {
+    "phonetic": "'delikәt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "精美的；精细的；易碎的；脆弱的；微妙的；需要小心处理的；清淡的"
+      }
+    ]
+  },
+  "consultant": {
+    "phonetic": "kәn'sʌltәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "顾问；咨询师；（英）高级专科医师"
+      }
+    ]
+  },
+  "fatal": {
+    "phonetic": "'feitәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "致命的；导致死亡的；毁灭性的；导致失败的"
+      }
+    ]
+  },
+  "sibling": {
+    "phonetic": "'sibliŋ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "兄弟姐妹"
+      }
+    ]
+  },
+  "obsession": {
+    "phonetic": "әb'seʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "痴迷；执念；萦绕心头的事物；强迫观念"
+      }
+    ]
+  },
+  "episode": {
+    "phonetic": "'episәud",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "（连续剧的）一集；一段经历；事件；插曲；一次发作"
+      }
+    ]
+  },
+  "invert": {
+    "phonetic": "in'vә:t",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "使颠倒；使倒转；使反向"
+      }
+    ]
+  },
+  "vocal": {
+    "phonetic": "'vәukl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "嗓音的；发声的；声乐的；直言不讳的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "（乐曲中的）人声部分；声乐表演"
+      }
+    ]
+  },
+  "cooperative": {
+    "phonetic": "kәu'ɔpәrәtiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "合作的；协作的；乐于配合的；合作社的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "合作社；合作企业"
+      }
+    ]
+  },
+  "criminal": {
+    "phonetic": "'kriminәl",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "罪犯"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "犯罪的；刑事的；违法的"
+      }
+    ]
+  },
+  "alien": {
+    "phonetic": "'eiljәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "外国人；外侨；外星人"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "外国的；异己的；陌生的；不相容的"
+      }
+    ]
+  },
+  "syndrome": {
+    "phonetic": "'sindrәum",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "综合征；一组相关症状；一系列相关现象；（编码理论）校验子"
+      }
+    ]
+  },
+  "turnover": {
+    "phonetic": "'tә:n.әuvә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "营业额；成交额；人员流动率；周转率；翻面；夹馅酥皮点心"
+      }
+    ]
+  },
+  "mankind": {
+    "phonetic": "mæn'kaind",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "人类"
+      }
+    ]
+  },
+  "mask": {
+    "phonetic": "mæsk",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "面具；口罩；面罩；伪装"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "掩饰；遮蔽；戴面具；戴口罩"
+      }
+    ]
+  },
+  "fabulous": {
+    "phonetic": "'fæbjulәs",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "极好的；绝妙的；惊人的；传说中的"
+      }
+    ]
+  },
+  "crude": {
+    "phonetic": "kru:d",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "粗制的；粗略的；未经加工的；粗鲁的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "原油"
+      }
+    ]
+  },
+  "analogy": {
+    "phonetic": "ә'nælәdʒi",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "类比；比拟；类似；相似之处"
+      }
+    ]
+  },
+  "backward": {
+    "phonetic": "'bækwәd",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "向后的；落后的；进展缓慢的"
+      },
+      {
+        "part_of_speech": "adverb",
+        "meaning": "向后；倒退地"
+      }
+    ]
+  },
+  "rally": {
+    "phonetic": "'ræli",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "集会；拉力赛；复苏；价格回升"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "召集；团结；重新振作；恢复；止跌回升"
+      }
+    ]
+  },
+  "empirical": {
+    "phonetic": "em'pirikәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "以经验为依据的；以实验或观察为依据的；实证的"
+      }
+    ]
+  },
+  "contend": {
+    "phonetic": "kәn'tend",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "竞争；争斗；争辩；主张；声称；应对（contend with）"
+      }
+    ]
+  },
+  "rhythm": {
+    "phonetic": "'riðәm",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "节奏；韵律；节律；规律性变化"
+      }
+    ]
+  },
+  "installment": {
+    "phonetic": "in'stɒ:lmәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "分期付款的一期；一期付款；（连载或系列的）一部分"
+      }
+    ]
+  },
+  "viable": {
+    "phonetic": "'vaiәbl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "可行的；切实可行的；能存活的；能独立发展的"
+      }
+    ]
+  },
+  "imaginative": {
+    "phonetic": "i'mædʒinәtiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "富于想象力的；有创意的"
+      }
+    ]
+  },
+  "initiate": {
+    "phonetic": "i'niʃieit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "开始；发起；使了解；传授入门知识；接纳入会"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "新加入者；初学者"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "新加入的；初步了解的"
+      }
+    ]
+  },
+  "surge": {
+    "phonetic": "sә:dʒ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "激增；急剧上升；涌动；汹涌；浪涌"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "激增；急剧上升；涌动；蜂拥前进"
+      }
+    ]
+  },
+  "liability": {
+    "phonetic": "laiә'biliti",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "责任；法律责任；负债；债务；累赘；不利因素"
+      }
+    ]
+  },
+  "lame": {
+    "phonetic": "leim",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "跛的；瘸的；站不住脚的；缺乏说服力的；差劲的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使跛；使瘸"
+      }
+    ]
+  },
+  "rug": {
+    "phonetic": "rʌg",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "小地毯；地毯；（盖腿的）毯子"
+      }
+    ]
+  },
+  "speciality": {
+    "phonetic": ".speʃi'æliti",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "专长；专业；特产；特色菜"
+      }
+    ]
+  },
+  "log": {
+    "phonetic": "lɒg",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "原木；圆木；日志；记录；航海日志"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "记录；把……载入日志；行驶（一定距离）；砍伐树木"
+      }
+    ]
+  },
+  "disastrous": {
+    "phonetic": "di'zɑ:strәs",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "灾难性的；造成严重损失的；极失败的"
+      }
+    ]
+  },
+  "overhead": {
+    "phonetic": "'әuvәhed",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "头顶上的；架空的；经常性开支的"
+      },
+      {
+        "part_of_speech": "adverb",
+        "meaning": "在头顶上；在上方；在空中"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "经常性开支；管理费用"
+      }
+    ]
+  },
+  "priest": {
+    "phonetic": "pri:st",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "神父；牧师；祭司；神职人员"
+      }
+    ]
+  },
+  "blunt": {
+    "phonetic": "blʌnt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "钝的；直言不讳的；生硬的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使变钝；削弱；缓和"
+      }
+    ]
+  },
+  "mute": {
+    "phonetic": "mju:t",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "沉默的；无声的；不能说话的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使静音；减弱声音；减弱强度"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "弱音器；哑音字母"
+      }
+    ]
+  },
+  "racket": {
+    "phonetic": "'rækit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "球拍；喧闹声；非法勾当；诈骗活动"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "喧闹；寻欢作乐"
+      }
+    ]
+  },
+  "discount": {
+    "phonetic": "'diskaunt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "折扣；减价；贴现"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "打折；贴现；不全信；对……不予重视"
+      }
+    ]
+  },
+  "physicist": {
+    "phonetic": "'fizisist",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "物理学家"
+      }
+    ]
+  },
+  "dwarf": {
+    "phonetic": "dwɒ:f",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "矮小的人或生物；（神话中的）小矮人"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使相形见绌；使显得矮小；使矮化"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "矮小的；矮生的"
+      }
+    ]
+  },
+  "circular": {
+    "phonetic": "'sә:kjulә",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "圆形的；环形的；循环的；循环论证的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "通知；通函；传单"
+      }
+    ]
+  },
+  "heroin": {
+    "phonetic": "'herәuin",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "海洛因（二乙酰吗啡）"
+      }
+    ]
+  },
+  "affection": {
+    "phonetic": "ә'fekʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "喜爱；爱慕；感情；（医学旧用法）疾病"
+      }
+    ]
+  },
+  "alphabet": {
+    "phonetic": "'ælfәbit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "字母表；（一种语言的）全部字母"
+      }
+    ]
+  },
+  "mortal": {
+    "phonetic": "'mɒ:tәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "终有一死的；致命的；人类的；极度的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "人；凡人"
+      }
+    ]
+  },
+  "comparative": {
+    "phonetic": "kәm'pærәtiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "比较的；相对的；（语法）比较级的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "比较级"
+      }
+    ]
+  },
+  "outfit": {
+    "phonetic": "'autfit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "一套服装；全套装备；机构；团队"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "装备；配备"
+      }
+    ]
+  },
+  "compact": {
+    "phonetic": "kәm'pækt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "紧凑的；小巧的；结实的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "压紧；压实；使紧密结合"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "协议；小型汽车；粉盒"
+      }
+    ]
+  },
+  "forthcoming": {
+    "phonetic": "'fɒ:θ'kʌmɑŋ",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "即将到来的；乐于提供信息的；愿意帮助的；可得到的"
+      }
+    ]
+  },
+  "empathy": {
+    "phonetic": "'empæθik",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "共情；同理心；设身处地理解他人感受的能力"
+      }
+    ]
+  },
+  "lung": {
+    "phonetic": "lʌŋ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "肺；（比喻）城市中的绿地或开放空间"
+      }
+    ]
+  },
+  "mobilise": {
+    "phonetic": "'mәjbilɑiz",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "动员；调动；组织；使行动起来"
+      }
+    ]
+  },
+  "blanket": {
+    "phonetic": "'blæŋkit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "毯子；覆盖层"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "覆盖；笼罩"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "全面的；一概而论的；适用于所有情况的"
+      }
+    ]
+  },
+  "tropical": {
+    "phonetic": "'trɒpikl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "热带的；热带地区特有的"
+      }
+    ]
+  },
+  "accommodate": {
+    "phonetic": "ә'kɒmәdeit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "容纳；为……提供住宿；满足……的需要；使适应；调节；通融"
+      }
+    ]
+  },
+  "ditch": {
+    "phonetic": "ditʃ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "沟；沟渠"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "抛弃；摆脱；挖沟；（使飞机）在水上迫降"
+      }
+    ]
+  },
+  "roundabout": {
+    "phonetic": "'raundә.baut",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "迂回的；绕远的；拐弯抹角的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "环形交叉路口；环岛；旋转木马"
+      }
+    ]
+  },
+  "overnight": {
+    "phonetic": "'әuvәnait",
+    "meanings": [
+      {
+        "part_of_speech": "adverb",
+        "meaning": "在夜间；过夜；一夜之间；突然"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "夜间的；过夜的；突然的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "过夜；住宿一晚"
+      }
+    ]
+  },
+  "instrument": {
+    "phonetic": "'instrumәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "工具；仪器；乐器；手段；正式法律文件"
+      }
+    ]
+  },
+  "scarcely": {
+    "phonetic": "'skɑ:sli",
+    "meanings": [
+      {
+        "part_of_speech": "adverb",
+        "meaning": "几乎不；几乎没有；刚刚；勉强"
+      }
+    ]
+  },
+  "fume": {
+    "phonetic": "fju:m",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "烟；气体；难闻或有害的气体（常用复数 fumes）"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "冒烟；散发气体；大怒；气得冒烟"
+      }
+    ]
+  },
+  "punch": {
+    "phonetic": "pʌntʃ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "一拳；猛击；冲力；打孔器；冲床；潘趣酒"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "用拳猛击；打孔；冲压"
+      }
+    ]
+  },
+  "fruitful": {
+    "phonetic": "'fru:tful",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "富有成效的；成果丰硕的；多产的；果实累累的"
+      }
+    ]
+  },
+  "stance": {
+    "phonetic": "stæns",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "立场；态度；观点；站姿"
+      }
+    ]
+  },
+  "continual": {
+    "phonetic": "kәn'tinjuәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "频繁的；反复发生的；持续的"
+      }
+    ]
+  },
+  "bolt": {
+    "phonetic": "bәult",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "螺栓；门闩；闪电；（布的）一匹"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "闩上；飞奔；突然逃走；狼吞虎咽"
+      },
+      {
+        "part_of_speech": "adverb",
+        "meaning": "笔直地；突然地"
+      }
+    ]
+  },
+  "reclaim": {
+    "phonetic": "ri'kleim",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "取回；收回；回收利用；开垦；改造"
+      }
+    ]
+  },
+  "liquid": {
+    "phonetic": "'likwid",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "液体"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "液体的；液态的；清澈的；易变现的；流动性强的"
+      }
+    ]
+  },
+  "gloomy": {
+    "phonetic": "'glu:mi",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "阴暗的；阴沉的；忧郁的；悲观的"
+      }
+    ]
+  },
+  "enterprise": {
+    "phonetic": "'entәpraiz",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "企业；公司；事业；重大项目；进取心；创业精神"
+      }
+    ]
+  },
+  "punctual": {
+    "phonetic": "'pәŋktʃuәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "准时的；守时的"
+      }
+    ]
+  },
+  "simplicity": {
+    "phonetic": "sim'plisiti",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "简单；简明；朴素；纯真"
+      }
+    ]
+  },
+  "ignorance": {
+    "phonetic": "'ignәrәns",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "无知；不知情；愚昧"
+      }
+    ]
+  },
+  "dispose": {
+    "phonetic": "dis'pәuz",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "排列；布置；使倾向于；处理掉；清除（dispose of）"
+      }
+    ]
+  },
+  "orientation": {
+    "phonetic": ".ɒ:rien'teiʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "方向；方位；取向；倾向；定向；熟悉环境的培训"
+      }
+    ]
+  },
+  "bid": {
+    "phonetic": "bid",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "出价；投标；努力；争取"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "出价；投标；努力争取；命令；吩咐；致意"
+      }
+    ]
+  },
+  "satisfactory": {
+    "phonetic": ".sætis'fæktәri",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "令人满意的；合乎要求的"
+      }
+    ]
+  },
+  "spectacle": {
+    "phonetic": "'spektәkl",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "景象；壮观场面；奇观；出洋相；（复数 spectacles）眼镜"
+      }
+    ]
+  },
+  "gravity": {
+    "phonetic": "'græviti",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "重力；引力；严重性；严肃"
+      }
+    ]
+  },
+  "hasty": {
+    "phonetic": "'heisti",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "匆忙的；仓促的；草率的；轻率的；急躁的"
+      }
+    ]
+  },
+  "breakdown": {
+    "phonetic": "'breikdaun",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "故障；崩溃；垮掉；关系破裂；分解；分类明细"
+      }
+    ]
+  },
+  "indicative": {
+    "phonetic": "in'dikәtiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "表明……的；显示……的；指示性的；陈述语气的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "陈述语气；直陈语气"
+      }
+    ]
+  },
+  "appliance": {
+    "phonetic": "ә'plaiәns",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "器具；家用电器；设备"
+      }
+    ]
+  },
+  "militant": {
+    "phonetic": "'militәnt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "好战的；激进的；积极战斗的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "激进分子；好战者"
+      }
+    ]
+  },
+  "curl": {
+    "phonetic": "kә:l",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "卷发；卷曲物；卷曲"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "（使）卷曲；蜷缩"
+      }
+    ]
+  },
+  "engineering": {
+    "phonetic": ".endʒi'niәriŋ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "工程；工程学；工程技术；设计与建造"
+      }
+    ]
+  },
+  "offensive": {
+    "phonetic": "ә'fensiv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "冒犯的；令人不快的；攻击性的；进攻的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "进攻；攻势"
+      }
+    ]
+  },
+  "diversion": {
+    "phonetic": "dai'vә:ʒәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "转移；转向；转移注意力的事物；消遣；绕行；改道"
+      }
+    ]
+  },
+  "jet": {
+    "phonetic": "dʒet",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "喷气式飞机；喷射流；喷嘴；煤玉"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "喷射；乘喷气式飞机旅行"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "乌黑发亮的"
+      }
+    ]
+  },
+  "normalisation": {
+    "phonetic": ",nɔ:məlai'zeiʃən",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "正常化；标准化；规范化；归一化"
+      }
+    ]
+  },
+  "owing to": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "preposition",
+        "meaning": "由于；因为"
+      }
+    ]
+  },
+  "tram": {
+    "phonetic": "træm",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "有轨电车；矿车"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "乘有轨电车；用有轨电车运输"
+      }
+    ]
+  },
+  "mercury": {
+    "phonetic": "'mә:kjuri",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "汞；水银"
+      }
+    ]
+  },
+  "Relativity": {
+    "phonetic": ".relә'tiviti",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "相对性；相对论"
+      }
+    ]
+  },
+  "portfolio": {
+    "phonetic": "pɒ:t'fәuliәu",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "作品集；投资组合；公文包；文件夹；部长职务；职责范围"
+      }
+    ]
+  },
+  "spade": {
+    "phonetic": "speid",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "铁锹；铲；（扑克牌）黑桃"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "用铁锹挖；铲"
+      }
+    ]
+  },
+  "analog": {
+    "phonetic": "'ænәlɔ^",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "模拟的；模拟信号的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "类似物；对应物"
+      }
+    ]
+  },
+  "sack": {
+    "phonetic": "sæk",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "大袋；麻袋；解雇；洗劫"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "解雇；洗劫；把……装袋"
+      }
+    ]
+  },
+  "harassment": {
+    "phonetic": "'hærәsmәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "骚扰；侵扰；持续的烦扰"
+      }
+    ]
+  },
+  "Script": {
+    "phonetic": "skript",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "剧本；脚本；手稿；文字系统；手写体"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "为……写剧本；编写脚本"
+      }
+    ]
+  },
+  "delegate": {
+    "phonetic": "'deligeit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "代表"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "委派；委托；授权"
+      }
+    ]
+  },
+  "lunar": {
+    "phonetic": "'lu:nә",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "月球的；月亮的；阴历的"
+      }
+    ]
+  },
+  "Coke": {
+    "phonetic": "kәuk",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "可口可乐（品牌或饮料）；焦炭（通常小写 coke）"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使炼成焦炭（通常小写 coke）"
+      }
+    ]
+  },
+  "Refund": {
+    "phonetic": "'ri:fʌnd",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "退款；退还款"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "退还；退款；偿还"
+      }
+    ]
+  },
+  "frontier": {
+    "phonetic": "'frʌntjә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "边境；国界；（知识或研究的）前沿；新领域"
+      }
+    ]
+  },
+  "cordial": {
+    "phonetic": "'kɒ:djәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "热情友好的；真诚的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "（英）浓缩甜果汁饮料；（美）甜烈酒"
+      }
+    ]
+  },
+  "stale": {
+    "phonetic": "steil",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "不新鲜的；走味的；陈腐的；缺乏新意的；疲倦的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使不新鲜；使走味；变陈旧"
+      }
+    ]
+  },
+  "trim": {
+    "phonetic": "trim",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "修剪；修整；削减；装饰"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "整齐的；苗条的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "修剪；装饰边；良好状态"
+      }
+    ]
+  },
+  "ozone": {
+    "phonetic": "'әuzәun",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "臭氧（O₃）"
+      }
+    ]
+  },
+  "Zoom": {
+    "phonetic": "zu:m",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "快速移动；急剧上升；变焦；缩放"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "快速移动；变焦；缩放"
+      }
+    ]
+  },
+  "Desolate": {
+    "phonetic": "'desәlәt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "荒凉的；荒无人烟的；孤独凄凉的；极度悲伤的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "使荒芜；使悲痛"
+      }
+    ]
+  },
+  "resilient": {
+    "phonetic": "ri'ziliәnt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "有韧性的；适应力强的；能迅速恢复的；有弹性的"
+      }
+    ]
+  },
+  "Flame": {
+    "phonetic": "fleim",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "火焰；热情；（网络）辱骂性言论"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "燃烧；发红；（网络）辱骂"
+      }
+    ]
+  },
+  "Cube": {
+    "phonetic": "kju:b",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "立方体；立方；立方数；小方块"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "求……的立方；把……切成小方块"
+      }
+    ]
+  },
+  "mosaic": {
+    "phonetic": "mәu'zeiik",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "马赛克；镶嵌画；镶嵌工艺；各种事物的组合"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "镶嵌的；拼花的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "用镶嵌工艺装饰"
+      }
+    ]
+  },
+  "judicial": {
+    "phonetic": "dʒu:'diʃәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "司法的；审判的；法官的；法庭的"
+      }
+    ]
+  },
+  "Royalty": {
+    "phonetic": "'rɒiәlti",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "王室；王族成员；王权；版税；特许权使用费"
+      }
+    ]
+  },
+  "Pope": {
+    "phonetic": "pәup",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "教皇；罗马教宗"
+      }
+    ]
+  },
+  "Pants": {
+    "phonetic": "pænts",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "（美）裤子；长裤；（英）内裤"
+      }
+    ]
+  },
+  "Overflow": {
+    "phonetic": ".әuvә'flәu",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "溢出；泛滥；容纳不下的人或物；（计算机）溢出"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "溢出；泛滥；挤满；充满"
+      }
+    ]
+  },
+  "Pad": {
+    "phonetic": "pæd",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "垫子；护垫；便笺本；印泥盒；着陆坪"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "加衬垫；填塞；虚增；轻步走"
+      }
+    ]
+  },
+  "cohesive": {
+    "phonetic": "kәu'hi:siv",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "有凝聚力的；紧密结合的；连贯的"
+      }
+    ]
+  },
+  "Stereo": {
+    "phonetic": "'stiәriәu",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "立体声；立体声音响设备"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "立体声的；立体的"
+      }
+    ]
+  },
+  "pickup": {
+    "phonetic": "'pikʌp",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "皮卡；小货车；接人；取物；搭载；回升；改善；拾音器"
+      }
+    ]
+  },
+  "compress": {
+    "phonetic": "kәm'pres",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "压缩；压紧；浓缩；精简"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "敷布；敷料"
+      }
+    ]
+  },
+  "intercourse": {
+    "phonetic": "'intәkɒ:s",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "性交；交往；交流"
+      }
+    ]
+  },
+  "Venue": {
+    "phonetic": "'venju:",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "（活动或会议的）举办地点；场所；（法律）审判地"
+      }
+    ]
+  },
+  "Oven": {
+    "phonetic": "'ʌvәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "烤箱；烤炉；烘箱"
+      }
+    ]
+  },
+  "Fixture": {
+    "phonetic": "'fikstʃә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "固定装置；固定设备；定期举行的比赛；固定成员；夹具"
+      }
+    ]
+  },
+  "Divine": {
+    "phonetic": "di'vain",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "神的；神圣的；极好的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "猜测；推断；占卜"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "神学家；牧师"
+      }
+    ]
+  },
+  "Bat": {
+    "phonetic": "bæt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "球棒；球拍；蝙蝠"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "用球棒击球；拍打；眨眼"
+      }
+    ]
+  },
+  "Owl": {
+    "phonetic": "aul",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "猫头鹰"
+      }
+    ]
+  },
+  "Spine": {
+    "phonetic": "spain",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "脊柱；脊椎；书脊；刺；骨气"
+      }
+    ]
+  },
+  "aural": {
+    "phonetic": "'ɒ:rәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "耳的；听觉的"
+      }
+    ]
+  },
+  "Bacterium": {
+    "phonetic": "bæk'tiәriәm",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "细菌（单数；复数为 bacteria）"
+      }
+    ]
+  },
+  "Sturdy": {
+    "phonetic": "'stә:di",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "结实的；强壮的；牢固的；坚定的"
+      }
+    ]
+  },
+  "Vegetation": {
+    "phonetic": ".vedʒi'teiʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "植被；（某地区的）植物群；植物"
+      }
+    ]
+  },
+  "Deck": {
+    "phonetic": "dek",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "甲板；平台；一层；一副纸牌"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "装饰；打扮；铺设甲板；击倒"
+      }
+    ]
+  },
+  "defect": {
+    "phonetic": "di'fekt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "缺陷；缺点；瑕疵"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "叛逃；变节；背叛"
+      }
+    ]
+  },
+  "Freelance": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "自由职业的；独立接单的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "自由职业者"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "从事自由职业"
+      }
+    ]
+  },
+  "Mug": {
+    "phonetic": "mʌg",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "马克杯；有柄大杯；脸；易受骗的人"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "行凶抢劫；做鬼脸；（英口语）拼命用功"
+      }
+    ]
+  },
+  "Arena": {
+    "phonetic": "ә'ri:nә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "竞技场；表演场地；活动领域；竞争舞台"
+      }
+    ]
+  },
+  "Stagger": {
+    "phonetic": "'stægә",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "蹒跚；踉跄；使震惊；使难以置信；使错开"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "蹒跚；踉跄"
+      }
+    ]
+  },
+  "Tender": {
+    "phonetic": "'tendә",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "温柔的；柔软的；嫩的；易痛的；脆弱的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "提交；提出；提供；投标"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "投标；投标书；供应船；看管者"
+      }
+    ]
+  },
+  "fleet": {
+    "phonetic": "fli:t",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "舰队；船队；机队；车队"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "快速的；敏捷的"
+      }
+    ]
+  },
+  "Projector": {
+    "phonetic": "prә'dʒektә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "投影仪；放映机；幻灯机；策划者"
+      }
+    ]
+  },
+  "Generalise": {
+    "phonetic": "'dʒenәrәlaiz",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "概括；归纳；作一般性论述；以偏概全；使普遍化"
+      }
+    ]
+  },
+  "Blouse": {
+    "phonetic": "blauz",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "（女式）衬衫；女式宽松上衣"
+      }
+    ]
+  },
+  "investment": {
+    "phonetic": "in'vestmәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "投资；投资额；投资物；投入"
+      }
+    ]
+  },
+  "selection": {
+    "phonetic": "si'lekʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "选择；挑选；可供选择的事物；精选品；选集"
+      }
+    ]
+  },
+  "tolerance": {
+    "phonetic": "'tɒlәrәns",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "宽容；容忍；耐受性；容许量；公差"
+      }
+    ]
+  },
+  "interference": {
+    "phonetic": ".intә'fiәrәns",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "干扰；干涉；妨碍；（物理）干涉"
+      }
+    ]
+  },
+  "governor": {
+    "phonetic": "'gʌvәnә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "州长；总督；主管；理事；调速器；调节器"
+      }
+    ]
+  },
+  "philosopher": {
+    "phonetic": "fi'lɒsәfә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "哲学家；思想家；哲人；达观的人"
+      }
+    ]
+  },
+  "holder": {
+    "phonetic": "'hәuldә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "持有者；所有者；支架；夹具；容器"
+      }
+    ]
+  },
+  "reflection": {
+    "phonetic": "ri'flekʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "反射；映像；反映；反思；沉思；想法；有损声誉的事"
+      }
+    ]
+  },
+  "algorithm": {
+    "phonetic": "'ælgәriðm",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "算法"
+      }
+    ]
+  },
+  "generator": {
+    "phonetic": "'dʒenәreitә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "发电机；发生器；产生器；生成器"
+      }
+    ]
+  },
+  "explosion": {
+    "phonetic": "ik'splәuʒәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "爆炸；爆炸声；爆发；激增"
+      }
+    ]
+  },
+  "occurrence": {
+    "phonetic": "ә'kʌrәns",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "发生；出现；事件"
+      }
+    ]
+  },
+  "guild": {
+    "phonetic": "gild",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "行业协会；同业公会；行会"
+      }
+    ]
+  },
+  "dwelling": {
+    "phonetic": "'dweliŋ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "住宅；住所；住处"
+      }
+    ]
+  },
+  "analytical": {
+    "phonetic": ".ænә'litikl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "分析的；善于分析的；解析的"
+      }
+    ]
+  },
+  "naval": {
+    "phonetic": "'neivl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "海军的；军舰的"
+      }
+    ]
+  },
+  "culprit": {
+    "phonetic": "'kʌlprit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "罪犯；肇事者；犯错的人；（问题的）起因"
+      }
+    ]
+  },
+  "abdomen": {
+    "phonetic": "'æbdәmen",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "腹部"
+      }
+    ]
+  },
+  "guilt": {
+    "phonetic": "gilt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "内疚；负罪感；有罪；罪责"
+      }
+    ]
+  },
+  "marital": {
+    "phonetic": "'mæritәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "婚姻的；夫妻关系的"
+      }
+    ]
+  },
+  "mathematical": {
+    "phonetic": ".mæθә'mætikl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "数学的；数学上的；精确的"
+      }
+    ]
+  },
+  "assembly": {
+    "phonetic": "ә'sembli",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "集会；大会；与会者；装配；组件"
+      }
+    ]
+  },
+  "conspiracy": {
+    "phonetic": "kәn'spirәsi",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "阴谋；密谋；共谋；阴谋集团"
+      }
+    ]
+  },
+  "detector": {
+    "phonetic": "di'tektә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "探测器；检测器；检波器"
+      }
+    ]
+  },
+  "moisture": {
+    "phonetic": "'mɒistʃә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "水分；湿气；潮气"
+      }
+    ]
+  },
+  "proceeding": {
+    "phonetic": "prәu'si:diŋ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "进行；行动；程序；（复数 proceedings）诉讼程序；会议记录；会议论文集"
+      }
+    ]
+  },
+  "vocation": {
+    "phonetic": "vәu'keiʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "职业；天职；使命感；职业倾向；（从事某职业的）才能"
+      }
+    ]
+  },
+  "semiconductor": {
+    "phonetic": ".semikәn'dʌktә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "半导体"
+      }
+    ]
+  },
+  "nucleus": {
+    "phonetic": "'nju:kliәs",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "核；原子核；细胞核；核心"
+      }
+    ]
+  },
+  "puppet": {
+    "phonetic": "'pʌpit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "木偶；傀儡；受操纵的人"
+      }
+    ]
+  },
+  "radiant": {
+    "phonetic": "'reidiәnt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "容光焕发的；喜悦的；明亮的；辐射的"
+      }
+    ]
+  },
+  "Coarse": {
+    "phonetic": "kɒ:s",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "粗糙的；粗大的；粗俗的；粗略的"
+      }
+    ]
+  },
+  "Successor": {
+    "phonetic": "sәk'sesә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "继任者；接班人；继承者；后继事物"
+      }
+    ]
+  },
+  "repression": {
+    "phonetic": "ri'preʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "镇压；压制；抑制；（心理）压抑"
+      }
+    ]
+  },
+  "inverse": {
+    "phonetic": "in'vә:s",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "相反的；倒转的；反比的；逆的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "相反的事物；逆运算；逆元素"
+      }
+    ]
+  },
+  "pneumonia": {
+    "phonetic": "nju:'mәunjә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "肺炎"
+      }
+    ]
+  },
+  "Reel": {
+    "phonetic": "ri:l",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "卷轴；卷盘；一卷；里尔舞"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "卷绕；收卷；蹒跚；眩晕；震惊"
+      }
+    ]
+  },
+  "locker": {
+    "phonetic": "'lɒkә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "储物柜；有锁的小柜；衣物柜"
+      }
+    ]
+  },
+  "Tilt": {
+    "phonetic": "tilt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "倾斜；倾向；（向目标的）尝试"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "（使）倾斜；（使）偏向；抨击（tilt at）"
+      }
+    ]
+  },
+  "Plagiarism": {
+    "phonetic": "'pleidʒiәrizm",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "剽窃；抄袭；剽窃作品"
+      }
+    ]
+  },
+  "Kidnap": {
+    "phonetic": "'kidnæp",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "绑架；劫持；诱拐"
+      }
+    ]
+  },
+  "Omit": {
+    "phonetic": "әu'mit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "省略；遗漏；删去；疏忽未做"
+      }
+    ]
+  },
+  "Naked": {
+    "phonetic": "'neikid",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "裸体的；裸露的；无遮盖的；无保护的；赤裸裸的"
+      }
+    ]
+  },
+  "Ambassador": {
+    "phonetic": "æm'bæsәdә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "大使；使节；代表"
+      }
+    ]
+  },
+  "Burglar": {
+    "phonetic": "'bә:glә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "入室盗窃者；窃贼"
+      }
+    ]
+  },
+  "Cabinet": {
+    "phonetic": "'kæbinit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "内阁；橱柜；陈列柜；机柜"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "内阁的；细木工制作的"
+      }
+    ]
+  },
+  "Kidney": {
+    "phonetic": "'kidni",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "肾；肾脏；（食用的）腰子"
+      }
+    ]
+  },
+  "Hop": {
+    "phonetic": "hɒp",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "单脚跳；跳跃；跳上（交通工具）；短途旅行"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "单脚跳；短途旅行；（网络）一跳；（复数 hops）啤酒花"
+      }
+    ]
+  },
+  "Embassy": {
+    "phonetic": "'embәsi",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "大使馆；大使馆全体人员"
+      }
+    ]
+  },
+  "Mischief": {
+    "phonetic": "'mistʃif",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "淘气；恶作剧；损害；危害"
+      }
+    ]
+  },
+  "Trunk": {
+    "phonetic": "trʌŋk",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "树干；躯干；象鼻；大旅行箱；主干；干线；（美）汽车后备箱"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "主干的；干线的"
+      }
+    ]
+  },
+  "Cashier": {
+    "phonetic": "kæ'ʃiә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "出纳员；收银员"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "（尤指军队中）撤职；开除"
+      }
+    ]
+  },
+  "sane": {
+    "phonetic": "sein",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "神志正常的；精神健全的；理智的；明智的"
+      }
+    ]
+  },
+  "Browse": {
+    "phonetic": "brauz",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "浏览；随意翻阅；逛商店；吃嫩叶或嫩枝"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "浏览；随意翻阅"
+      }
+    ]
+  },
+  "Liner": {
+    "phonetic": "'lainә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "班轮；定期客船；大型客机；衬里；衬垫；内衬套"
+      }
+    ]
+  },
+  "Lorry": {
+    "phonetic": "'lɒri",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "卡车；货车"
+      }
+    ]
+  },
+  "variance": {
+    "phonetic": "'vєәriәns",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "差异；分歧；变化；变异；（统计）方差"
+      }
+    ]
+  },
+  "nostalgic": {
+    "phonetic": "nɒs'tældʒik",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "怀旧的；思乡的"
+      }
+    ]
+  },
+  "Gallon": {
+    "phonetic": "'gælәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "加仑（容积单位，英制与美制数值不同）"
+      }
+    ]
+  },
+  "Deceit": {
+    "phonetic": "di'si:t",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "欺骗；欺诈；诡计"
+      }
+    ]
+  },
+  "Deaf": {
+    "phonetic": "def",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "聋的；听不见的；不愿听取的（deaf to）"
+      }
+    ]
+  },
+  "Dump": {
+    "phonetic": "dʌmp",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "垃圾场；废物堆；数据转储"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "倾倒；丢弃；抛弃；倾销；转储"
+      }
+    ]
+  },
+  "Endow": {
+    "phonetic": "in'dau",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "捐赠；捐资；资助；赋予（才能或特质）"
+      }
+    ]
+  },
+  "Aggregate": {
+    "phonetic": "'ægrigәt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "总数；合计；集合体；骨料"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "总计的；合计的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "聚集；合计；总计达到"
+      }
+    ]
+  },
+  "Stagnant": {
+    "phonetic": "'stægnәnt",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "停滞的；不流动的；不发展的；萧条的"
+      }
+    ]
+  },
+  "Cord": {
+    "phonetic": "kɒ:d",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "绳；细绳；电线；（身体的）索状组织；束；带"
+      }
+    ]
+  },
+  "Basement": {
+    "phonetic": "'beismәnt",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "地下室；地下层"
+      }
+    ]
+  },
+  "Tariff": {
+    "phonetic": "'tærif",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "关税；关税表；收费表；价目表"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "对……征收关税"
+      }
+    ]
+  },
+  "obedience": {
+    "phonetic": "ә'bi:djәns",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "服从；顺从；遵从"
+      }
+    ]
+  },
+  "Jargon": {
+    "phonetic": "'dʒɑ:gәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "行话；专业术语；难懂的术语"
+      }
+    ]
+  },
+  "Rack": {
+    "phonetic": "ræk",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "架子；支架；行李架；齿条；拷问架"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "把……放在架上；使痛苦；折磨"
+      }
+    ]
+  },
+  "Pillar": {
+    "phonetic": "'pilә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "柱子；支柱；栋梁；中坚人物"
+      }
+    ]
+  },
+  "Blade": {
+    "phonetic": "bleid",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "刀片；刀刃；叶片；桨叶；剑"
+      }
+    ]
+  },
+  "censorship": {
+    "phonetic": "'sensәʃip",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "审查；（新闻、出版物等的）审查制度"
+      }
+    ]
+  },
+  "Hammer": {
+    "phonetic": "'hæmә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "锤子；榔头；（体育）链球"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "锤打；敲击；反复强调；严厉批评"
+      }
+    ]
+  },
+  "Forbid": {
+    "phonetic": "fә'bid",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "禁止；不准；阻止；使不可能"
+      }
+    ]
+  },
+  "Capsule": {
+    "phonetic": "'kæpsju:l",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "胶囊；太空舱；小容器；（植物）蒴果"
+      }
+    ]
+  },
+  "Drum": {
+    "phonetic": "drʌm",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "鼓；鼓声；桶；磁鼓"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "打鼓；敲击；反复灌输"
+      }
+    ]
+  },
+  "Accessory": {
+    "phonetic": "әk'sesәri",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "附件；配件；饰品；从犯"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "附属的；辅助的；从犯的"
+      }
+    ]
+  },
+  "Heap": {
+    "phonetic": "hi:p",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "堆；大量；（计算机）堆"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "堆积；堆放；大量给予"
+      }
+    ]
+  },
+  "physical": {
+    "phonetic": "'fizikl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "身体的；肉体的；物质的；有形的；物理的；涉及身体接触的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "体格检查"
+      }
+    ]
+  },
+  "network": {
+    "phonetic": "'netwә:k",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "网络；网状系统；广播网；关系网"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "联网；建立联系；建立人脉"
+      }
+    ]
+  },
+  "overlook": {
+    "phonetic": ".әuvә'luk",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "忽视；遗漏；未注意到；不计较；俯瞰"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "眺望处"
+      }
+    ]
+  },
+  "sustain": {
+    "phonetic": "sә'stein",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "维持；使持续；支持；供养；承受；遭受；证实"
+      }
+    ]
+  },
+  "latter": {
+    "phonetic": "'lætә",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "后者的；后面的；较晚的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "后者"
+      }
+    ]
+  },
+  "amateur": {
+    "phonetic": "'æmәtә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "业余爱好者；业余选手；外行"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "业余的；非职业的；不熟练的"
+      }
+    ]
+  },
+  "clip": {
+    "phonetic": "klip",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "夹子；回形针；修剪；片段；短视频；弹夹"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "夹住；剪；修剪；削减；碰撞"
+      }
+    ]
+  },
+  "outlook": {
+    "phonetic": "'autluk",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "前景；展望；观点；人生观；景色；瞭望"
+      }
+    ]
+  },
+  "articulate": {
+    "phonetic": "ɑ:'tikjulit",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "清楚表达；清晰发音；使相互连贯；以关节连接"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "善于表达的；口齿清楚的；有关节的"
+      }
+    ]
+  },
+  "ward": {
+    "phonetic": "wɒ:d",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "病房；行政区；受监护人；监护"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "防止；抵挡（ward off）；守护"
+      }
+    ]
+  },
+  "scenario": {
+    "phonetic": "si'nɑ:riәu",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "可能发生的情况；情景；局面；设想；剧本梗概"
+      }
+    ]
+  },
+  "sole": {
+    "phonetic": "sәul",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "唯一的；仅有的；单独的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "脚底；鞋底；鳎（一种比目鱼）"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "给……装鞋底"
+      }
+    ]
+  },
+  "fortnight": {
+    "phonetic": "'fɒ:tnait",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "两星期；十四天（英式英语）"
+      }
+    ]
+  },
+  "tablet": {
+    "phonetic": "'tæblit",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "药片；平板电脑；碑；牌；书写板；便笺簿"
+      }
+    ]
+  },
+  "recorder": {
+    "phonetic": "ri'kɒ:dә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "录音机；记录器；记录员；竖笛"
+      }
+    ]
+  },
+  "compass": {
+    "phonetic": "'kʌmpәs",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "指南针；罗盘；（复数 compasses）圆规；范围；音域"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "围绕；包围；设法实现"
+      }
+    ]
+  },
+  "administer": {
+    "phonetic": "әd'ministә",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "管理；执行；主持；施行；给予（药物或治疗）"
+      }
+    ]
+  },
+  "magnitude": {
+    "phonetic": "'mægnitju:d",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "巨大；重要性；大小；规模；程度；数量级；（地震）震级；（天文）星等"
+      }
+    ]
+  },
+  "recreation": {
+    "phonetic": ".rekri'eiʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "娱乐；消遣；休闲活动；（重新创造之义通常写作 re-creation）"
+      }
+    ]
+  },
+  "bandage": {
+    "phonetic": "'bændidʒ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "绷带"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "用绷带包扎"
+      }
+    ]
+  },
+  "cradle": {
+    "phonetic": "'kreidl",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "摇篮；发源地；发祥地"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "轻轻抱着；轻托；把……放在摇篮里"
+      }
+    ]
+  },
+  "fringe": {
+    "phonetic": "frindʒ",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "边缘；外围；流苏；（英）刘海；边缘群体"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "边缘的；非主流的；附加的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "形成……的边缘；给……饰以流苏"
+      }
+    ]
+  },
+  "ferry": {
+    "phonetic": "'feri",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "渡船；渡轮；渡口"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "摆渡；运送"
+      }
+    ]
+  },
+  "texture": {
+    "phonetic": "'tekstʃә",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "质地；纹理；肌理；结构；口感"
+      }
+    ]
+  },
+  "cardinal": {
+    "phonetic": "'kɑ:dinәl",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "最重要的；基本的；深红色的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "红衣主教；基数；北美红雀；鲜红色"
+      }
+    ]
+  },
+  "precaution": {
+    "phonetic": "pri'kɒ:ʃәn",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "预防措施；防备；谨慎"
+      }
+    ]
+  },
+  "opaque": {
+    "phonetic": "әu'peik",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "不透明的；晦涩的；难懂的"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "不透明物"
+      }
+    ]
+  },
+  "longitude": {
+    "phonetic": "'lɒndʒitju:d",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "经度"
+      }
+    ]
+  },
+  "Marble": {
+    "phonetic": "'mɑ:bl",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "大理石；大理石雕像；弹珠"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "大理石的；有大理石纹理的；冷酷的"
+      }
+    ]
+  },
+  "coronavirus": {
+    "phonetic": ",kɔrәnә'vairәs",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "冠状病毒"
+      }
+    ]
+  },
+  "barbecue": {
+    "phonetic": "'bɑ:bikju:",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "烧烤；烧烤聚会；烧烤架"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "烧烤"
+      }
+    ]
+  },
+  "versus": {
+    "phonetic": "'vә:sәs",
+    "meanings": [
+      {
+        "part_of_speech": "preposition",
+        "meaning": "对；与……相对；与……相比；（诉讼中）诉"
+      }
+    ]
+  },
+  "Choke": {
+    "phonetic": "tʃәuk",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "（使）窒息；（使）噎住；阻塞；抑制；（因紧张而）发挥失常"
+      },
+      {
+        "part_of_speech": "noun",
+        "meaning": "窒息；阻气门"
+      }
+    ]
+  },
+  "recollect": {
+    "phonetic": ".rekә'lekt",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "回想；回忆；记起"
+      }
+    ]
+  },
+  "nonetheless": {
+    "phonetic": ",nʌnðә'les",
+    "meanings": [
+      {
+        "part_of_speech": "adverb",
+        "meaning": "尽管如此；然而；仍然"
+      }
+    ]
+  },
+  "submarine": {
+    "phonetic": "'sʌbmәri:n",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "潜艇；潜水艇"
+      },
+      {
+        "part_of_speech": "adjective",
+        "meaning": "海底的；水下的"
+      },
+      {
+        "part_of_speech": "verb",
+        "meaning": "用潜艇攻击"
+      }
+    ]
+  },
+  "kettle": {
+    "phonetic": "'ketl",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "水壶；烧水壶；锅"
+      }
+    ]
+  }
+}

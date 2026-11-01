@@ -1,0 +1,39 @@
+{
+  "cyberbully": {
+    "source": "https://www.dictionary.com/browse/cyberbully",
+    "entry": {
+      "meanings": [
+        {"part_of_speech": "noun", "meaning": "网络欺凌者"},
+        {"part_of_speech": "verb", "meaning": "通过网络欺凌、恐吓他人"}
+      ]
+    }
+  },
+  "the media": {
+    "source": "https://dictionary.cambridge.org/us/dictionary/essential-british-english/the-media",
+    "entry": {"meanings": [{"part_of_speech": "plural noun", "meaning": "大众传媒；新闻媒体"}]}
+  },
+  "textspeak": {
+    "source": "https://www.oxfordlearnersdictionaries.com/definition/english/textspeak",
+    "entry": {"meanings": [{"part_of_speech": "noun", "meaning": "短信语言；短信中使用的缩略语和符号"}]}
+  },
+  "positronic": {
+    "source": "https://www.yourdictionary.com/positronic",
+    "entry": {"meanings": [{"part_of_speech": "adjective", "meaning": "正电子的；与正电子有关的"}]}
+  },
+  "biomimicry": {
+    "source": "https://dictionary.cambridge.org/us/dictionary/english/biomimicry",
+    "entry": {"meanings": [{"part_of_speech": "noun", "meaning": "仿生学；模仿自然过程进行技术或工业设计"}]}
+  },
+  "megadrought": {
+    "source": "https://www.ipcc.ch/sr15/chapter/glossary/",
+    "entry": {"meanings": [{"part_of_speech": "noun", "meaning": "特大干旱；持续时间特别长、影响范围广的干旱"}]}
+  },
+  "barreleye": {
+    "source": "https://www.mbari.org/animal/barreleye-fish/",
+    "entry": {"meanings": [{"part_of_speech": "noun", "meaning": "管眼鱼（如大鳍后肛鱼，眼睛呈管状的深海鱼）"}]}
+  },
+  "declutter": {
+    "source": "https://www.oxfordlearnersdictionaries.com/us/definition/english/declutter",
+    "entry": {"meanings": [{"part_of_speech": "verb", "meaning": "清理杂物；整理，移除不需要的物品"}]}
+  }
+}

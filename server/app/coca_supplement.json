@@ -1,0 +1,992 @@
+{
+  "mm-hmm": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "interjection",
+        "meaning": "嗯；嗯哼（表示同意、肯定或正在听）"
+      }
+    ]
+  },
+  "health-care": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "医疗保健的"
+      }
+    ]
+  },
+  "five-year": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "五年的；为期五年的"
+      }
+    ]
+  },
+  "low-income": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "低收入的"
+      }
+    ]
+  },
+  "three-year": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "三年的；为期三年的"
+      }
+    ]
+  },
+  "nineteenth-century": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "十九世纪的"
+      }
+    ]
+  },
+  "medium-high": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "中高程度的；中高的"
+      }
+    ]
+  },
+  "two-hour": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "两小时的"
+      }
+    ]
+  },
+  "three-day": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "三天的"
+      }
+    ]
+  },
+  "first-round": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第一轮的；首轮的"
+      }
+    ]
+  },
+  "year-old": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "一岁的；……岁的（与数词连用）"
+      }
+    ]
+  },
+  "community-based": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "以社区为基础的；在社区开展的"
+      }
+    ]
+  },
+  "two-day": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "两天的"
+      }
+    ]
+  },
+  "six-month": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "六个月的"
+      }
+    ]
+  },
+  "two-week": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "两周的"
+      }
+    ]
+  },
+  "fastest-growing": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "增长最快的"
+      }
+    ]
+  },
+  "y'all": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "pronoun",
+        "meaning": "你们；大家（美国南部口语，相当于 you all）"
+      }
+    ]
+  },
+  "his/her": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "determiner",
+        "meaning": "他的或她的；其（表示性别不特定的所属关系）"
+      }
+    ]
+  },
+  "free-market": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "自由市场的"
+      }
+    ]
+  },
+  "second-largest": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第二大的"
+      }
+    ]
+  },
+  "eighteenth-century": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "十八世纪的"
+      }
+    ]
+  },
+  "prize-winning": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "获奖的"
+      }
+    ]
+  },
+  "multimillion-dollar": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "数百万美元的；价值数百万美元的"
+      }
+    ]
+  },
+  "six-year-old": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "六岁的"
+      }
+    ]
+  },
+  "six-year": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "六年的"
+      }
+    ]
+  },
+  "single-family": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "单户的；供一个家庭居住的"
+      }
+    ]
+  },
+  "pre-service": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "职前的；上岗前的"
+      }
+    ]
+  },
+  "million-dollar": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "百万美元的；价值百万美元的"
+      }
+    ]
+  },
+  "faith-based": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "以宗教信仰为基础的"
+      }
+    ]
+  },
+  "much-needed": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "急需的；非常需要的"
+      }
+    ]
+  },
+  "regular-season": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "常规赛的；常规赛季的"
+      }
+    ]
+  },
+  "Arab-Israeli": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "阿拉伯与以色列之间的"
+      }
+    ]
+  },
+  "web-based": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "基于网络的；在网上运行的"
+      }
+    ]
+  },
+  "seven-year": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "七年的"
+      }
+    ]
+  },
+  "number-one": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第一的；最重要的；排名第一的"
+      }
+    ]
+  },
+  "four-day": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "四天的"
+      }
+    ]
+  },
+  "seven-year-old": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "七岁的"
+      }
+    ]
+  },
+  "three-month": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "三个月的"
+      }
+    ]
+  },
+  "longer-term": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "更长期的"
+      }
+    ]
+  },
+  "five-day": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "五天的"
+      }
+    ]
+  },
+  "one-hour": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "一小时的"
+      }
+    ]
+  },
+  "multi-party": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "多党的；多方参与的"
+      }
+    ]
+  },
+  "small-business": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "小企业的"
+      }
+    ]
+  },
+  "school-based": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "以学校为基础的；在校开展的"
+      }
+    ]
+  },
+  "civil-military": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "军民关系的；民事与军事相结合的"
+      }
+    ]
+  },
+  "eight-year-old": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "八岁的"
+      }
+    ]
+  },
+  "teacher-librarian": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "教师兼图书管理员"
+      }
+    ]
+  },
+  "English-language": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "英语的；使用英语的"
+      }
+    ]
+  },
+  "three-story": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "三层楼的"
+      }
+    ]
+  },
+  "stainless-steel": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "不锈钢的"
+      }
+    ]
+  },
+  "pre-dawn": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "黎明前的"
+      }
+    ]
+  },
+  "Washington-based": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "总部设在华盛顿的；驻华盛顿的"
+      }
+    ]
+  },
+  "second-floor": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "二楼的；第二层的（楼层计数因地区而异）"
+      }
+    ]
+  },
+  "US-led": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "美国主导的；由美国领导的"
+      }
+    ]
+  },
+  "computer-generated": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "计算机生成的"
+      }
+    ]
+  },
+  "five-minute": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "五分钟的"
+      }
+    ]
+  },
+  "private-sector": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "私营部门的"
+      }
+    ]
+  },
+  "nine-year-old": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "九岁的"
+      }
+    ]
+  },
+  "Israeli-Palestinian": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "以色列与巴勒斯坦之间的"
+      }
+    ]
+  },
+  "health-related": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "与健康有关的"
+      }
+    ]
+  },
+  "co-write": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "合写；共同撰写"
+      }
+    ]
+  },
+  "underly": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "构成……的基础；位于……之下（underlie 的非标准拼写）"
+      }
+    ]
+  },
+  "student-athlete": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "学生运动员"
+      }
+    ]
+  },
+  "half-mile": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "noun",
+        "meaning": "半英里"
+      }
+    ]
+  },
+  "well-documented": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "有充分记录的；有充分证据的"
+      }
+    ]
+  },
+  "first-person": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第一人称的"
+      }
+    ]
+  },
+  "all-white": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "全白色的；成员全为白人的"
+      }
+    ]
+  },
+  "seventeenth-century": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "十七世纪的"
+      }
+    ]
+  },
+  "fourth-quarter": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第四季度的；第四节比赛的"
+      }
+    ]
+  },
+  "one-room": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "单间的；只有一个房间的"
+      }
+    ]
+  },
+  "eight-year": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "八年的"
+      }
+    ]
+  },
+  "ten-year-old": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "十岁的"
+      }
+    ]
+  },
+  "drug-related": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "与毒品有关的；与药物有关的"
+      }
+    ]
+  },
+  "test-retest": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "重测的；测试与重复测试的"
+      }
+    ]
+  },
+  "medium-low": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "中低程度的；中低的"
+      }
+    ]
+  },
+  "Likert-type": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "李克特式的（通常指问卷中按同意程度等分级的评分形式）"
+      }
+    ]
+  },
+  "parent-child": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "亲子的；父母与子女之间的"
+      }
+    ]
+  },
+  "four-hour": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "四小时的"
+      }
+    ]
+  },
+  "eighth-grade": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "八年级的"
+      }
+    ]
+  },
+  "sixth-grade": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "六年级的"
+      }
+    ]
+  },
+  "three-week": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "三周的"
+      }
+    ]
+  },
+  "fifth-grade": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "五年级的"
+      }
+    ]
+  },
+  "third-largest": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第三大的"
+      }
+    ]
+  },
+  "ten-year": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "十年的"
+      }
+    ]
+  },
+  "stained-glass": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "彩色玻璃的；彩色玻璃镶嵌画的"
+      }
+    ]
+  },
+  "co-found": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "verb",
+        "meaning": "共同创办；联合建立"
+      }
+    ]
+  },
+  "Spanish-language": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "西班牙语的；使用西班牙语的"
+      }
+    ]
+  },
+  "sixteenth-century": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "十六世纪的"
+      }
+    ]
+  },
+  "three-bedroom": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "有三间卧室的"
+      }
+    ]
+  },
+  "long-term-care": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "长期护理的"
+      }
+    ]
+  },
+  "old-school": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "老派的；传统的"
+      }
+    ]
+  },
+  "six-week": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "六周的"
+      }
+    ]
+  },
+  "first-quarter": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第一季度的；第一节比赛的"
+      }
+    ]
+  },
+  "three-part": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "由三部分组成的"
+      }
+    ]
+  },
+  "second-round": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第二轮的"
+      }
+    ]
+  },
+  "early-morning": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "清晨的"
+      }
+    ]
+  },
+  "Euro-American": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "欧洲与美国的；欧美的；欧裔美国人的"
+      }
+    ]
+  },
+  "black-owned": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "由黑人拥有的"
+      }
+    ]
+  },
+  "state-sponsored": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "国家支持的；政府资助的"
+      }
+    ]
+  },
+  "fourth-grade": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "四年级的"
+      }
+    ]
+  },
+  "long-held": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "长期持有的；长期坚持的"
+      }
+    ]
+  },
+  "free-trade": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "自由贸易的"
+      }
+    ]
+  },
+  "public-relations": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "公共关系的；公关的"
+      }
+    ]
+  },
+  "one-bedroom": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "有一间卧室的"
+      }
+    ]
+  },
+  "mental-health": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "心理健康的；精神健康的"
+      }
+    ]
+  },
+  "half-million": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "numeral",
+        "meaning": "五十万"
+      }
+    ]
+  },
+  "first-place": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "第一名的；冠军的"
+      }
+    ]
+  },
+  "evidence-based": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "以证据为依据的；循证的"
+      }
+    ]
+  },
+  "science-fiction": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "科幻的"
+      }
+    ]
+  },
+  "store-bought": {
+    "phonetic": "",
+    "meanings": [
+      {
+        "part_of_speech": "adjective",
+        "meaning": "商店购买的；现成的；非自制的"
+      }
+    ]
+  }
+}

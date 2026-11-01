@@ -1,0 +1,7021 @@
+{
+  "dentist": [
+    {
+      "original": "[医] 牙医师",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "牙医师"
+        }
+      ]
+    }
+  ],
+  "area": [
+    {
+      "original": "[计] 区域",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "区域"
+        }
+      ]
+    }
+  ],
+  "scientist": [
+    {
+      "original": "[医] 科学家",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "科学家"
+        }
+      ]
+    }
+  ],
+  "mile": [
+    {
+      "original": "[机] 英里, 哩",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "英里, 哩"
+        }
+      ]
+    }
+  ],
+  "example": [
+    {
+      "original": "[化] 实例",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "实例"
+        }
+      ]
+    }
+  ],
+  "aim": [
+    {
+      "original": "[计] 医学文摘索引, 存取隔离机构, 高级信息管理程序, 先进接口模块",
+      "replacement": []
+    },
+    {
+      "original": "应用接口模块, 医学人工智能, 相联索引法, 异步接口模块",
+      "replacement": []
+    },
+    {
+      "original": "自动化信息管理, 自动化综合制造, 自动化库存管理",
+      "replacement": []
+    }
+  ],
+  "reply": [
+    {
+      "original": "[计] 答复",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "答复"
+        }
+      ]
+    }
+  ],
+  "top": [
+    {
+      "original": "[计] TOP协议",
+      "replacement": []
+    }
+  ],
+  "silent": [
+    {
+      "original": "[医] 静止的, 无症状的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "静止的, 无症状的"
+        }
+      ]
+    }
+  ],
+  "weight": [
+    {
+      "original": "[计] 粗细",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "粗细；字重（字体笔画的粗细）"
+        }
+      ]
+    }
+  ],
+  "activity": [
+    {
+      "original": "[计] 活动",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "活动"
+        }
+      ]
+    }
+  ],
+  "oven": [
+    {
+      "original": "[化] 烘箱",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "烘箱"
+        }
+      ]
+    }
+  ],
+  "empty": [
+    {
+      "original": "[计] 空",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "空的"
+        }
+      ]
+    }
+  ],
+  "click": [
+    {
+      "original": "[计] 单击",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "单击"
+        }
+      ]
+    }
+  ],
+  "thief": [
+    {
+      "original": "[化] 取样",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "取样器（专业用语）"
+        }
+      ]
+    }
+  ],
+  "junk": [
+    {
+      "original": "[计] 清除",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "清除"
+        }
+      ]
+    }
+  ],
+  "pupil": [
+    {
+      "original": "[医] 瞳孔",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "瞳孔"
+        }
+      ]
+    }
+  ],
+  "dish": [
+    {
+      "original": "[医] 皿, 碟",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "皿, 碟"
+        }
+      ]
+    }
+  ],
+  "include": [
+    {
+      "original": "[计] DOS内部命令:在CONFIG.SYS文件的一个配置块中包含另一配置块的内容",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "包括；包含"
+        }
+      ]
+    }
+  ],
+  "race": [
+    {
+      "original": "[计] 竞争; 追赶; 欧州高级通信研究开发计划",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "竞争; 追赶; 欧洲高级通信研究开发计划"
+        }
+      ]
+    }
+  ],
+  "map": [
+    {
+      "original": "[计] 实用程序, 映射, 制造自动化协议",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "映射"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "映射；建立对应关系"
+        }
+      ]
+    }
+  ],
+  "step": [
+    {
+      "original": "[计] 步骤",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "步骤"
+        }
+      ]
+    }
+  ],
+  "difference": [
+    {
+      "original": "[计] 差分",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "差分"
+        }
+      ]
+    }
+  ],
+  "teamwork": [
+    {
+      "original": "[法] 联合工作, 联合行动, 协调工作",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "联合工作, 联合行动, 协调工作"
+        }
+      ]
+    }
+  ],
+  "join": [
+    {
+      "original": "[计] 连接; 汇合指令",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "连接; 汇合指令"
+        }
+      ]
+    }
+  ],
+  "nervous": [
+    {
+      "original": "[医] 神经的; 神经质的, 神经过敏的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "神经的; 神经质的, 神经过敏的"
+        }
+      ]
+    }
+  ],
+  "finish": [
+    {
+      "original": "[计] 完成",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "完成"
+        }
+      ]
+    }
+  ],
+  "weekday": [
+    {
+      "original": "[计] 工作日",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "工作日"
+        }
+      ]
+    }
+  ],
+  "grape": [
+    {
+      "original": "[医] 葡萄",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "葡萄"
+        }
+      ]
+    }
+  ],
+  "new": [
+    {
+      "original": "[法] 新发现的, 新的, 重新开始的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "新发现的, 新的, 重新开始的"
+        }
+      ]
+    }
+  ],
+  "divide": [
+    {
+      "original": "[计] 除",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "除"
+        }
+      ]
+    }
+  ],
+  "can": [
+    {
+      "original": "[计] 作废字符",
+      "replacement": []
+    }
+  ],
+  "fruit": [
+    {
+      "original": "[医] 果实, 种实",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "果实, 种实"
+        }
+      ]
+    }
+  ],
+  "environment": [
+    {
+      "original": "[计] 环境",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "环境"
+        }
+      ]
+    }
+  ],
+  "app": [
+    {
+      "original": "[计] 应用, 应用程序; 相联并行处理器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "应用程序；手机应用"
+        }
+      ]
+    }
+  ],
+  "attention": [
+    {
+      "original": "[计] 引起注意信号",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "提醒信号；注意信号"
+        }
+      ]
+    }
+  ],
+  "cloudy": [
+    {
+      "original": "[建] (混)浊的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "(混)浊的"
+        }
+      ]
+    }
+  ],
+  "memory": [
+    {
+      "original": "[计] 存储器, 内存, 查看内存实用程序",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "存储器；内存"
+        }
+      ]
+    }
+  ],
+  "strategy": [
+    {
+      "original": "[经] 战略, 策略",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "战略, 策略"
+        }
+      ]
+    }
+  ],
+  "bush": [
+    {
+      "original": "[化] 管衬",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "管衬"
+        }
+      ]
+    }
+  ],
+  "next": [
+    {
+      "original": "[计] 近邻干扰",
+      "replacement": []
+    }
+  ],
+  "value": [
+    {
+      "original": "[计] 计算结果",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "计算结果"
+        }
+      ]
+    }
+  ],
+  "board": [
+    {
+      "original": "[计] 板",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "板"
+        }
+      ]
+    }
+  ],
+  "finger": [
+    {
+      "original": "[计] 网络命令",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "finger 命令（用于查询网络用户信息）"
+        }
+      ]
+    }
+  ],
+  "negative": [
+    {
+      "original": "[计] 负数, 负值",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "负数；负值"
+        }
+      ]
+    }
+  ],
+  "meat": [
+    {
+      "original": "[经] 肉类",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "肉类"
+        }
+      ]
+    }
+  ],
+  "child": [
+    {
+      "original": "[医] 儿童",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "儿童"
+        }
+      ]
+    }
+  ],
+  "view": [
+    {
+      "original": "[计] 视图",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "视图"
+        }
+      ]
+    }
+  ],
+  "parent": [
+    {
+      "original": "[法] 父亲, 母亲, 根源",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "父亲；母亲；根源"
+        }
+      ]
+    }
+  ],
+  "wall": [
+    {
+      "original": "[计] 背景墙",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "墙；壁"
+        }
+      ]
+    }
+  ],
+  "youth": [
+    {
+      "original": "[法] 青年, 青年时期, 青春时期",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "青年, 青年时期, 青春时期"
+        }
+      ]
+    }
+  ],
+  "repeat": [
+    {
+      "original": "[计] 重复",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "重复"
+        }
+      ]
+    }
+  ],
+  "move": [
+    {
+      "original": "[计] 移动; 传送; DOS外部命令:移动文件, 它可将文件移动到指定的地方",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "移动; 传送; DOS外部命令:移动文件, 它可将文件移动到指定的地方"
+        }
+      ]
+    }
+  ],
+  "suggest": [
+    {
+      "original": "[法] 建议, 提出, 提议",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "建议, 提出, 提议"
+        }
+      ]
+    }
+  ],
+  "recent": [
+    {
+      "original": "[经] 最近的, 新进的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "最近的, 新进的"
+        }
+      ]
+    }
+  ],
+  "clock": [
+    {
+      "original": "[计] 时钟",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "时钟"
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "original": "[计] 事件",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "事件"
+        }
+      ]
+    }
+  ],
+  "lap": [
+    {
+      "original": "[计] 链接访问程序",
+      "replacement": []
+    }
+  ],
+  "comment": [
+    {
+      "original": "[计] 备注",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "备注；注释"
+        }
+      ]
+    }
+  ],
+  "standard": [
+    {
+      "original": "[计] 标准",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "标准"
+        }
+      ]
+    }
+  ],
+  "wise": [
+    {
+      "original": "[计] 教育信息系统",
+      "replacement": []
+    }
+  ],
+  "spread": [
+    {
+      "original": "[计] 展开",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "展开"
+        }
+      ]
+    }
+  ],
+  "business": [
+    {
+      "original": "[经] 企业, 商业, 营业",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "企业, 商业, 营业"
+        }
+      ]
+    }
+  ],
+  "industry": [
+    {
+      "original": "[经] 工业, 实业",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "工业, 实业"
+        }
+      ]
+    }
+  ],
+  "mark": [
+    {
+      "original": "[计] 标志; 标记; 传号",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "标志；标记"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "标记"
+        }
+      ]
+    }
+  ],
+  "face": [
+    {
+      "original": "[计] 现场可改变的控制元件",
+      "replacement": []
+    }
+  ],
+  "double": [
+    {
+      "original": "[计] 双精度型",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "双精度的"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "双精度数据类型"
+        }
+      ]
+    }
+  ],
+  "space": [
+    {
+      "original": "[计] 空白, 空格校验",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "空白, 空格校验"
+        }
+      ]
+    }
+  ],
+  "key": [
+    {
+      "original": "[计] 键, 密钥",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "键, 密钥"
+        }
+      ]
+    }
+  ],
+  "game": [
+    {
+      "original": "[计] 博弈; 对策",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "博弈; 对策"
+        }
+      ]
+    }
+  ],
+  "enjoy": [
+    {
+      "original": "[法] 享受, 享有, 获得某种利益",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "享受, 享有, 获得某种利益"
+        }
+      ]
+    }
+  ],
+  "conference": [
+    {
+      "original": "[经] 会议, 讨论会, 协商会",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "会议, 讨论会, 协商会"
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "original": "[计] 国别设定",
+      "replacement": []
+    }
+  ],
+  "open": [
+    {
+      "original": "[计] 打开指令; 打开语句",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "打开指令; 打开语句"
+        }
+      ]
+    }
+  ],
+  "station": [
+    {
+      "original": "[计] 站",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "站"
+        }
+      ]
+    }
+  ],
+  "tree": [
+    {
+      "original": "[计] 树; DOS外部命令:显示指定磁盘驱动器的目录结构",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "树; DOS外部命令:显示指定磁盘驱动器的目录结构"
+        }
+      ]
+    }
+  ],
+  "breath": [
+    {
+      "original": "[医] 呼气, 呵气, 口气, 呼吸",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "呼气, 呵气, 口气, 呼吸"
+        }
+      ]
+    }
+  ],
+  "packet": [
+    {
+      "original": "[计] 分组, 分组报文, 数据分组",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "分组, 分组报文, 数据分组"
+        }
+      ]
+    }
+  ],
+  "or": [
+    {
+      "original": "[计] 或",
+      "replacement": [
+        {
+          "part_of_speech": "conjunction",
+          "meaning": "或"
+        }
+      ]
+    }
+  ],
+  "block": [
+    {
+      "original": "[计] 块, 数据块",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "块, 数据块"
+        }
+      ]
+    }
+  ],
+  "on": [
+    {
+      "original": "[计] 打开",
+      "replacement": [
+        {
+          "part_of_speech": "adverb",
+          "meaning": "接通；开启"
+        }
+      ]
+    }
+  ],
+  "line": [
+    {
+      "original": "[计] 线路",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "线路"
+        }
+      ]
+    }
+  ],
+  "p.m": [
+    {
+      "original": "下午",
+      "replacement": [
+        {
+          "part_of_speech": "abbreviation",
+          "meaning": "下午；午后（post meridiem）"
+        }
+      ]
+    }
+  ],
+  "actor": [
+    {
+      "original": "[医] 作用物, 反应物",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "作用物, 反应物"
+        }
+      ]
+    }
+  ],
+  "sense": [
+    {
+      "original": "[计] 阅读; 检测",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "检测；感知"
+        }
+      ]
+    }
+  ],
+  "loss": [
+    {
+      "original": "[化] 损失; 损耗",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "损失; 损耗"
+        }
+      ]
+    }
+  ],
+  "lost": [
+    {
+      "original": "lose的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "lose 的过去式和过去分词（丢失；失去）"
+        }
+      ]
+    }
+  ],
+  "according to": [
+    {
+      "original": "根据, 按照；取决于；据…所说",
+      "replacement": [
+        {
+          "part_of_speech": "preposition",
+          "meaning": "根据；按照；据……所说"
+        }
+      ]
+    }
+  ],
+  "slice": [
+    {
+      "original": "[计] 片",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "片"
+        }
+      ]
+    }
+  ],
+  "owner": [
+    {
+      "original": "[经] 所有者, 物主, 业主",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "所有者, 物主, 业主"
+        }
+      ]
+    }
+  ],
+  "queue": [
+    {
+      "original": "[计] 队列",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "队列"
+        }
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "original": "[化] 设备; 装备; 装置",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "设备; 装备; 装置"
+        }
+      ]
+    }
+  ],
+  "alarm": [
+    {
+      "original": "[计] 报警信号",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "报警信号"
+        }
+      ]
+    }
+  ],
+  "down": [
+    {
+      "original": "[计] 向下, 退下命令",
+      "replacement": [
+        {
+          "part_of_speech": "adverb",
+          "meaning": "向下, 退下命令"
+        }
+      ]
+    }
+  ],
+  "library": [
+    {
+      "original": "[计] 库",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "库"
+        }
+      ]
+    }
+  ],
+  "danger": [
+    {
+      "original": "[法] 危险, 危险物, 危机",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "危险, 危险物, 危机"
+        }
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "original": "[法] 避免, 回避, 躲开",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "避免, 回避, 躲开"
+        }
+      ]
+    }
+  ],
+  "subject": [
+    {
+      "original": "[计] 主题, 主体",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "主题, 主体"
+        }
+      ]
+    }
+  ],
+  "tape": [
+    {
+      "original": "[计] 带",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "带"
+        }
+      ]
+    }
+  ],
+  "month": [
+    {
+      "original": "[经] 月",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "月"
+        }
+      ]
+    }
+  ],
+  "remain": [
+    {
+      "original": "[法] 停留, 居住, 继续",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "停留, 居住, 继续"
+        }
+      ]
+    }
+  ],
+  "wound": [
+    {
+      "original": "wind的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "wind 的过去式和过去分词（缠绕；蜿蜒）"
+        }
+      ]
+    }
+  ],
+  "advice": [
+    {
+      "original": "[经] 通知书, 通知, 建议",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "通知书, 通知, 建议"
+        }
+      ]
+    }
+  ],
+  "arm": [
+    {
+      "original": "[计] 异步应答方式; 自动货品销路管理",
+      "replacement": []
+    }
+  ],
+  "guest": [
+    {
+      "original": "[化] 客体",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "客体"
+        }
+      ]
+    }
+  ],
+  "band": [
+    {
+      "original": "[计] 频带; 波段; 区",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "频带; 波段; 区"
+        }
+      ]
+    }
+  ],
+  "local": [
+    {
+      "original": "[计] 本地的; 局部",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "本地的；局部的"
+        }
+      ]
+    }
+  ],
+  "river": [
+    {
+      "original": "[法] 河流, 江河, 内河",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "河流, 江河, 内河"
+        }
+      ]
+    }
+  ],
+  "group": [
+    {
+      "original": "[计] 创建组; 组, 用户组",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "组；用户组"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "分组"
+        }
+      ]
+    }
+  ],
+  "member": [
+    {
+      "original": "[医] │肢, 肢体",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "肢；肢体（专业用语）"
+        }
+      ]
+    }
+  ],
+  "speech": [
+    {
+      "original": "[医] 言语, 语言",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "言语, 语言"
+        }
+      ]
+    }
+  ],
+  "cross": [
+    {
+      "original": "[计] 交叉, 十字标",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "十字形标记"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "交叉"
+        }
+      ]
+    }
+  ],
+  "outstanding": [
+    {
+      "original": "[经] 未解决的, 未偿付",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "未解决的, 未偿付"
+        }
+      ]
+    }
+  ],
+  "distance": [
+    {
+      "original": "[计] 位距",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "位距"
+        }
+      ]
+    }
+  ],
+  "servant": [
+    {
+      "original": "[法] 受雇人, 服务者, 公务员",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "受雇人, 服务者, 公务员"
+        }
+      ]
+    }
+  ],
+  "phrase": [
+    {
+      "original": "[计] 短语",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "短语"
+        }
+      ]
+    }
+  ],
+  "string": [
+    {
+      "original": "[计] 字符串, 串",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "字符串, 串"
+        }
+      ]
+    }
+  ],
+  "emotion": [
+    {
+      "original": "[医] 情绪, 情感",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "情绪, 情感"
+        }
+      ]
+    }
+  ],
+  "bank": [
+    {
+      "original": "[医] 库",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "库"
+        }
+      ]
+    }
+  ],
+  "symbol": [
+    {
+      "original": "[计] 符号; 码元",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "符号; 码元"
+        }
+      ]
+    }
+  ],
+  "paragraph": [
+    {
+      "original": "[计] 段落",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "段落"
+        }
+      ]
+    }
+  ],
+  "receive": [
+    {
+      "original": "[计] 接收",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "接收"
+        }
+      ]
+    }
+  ],
+  "zero": [
+    {
+      "original": "[计] 零",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "零"
+        }
+      ]
+    }
+  ],
+  "wait": [
+    {
+      "original": "[计] 等待",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "等待"
+        }
+      ]
+    }
+  ],
+  "private": [
+    {
+      "original": "[计] 私人的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "私人的"
+        }
+      ]
+    }
+  ],
+  "translate": [
+    {
+      "original": "[计] 转换",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "转换"
+        }
+      ]
+    }
+  ],
+  "it": [
+    {
+      "original": "[计] 信息论, 输入终端, 智能终端, 内捕获",
+      "replacement": []
+    }
+  ],
+  "drop": [
+    {
+      "original": "[计] 投入, 投入点, 接入点, 分接点",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "接入点；分接点"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "投入；放下"
+        }
+      ]
+    }
+  ],
+  "post": [
+    {
+      "original": "[计] 记入; 登记, 上电自检",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "登记；记入"
+        }
+      ]
+    }
+  ],
+  "cut": [
+    {
+      "original": "[计] 剪切",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "剪切"
+        }
+      ]
+    }
+  ],
+  "method": [
+    {
+      "original": "[医] [方]法",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "[方]法"
+        }
+      ]
+    }
+  ],
+  "cream": [
+    {
+      "original": "[医] 乳油, 乳皮; 乳膏, 霜",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "乳油, 乳皮; 乳膏, 霜"
+        }
+      ]
+    }
+  ],
+  "scene": [
+    {
+      "original": "[化] 现场",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "现场"
+        }
+      ]
+    }
+  ],
+  "dismiss": [
+    {
+      "original": "[计] 解散",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "解散"
+        }
+      ]
+    }
+  ],
+  "plain": [
+    {
+      "original": "[计] 无格式",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "无格式的；纯文本的"
+        }
+      ]
+    }
+  ],
+  "type": [
+    {
+      "original": "[计] 类型; 键入; DOS内部命令:在屏幕上显示指定文件的内容",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "类型"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "键入；打字"
+        }
+      ]
+    }
+  ],
+  "tale": [
+    {
+      "original": "[法] 虚语, 诽语, 谣言",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "虚语, 诽语, 谣言"
+        }
+      ]
+    }
+  ],
+  "display": [
+    {
+      "original": "[计] 显示器; 显示",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "显示器"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "显示"
+        }
+      ]
+    }
+  ],
+  "province": [
+    {
+      "original": "[法] 省, 地方, 领域",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "省, 地方, 领域"
+        }
+      ]
+    }
+  ],
+  "degree": [
+    {
+      "original": "[医] 度, 程度",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "度, 程度"
+        }
+      ]
+    }
+  ],
+  "body": [
+    {
+      "original": "[计] 体",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "体"
+        }
+      ]
+    }
+  ],
+  "hit": [
+    {
+      "original": "[计] 击中; 找到; 瞬时打扰",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "击中; 找到; 瞬时打扰"
+        }
+      ]
+    }
+  ],
+  "bat": [
+    {
+      "original": "[计] 成批",
+      "replacement": []
+    }
+  ],
+  "lawyer": [
+    {
+      "original": "[经] 律师",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "律师"
+        }
+      ]
+    }
+  ],
+  "son": [
+    {
+      "original": "[法] 儿子, 女婿, 养子",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "儿子, 女婿, 养子"
+        }
+      ]
+    }
+  ],
+  "store": [
+    {
+      "original": "[计] 存储器操作; 存储",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "存储操作"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "存储"
+        }
+      ]
+    }
+  ],
+  "noise": [
+    {
+      "original": "[计] 噪声",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "噪声"
+        }
+      ]
+    }
+  ],
+  "drive": [
+    {
+      "original": "[计] 驱动器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "驱动器"
+        }
+      ]
+    }
+  ],
+  "ton": [
+    {
+      "original": "[经] 吨",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "吨"
+        }
+      ]
+    }
+  ],
+  "wealth": [
+    {
+      "original": "[经] 财富",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "财富"
+        }
+      ]
+    }
+  ],
+  "class": [
+    {
+      "original": "[计] 类别; 类; 种类; 类程",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "类别; 类; 种类; 类程"
+        }
+      ]
+    }
+  ],
+  "life": [
+    {
+      "original": "[医] 生活, 生存, 生命, 寿命",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "生活, 生存, 生命, 寿命"
+        }
+      ]
+    }
+  ],
+  "set": [
+    {
+      "original": "[计] 设置; DOS内部命令:改变或显示分配给环境变量的值",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "设置; DOS内部命令:改变或显示分配给环境变量的值"
+        }
+      ]
+    }
+  ],
+  "television": [
+    {
+      "original": "[电] 电视",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "电视"
+        }
+      ]
+    }
+  ],
+  "tag": [
+    {
+      "original": "[计] 标记",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "标记"
+        }
+      ]
+    }
+  ],
+  "relation": [
+    {
+      "original": "[计] 关系",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "关系"
+        }
+      ]
+    }
+  ],
+  "authority": [
+    {
+      "original": "[经] 代理权, 授权, 权威",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "代理权, 授权, 权威"
+        }
+      ]
+    }
+  ],
+  "general": [
+    {
+      "original": "[计] 常规",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "常规"
+        }
+      ]
+    }
+  ],
+  "hospital": [
+    {
+      "original": "[医] 医院",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "医院"
+        }
+      ]
+    }
+  ],
+  "person": [
+    {
+      "original": "[法] 人, 法人, 人身",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "人, 法人, 人身"
+        }
+      ]
+    }
+  ],
+  "virus": [
+    {
+      "original": "[化] 病毒",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "病毒"
+        }
+      ]
+    }
+  ],
+  "dollar": [
+    {
+      "original": "[经] 纯经济的, 美元, 元",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "美元；元（部分国家的货币单位）"
+        }
+      ]
+    }
+  ],
+  "support": [
+    {
+      "original": "[计] 后援; 支持",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "后援; 支持"
+        }
+      ]
+    }
+  ],
+  "wife": [
+    {
+      "original": "[法] 妻子, 已婚妇女",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "妻子, 已婚妇女"
+        }
+      ]
+    }
+  ],
+  "characteristic": [
+    {
+      "original": "[计] 阶; 指数",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "阶; 指数"
+        }
+      ]
+    }
+  ],
+  "lamp": [
+    {
+      "original": "[计] 逻辑模拟分析系统",
+      "replacement": []
+    }
+  ],
+  "internet": [
+    {
+      "original": "[计] 因特网, 国际互连网, 网际网络, 互连网络, 广域网",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "互联网；因特网"
+        }
+      ]
+    }
+  ],
+  "kitchen": [
+    {
+      "original": "[医] 厨房",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "厨房"
+        }
+      ]
+    }
+  ],
+  "state": [
+    {
+      "original": "[计] 状态",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "状态"
+        }
+      ]
+    }
+  ],
+  "task": [
+    {
+      "original": "[计] 任务",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "任务"
+        }
+      ]
+    }
+  ],
+  "account": [
+    {
+      "original": "[计] 帐户, 帐号",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "帐户, 帐号"
+        }
+      ]
+    }
+  ],
+  "drum": [
+    {
+      "original": "[计] 磁鼓",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "磁鼓"
+        }
+      ]
+    }
+  ],
+  "exchange": [
+    {
+      "original": "[计] 交换; 电话局",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "交换"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "电话交换局"
+        }
+      ]
+    }
+  ],
+  "confidence": [
+    {
+      "original": "[电] 可靠",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "信心；信任；可靠程度"
+        }
+      ]
+    }
+  ],
+  "chess": [
+    {
+      "original": "[建] 雀麦",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "雀麦（植物）"
+        }
+      ]
+    }
+  ],
+  "head": [
+    {
+      "original": "[计] 磁头; 冲头",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "磁头; 冲头"
+        }
+      ]
+    }
+  ],
+  "less": [
+    {
+      "original": "[计] 最低成本估算与调度法",
+      "replacement": []
+    }
+  ],
+  "traffic": [
+    {
+      "original": "[计] 通信量, 传输量",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "通信量, 传输量"
+        }
+      ]
+    }
+  ],
+  "cancel": [
+    {
+      "original": "[计] 作废",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "作废"
+        }
+      ]
+    }
+  ],
+  "forward": [
+    {
+      "original": "[计] 前推, 转信",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "前推, 转信"
+        }
+      ]
+    }
+  ],
+  "speed": [
+    {
+      "original": "[计] 中央处理机速度设置程序",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "速度；速率"
+        }
+      ]
+    }
+  ],
+  "score": [
+    {
+      "original": "[计] 得分",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "得分"
+        }
+      ]
+    }
+  ],
+  "check": [
+    {
+      "original": "[计] 复选",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "复选"
+        }
+      ]
+    }
+  ],
+  "article": [
+    {
+      "original": "[计] 信件",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "文章；帖子"
+        }
+      ]
+    }
+  ],
+  "bamboo": [
+    {
+      "original": "[医] 竹类",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "竹类"
+        }
+      ]
+    }
+  ],
+  "position": [
+    {
+      "original": "[计] 位置",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "位置"
+        }
+      ]
+    }
+  ],
+  "red": [
+    {
+      "original": "[计] 简化, 减少",
+      "replacement": []
+    }
+  ],
+  "form": [
+    {
+      "original": "[计] 表单",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "表单"
+        }
+      ]
+    }
+  ],
+  "shell": [
+    {
+      "original": "[计] 外壳; DOS内部命令:指定命令行处理程序",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "外壳；命令行解释器"
+        }
+      ]
+    }
+  ],
+  "etiquette": [
+    {
+      "original": "[法] 规则, 成规, 礼节",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "规则, 成规, 礼节"
+        }
+      ]
+    }
+  ],
+  "unable": [
+    {
+      "original": "[法] 无能力的, 无资格的, 没有办法的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "无能力的, 无资格的, 没有办法的"
+        }
+      ]
+    }
+  ],
+  "sort": [
+    {
+      "original": "[计] 排序; DOS外部命令:从标准输入设备接收数据, 整个数据输入完后",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "排序；分类"
+        }
+      ]
+    },
+    {
+      "original": "对它以行为单位进行排序, 然后在标准输出设备上输出",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "排序；分类"
+        }
+      ]
+    }
+  ],
+  "fit": [
+    {
+      "original": "[计] 非特",
+      "replacement": []
+    }
+  ],
+  "character": [
+    {
+      "original": "[计] 字符",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "字符"
+        }
+      ]
+    }
+  ],
+  "beat": [
+    {
+      "original": "beat的过去式",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "beat 的过去式（击打；打败）"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "拍；节拍"
+        }
+      ]
+    },
+    {
+      "original": "[计] 拍; 节拍",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "beat 的过去式（击打；打败）"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "拍；节拍"
+        }
+      ]
+    }
+  ],
+  "right": [
+    {
+      "original": "[计] 右, 权利",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "右边；权利"
+        }
+      ]
+    }
+  ],
+  "chip": [
+    {
+      "original": "[计] 孔屑; 组件; 晶片; 芯片",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "孔屑; 组件; 晶片; 芯片"
+        }
+      ]
+    }
+  ],
+  "letter": [
+    {
+      "original": "[计] 字母",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "字母"
+        }
+      ]
+    }
+  ],
+  "start": [
+    {
+      "original": "[计] 起始",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "起始"
+        }
+      ]
+    }
+  ],
+  "answer": [
+    {
+      "original": "[计] 用户问题及答案新闻组",
+      "replacement": []
+    }
+  ],
+  "style": [
+    {
+      "original": "[计] 风格, 样式",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "风格, 样式"
+        }
+      ]
+    }
+  ],
+  "ruler": [
+    {
+      "original": "[计] 标尺",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "标尺"
+        }
+      ]
+    }
+  ],
+  "cousin": [
+    {
+      "original": "[法] 同辈表亲或堂亲",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "同辈表亲或堂亲"
+        }
+      ]
+    }
+  ],
+  "disabled": [
+    {
+      "original": "[计] 失效的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "失效的"
+        }
+      ]
+    }
+  ],
+  "pop": [
+    {
+      "original": "[计] 出现点, 邮局协议",
+      "replacement": []
+    }
+  ],
+  "resolution": [
+    {
+      "original": "[计] 图形分辨率",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "图形分辨率"
+        }
+      ]
+    }
+  ],
+  "traditional": [
+    {
+      "original": "[经] 传统的, 惯例的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "传统的, 惯例的"
+        }
+      ]
+    }
+  ],
+  "kangaroo": [
+    {
+      "original": "[医] 袋鼠(澳洲产)",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "袋鼠(澳洲产)"
+        }
+      ]
+    }
+  ],
+  "shelf": [
+    {
+      "original": "[化] 架子",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "架子"
+        }
+      ]
+    }
+  ],
+  "homework": [
+    {
+      "original": "[经] 家庭作业",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "家庭作业"
+        }
+      ]
+    }
+  ],
+  "sale": [
+    {
+      "original": "[经] 卖, 出售; 销售(货)",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "销售；出售"
+        }
+      ]
+    }
+  ],
+  "bus": [
+    {
+      "original": "[计] 总线; 汇流条; 母线",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "总线; 汇流条; 母线"
+        }
+      ]
+    }
+  ],
+  "wallet": [
+    {
+      "original": "[法] 皮包, 皮夹, 钱袋",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "皮包, 皮夹, 钱袋"
+        }
+      ]
+    }
+  ],
+  "primary": [
+    {
+      "original": "[计] 初等量; 主要的; 一次的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "主要的；初级的；一次的"
+        }
+      ]
+    }
+  ],
+  "cucumber": [
+    {
+      "original": "[医] 黄瓜, 胡瓜",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "黄瓜, 胡瓜"
+        }
+      ]
+    }
+  ],
+  "end": [
+    {
+      "original": "[计] 端; 结束",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "端; 结束"
+        }
+      ]
+    }
+  ],
+  "address": [
+    {
+      "original": "[计] 地址, 寻址",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "地址"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "寻址"
+        }
+      ]
+    }
+  ],
+  "man": [
+    {
+      "original": "[计] 城域网, 手册",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "男人；人"
+        }
+      ]
+    }
+  ],
+  "information": [
+    {
+      "original": "[计] 信息",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "信息"
+        }
+      ]
+    }
+  ],
+  "rose": [
+    {
+      "original": "rise的过去式",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "rise 的过去式（上升；升起）"
+        }
+      ]
+    }
+  ],
+  "floor": [
+    {
+      "original": "[计] 基底",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "基底"
+        }
+      ]
+    }
+  ],
+  "literature": [
+    {
+      "original": "[经] 广告, 商品介绍等文学",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "宣传资料；产品说明书"
+        }
+      ]
+    }
+  ],
+  "biology": [
+    {
+      "original": "[化] 生物; 生物学",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "生物; 生物学"
+        }
+      ]
+    }
+  ],
+  "airport": [
+    {
+      "original": "[机] 航空站, 机场",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "航空站, 机场"
+        }
+      ]
+    }
+  ],
+  "path": [
+    {
+      "original": "[计] 路径; DOS内部命令:设定DOS读取程序的路径",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "路径"
+        }
+      ]
+    }
+  ],
+  "national": [
+    {
+      "original": "[经] 全国性的, 国家的, 国民的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "全国性的, 国家的, 国民的"
+        }
+      ]
+    }
+  ],
+  "cruel": [
+    {
+      "original": "[法] 残忍的, 残酷的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "残忍的, 残酷的"
+        }
+      ]
+    }
+  ],
+  "modest": [
+    {
+      "original": "[经] 适当的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "适当的"
+        }
+      ]
+    }
+  ],
+  "disturb": [
+    {
+      "original": "[法] 滋扰, 扰乱",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "滋扰, 扰乱"
+        }
+      ]
+    }
+  ],
+  "tragedy": [
+    {
+      "original": "[法] 惨事, 灾难, 不辛",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "惨事, 灾难, 不幸"
+        }
+      ]
+    }
+  ],
+  "headache": [
+    {
+      "original": "[医] 头痛",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "头痛"
+        }
+      ]
+    }
+  ],
+  "pork": [
+    {
+      "original": "[医] 猪肉",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "猪肉"
+        }
+      ]
+    }
+  ],
+  "boy": [
+    {
+      "original": "[法] 男孩, 少年, 儿子",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "男孩, 少年, 儿子"
+        }
+      ]
+    }
+  ],
+  "play": [
+    {
+      "original": "[计] 播放",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "播放"
+        }
+      ]
+    }
+  ],
+  "jump": [
+    {
+      "original": "[计] 转移, 跳转",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "转移, 跳转"
+        }
+      ]
+    }
+  ],
+  "copy": [
+    {
+      "original": "[计] 副本; 复制; DOS内部命令:复制文件",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "副本"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "复制；拷贝"
+        }
+      ]
+    },
+    {
+      "original": "将几个文件合并成一个文件, 以及将文件传至外设或在设备之间传送",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "副本"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "复制；拷贝"
+        }
+      ]
+    }
+  ],
+  "find": [
+    {
+      "original": "[计] 查找; DOS外部命令:在指定的文件或从键盘输入的文本行中",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "查找；找到"
+        }
+      ]
+    },
+    {
+      "original": "寻找指定的字符串, 将符合条件的行或行数输出到标准输出设备上",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "查找；找到"
+        }
+      ]
+    }
+  ],
+  "borrow": [
+    {
+      "original": "[计] 借位; 借位数",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "借位；借位数"
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "original": "[计] 名称, 文件名, 姓名",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "名称, 文件名, 姓名"
+        }
+      ]
+    }
+  ],
+  "service": [
+    {
+      "original": "[计] 服务, 业务",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "服务, 业务"
+        }
+      ]
+    }
+  ],
+  "policeman": [
+    {
+      "original": "[化] 淀帚",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "警察；男警察"
+        }
+      ]
+    }
+  ],
+  "policewoman": [
+    {
+      "original": "[法] 女警察",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "女警察"
+        }
+      ]
+    }
+  ],
+  "electronic": [
+    {
+      "original": "[计] 电子工业协会接口",
+      "replacement": []
+    }
+  ],
+  "news": [
+    {
+      "original": "[法] 新闻, 消息, 新闻报导",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "新闻, 消息, 新闻报导"
+        }
+      ]
+    }
+  ],
+  "mail": [
+    {
+      "original": "[计] 邮件",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "邮件"
+        }
+      ]
+    }
+  ],
+  "table": [
+    {
+      "original": "[计] 表格, 模拟运算表",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "表格, 模拟运算表"
+        }
+      ]
+    }
+  ],
+  "cute": [
+    {
+      "original": "[医] 品他病",
+      "replacement": []
+    }
+  ],
+  "laptop": [
+    {
+      "original": "[计] 膝上型的",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "笔记本电脑；便携式电脑"
+        }
+      ]
+    }
+  ],
+  "for": [
+    {
+      "original": "[计] DOS批处理命令:对一组参数重复执行指定的命令",
+      "replacement": []
+    }
+  ],
+  "main": [
+    {
+      "original": "[计] 主群组",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "主群组"
+        }
+      ]
+    }
+  ],
+  "solve": [
+    {
+      "original": "[计] 求解",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "求解"
+        }
+      ]
+    }
+  ],
+  "language": [
+    {
+      "original": "[计] 语言",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "语言"
+        }
+      ]
+    }
+  ],
+  "normal": [
+    {
+      "original": "[计] 标准, 普通",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "标准的；正常的；普通的"
+        }
+      ]
+    }
+  ],
+  "cent": [
+    {
+      "original": "[经] 美分",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "美分"
+        }
+      ]
+    }
+  ],
+  "tea": [
+    {
+      "original": "[医] 茶, 茶剂, 浸剂",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "茶, 茶剂, 浸剂"
+        }
+      ]
+    }
+  ],
+  "question": [
+    {
+      "original": "[计] 询问",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "询问"
+        }
+      ]
+    }
+  ],
+  "temperature": [
+    {
+      "original": "[化] 温度",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "温度"
+        }
+      ]
+    }
+  ],
+  "day": [
+    {
+      "original": "[医] 日(一昼夜), 昼, 白天",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "日(一昼夜), 昼, 白天"
+        }
+      ]
+    }
+  ],
+  "skill": [
+    {
+      "original": "[化] 技能",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "技能"
+        }
+      ]
+    }
+  ],
+  "if": [
+    {
+      "original": "[计] DOS批处理命令:根据所测试的条件决定是否执行另一条命令",
+      "replacement": []
+    }
+  ],
+  "astronaut": [
+    {
+      "original": "[法] 美国太空人",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "美国太空人"
+        }
+      ]
+    }
+  ],
+  "summer": [
+    {
+      "original": "[计] 加法器",
+      "replacement": []
+    }
+  ],
+  "border": [
+    {
+      "original": "[计] 边框",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "边框"
+        }
+      ]
+    }
+  ],
+  "frog": [
+    {
+      "original": "[医] 蛙, 马蹄叉",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "蛙, 马蹄叉"
+        }
+      ]
+    }
+  ],
+  "rent": [
+    {
+      "original": "rend的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "rend 的过去式和过去分词（撕裂）"
+        }
+      ]
+    }
+  ],
+  "album": [
+    {
+      "original": "[医] 白色物",
+      "replacement": []
+    }
+  ],
+  "truth": [
+    {
+      "original": "[法] 真实, 真相, 事实",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "真实, 真相, 事实"
+        }
+      ]
+    }
+  ],
+  "prefer": [
+    {
+      "original": "[法] 给予优先权, 优先偿还, 提出",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "给予优先权, 优先偿还, 提出"
+        }
+      ]
+    }
+  ],
+  "magazine": [
+    {
+      "original": "[计] 卡片箱, 介质装卸程序",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "卡片箱, 介质装卸程序"
+        }
+      ]
+    }
+  ],
+  "window": [
+    {
+      "original": "[计] 窗口",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "窗口"
+        }
+      ]
+    }
+  ],
+  "close": [
+    {
+      "original": "[计] 关闭",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "关闭"
+        }
+      ]
+    }
+  ],
+  "page": [
+    {
+      "original": "[计] 页; 页面",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "页; 页面"
+        }
+      ]
+    }
+  ],
+  "freeze": [
+    {
+      "original": "[计] 冻结",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "冻结"
+        }
+      ]
+    }
+  ],
+  "help": [
+    {
+      "original": "[计] 帮助, 帮助程序; DOS外部命令: DOS命令的电子文件帮助程序",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "帮助, 帮助程序; DOS外部命令: DOS命令的电子文件帮助程序"
+        }
+      ]
+    }
+  ],
+  "metre": [
+    {
+      "original": "[医] 米, 公尺",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "米, 公尺"
+        }
+      ]
+    }
+  ],
+  "box": [
+    {
+      "original": "[计] 方框",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "方框"
+        }
+      ]
+    }
+  ],
+  "fill": [
+    {
+      "original": "[计] 填充",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "填充"
+        }
+      ]
+    }
+  ],
+  "gas": [
+    {
+      "original": "[化] 气体; 煤气; 瓦斯; 毒气",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "气体; 煤气; 瓦斯; 毒气"
+        }
+      ]
+    }
+  ],
+  "manner": [
+    {
+      "original": "[法] 方式, 方法, 样式",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "方式；方法；样式"
+        }
+      ]
+    }
+  ],
+  "field": [
+    {
+      "original": "[计] 域, 字段",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "域, 字段"
+        }
+      ]
+    }
+  ],
+  "grandfather": [
+    {
+      "original": "[电] 原始资料组",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "最早一代的备份资料组（计算机用语）"
+        }
+      ]
+    }
+  ],
+  "at": [
+    {
+      "original": "[计] 地址转换器, 异常传输, 自动订票",
+      "replacement": []
+    }
+  ],
+  "year": [
+    {
+      "original": "[经] 年度",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "年度"
+        }
+      ]
+    }
+  ],
+  "department": [
+    {
+      "original": "[医] 部, 科",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "部, 科"
+        }
+      ]
+    }
+  ],
+  "effect": [
+    {
+      "original": "[计] 效果",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "效果"
+        }
+      ]
+    }
+  ],
+  "picture": [
+    {
+      "original": "[计] 图象; 形象; 字形",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "图象; 形象; 字形"
+        }
+      ]
+    }
+  ],
+  "ok": [
+    {
+      "original": "[计] 确定",
+      "replacement": [
+        {
+          "part_of_speech": "interjection",
+          "meaning": "好；可以；行"
+        }
+      ]
+    }
+  ],
+  "send": [
+    {
+      "original": "[计] 发送",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "发送"
+        }
+      ]
+    }
+  ],
+  "instruction": [
+    {
+      "original": "[计] 指令",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "指令"
+        }
+      ]
+    }
+  ],
+  "world": [
+    {
+      "original": "[法] 世界, 地球, 世人",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "世界, 地球, 世人"
+        }
+      ]
+    }
+  ],
+  "charity": [
+    {
+      "original": "[法] 宽大, 宽恕, 慈善机关",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "宽大, 宽恕, 慈善机关"
+        }
+      ]
+    }
+  ],
+  "text": [
+    {
+      "original": "[计] 电文; 文本; 正文",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "电文; 文本; 正文"
+        }
+      ]
+    }
+  ],
+  "health": [
+    {
+      "original": "[医] 健康",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "健康"
+        }
+      ]
+    }
+  ],
+  "sentence": [
+    {
+      "original": "[计] 句子",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "句子"
+        }
+      ]
+    }
+  ],
+  "per cent": [
+    {
+      "original": "[医] 每百分, 百分数",
+      "replacement": [
+        {
+          "part_of_speech": "adverb",
+          "meaning": "百分之……"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "百分比"
+        }
+      ]
+    }
+  ],
+  "habitat": [
+    {
+      "original": "[医] 习生地, 产地, 生境, 栖所",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "栖息地, 产地, 生境, 栖所"
+        }
+      ]
+    }
+  ],
+  "road": [
+    {
+      "original": "[法] 公路, 道路, 行车道",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "公路, 道路, 行车道"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "original": "[计] 结果",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "结果"
+        }
+      ]
+    }
+  ],
+  "draw": [
+    {
+      "original": "[计] 翻牌, 绘图",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "翻牌, 绘图"
+        }
+      ]
+    }
+  ],
+  "art": [
+    {
+      "original": "[计] 实际保持时间, 特许权和资源表, 平均检索时间, 平均运行时间",
+      "replacement": []
+    }
+  ],
+  "rule": [
+    {
+      "original": "[计] 规则, 水线",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "规则, 水线"
+        }
+      ]
+    }
+  ],
+  "advertisement": [
+    {
+      "original": "[法] 广告, 公告, 告示",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "广告, 公告, 告示"
+        }
+      ]
+    }
+  ],
+  "term": [
+    {
+      "original": "[计] 检索词; 项",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "检索词; 项"
+        }
+      ]
+    }
+  ],
+  "single": [
+    {
+      "original": "[计] 单精度型",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "单精度的"
+        }
+      ]
+    }
+  ],
+  "calendar": [
+    {
+      "original": "[计] 日历",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "日历"
+        }
+      ]
+    }
+  ],
+  "hold": [
+    {
+      "original": "[计] 保留",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "保留"
+        }
+      ]
+    }
+  ],
+  "poor": [
+    {
+      "original": "[经] 低劣的, 不良的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "低劣的, 不良的"
+        }
+      ]
+    }
+  ],
+  "government": [
+    {
+      "original": "[经] 政府, 政治, 政体",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "政府, 政治, 政体"
+        }
+      ]
+    }
+  ],
+  "central": [
+    {
+      "original": "[医] 中央的, 中心的, 中枢的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "中央的, 中心的, 中枢的"
+        }
+      ]
+    }
+  ],
+  "sweater": [
+    {
+      "original": "[化] 发汗器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "发汗器"
+        }
+      ]
+    }
+  ],
+  "marriage": [
+    {
+      "original": "[医] 婚姻, 结婚",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "婚姻, 结婚"
+        }
+      ]
+    }
+  ],
+  "operation": [
+    {
+      "original": "[计] 运算",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "运算"
+        }
+      ]
+    }
+  ],
+  "regular": [
+    {
+      "original": "[计] 正常体",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "常规的；正常的"
+        }
+      ]
+    }
+  ],
+  "pro": [
+    {
+      "original": "[计] 可编程远程操作",
+      "replacement": []
+    }
+  ],
+  "route": [
+    {
+      "original": "[计] 传递, 路由设定程序",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "路由；路线"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "按路线传送；路由"
+        }
+      ]
+    }
+  ],
+  "landscape": [
+    {
+      "original": "[计] 横向",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "横向的（页面或打印方向）"
+        }
+      ]
+    }
+  ],
+  "city": [
+    {
+      "original": "[法] 都市, 城市, 市",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "都市, 城市, 市"
+        }
+      ]
+    }
+  ],
+  "shape": [
+    {
+      "original": "[计] 形状",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "形状"
+        }
+      ]
+    }
+  ],
+  "yogurt": [
+    {
+      "original": "[医] 酸乳",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "酸乳"
+        }
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "original": "[计] 媒体, 中",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "媒介；媒体"
+        },
+        {
+          "part_of_speech": "adjective",
+          "meaning": "中等的"
+        }
+      ]
+    }
+  ],
+  "dangerous": [
+    {
+      "original": "[法] 危险的, 危害的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "危险的, 危害的"
+        }
+      ]
+    }
+  ],
+  "coffee": [
+    {
+      "original": "[医] 咖啡, 咖啡豆",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "咖啡, 咖啡豆"
+        }
+      ]
+    }
+  ],
+  "weak": [
+    {
+      "original": "[经] 疲软的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "疲软的"
+        }
+      ]
+    }
+  ],
+  "everyone": [
+    {
+      "original": "[计] 系统中的一个组名",
+      "replacement": []
+    }
+  ],
+  "bin": [
+    {
+      "original": "[计] 二进制, 商业信息网",
+      "replacement": [
+        {
+          "part_of_speech": "abbreviation",
+          "meaning": "二进制（binary 的缩写）"
+        }
+      ]
+    }
+  ],
+  "moment": [
+    {
+      "original": "[医] 片刻, 瞬间, 时机, 因素, 矩",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "片刻, 瞬间, 时机, 因素, 矩"
+        }
+      ]
+    }
+  ],
+  "bath": [
+    {
+      "original": "[医] 浴",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "浴"
+        }
+      ]
+    }
+  ],
+  "expensive": [
+    {
+      "original": "[经] 高价的, 昂贵的, 浪费的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "高价的, 昂贵的, 浪费的"
+        }
+      ]
+    }
+  ],
+  "geography": [
+    {
+      "original": "[医] 地理",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "地理"
+        }
+      ]
+    }
+  ],
+  "emergency": [
+    {
+      "original": "[化] 紧急情况",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "紧急情况"
+        }
+      ]
+    }
+  ],
+  "carry": [
+    {
+      "original": "[计] 进位; 进位数",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "进位；进位数"
+        }
+      ]
+    }
+  ],
+  "office": [
+    {
+      "original": "[化] 办公室",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "办公室"
+        }
+      ]
+    }
+  ],
+  "guilty": [
+    {
+      "original": "[法] 有罪的, 犯罪的, 自觉有罪的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "有罪的, 犯罪的, 自觉有罪的"
+        }
+      ]
+    }
+  ],
+  "microwave": [
+    {
+      "original": "[计] 微波",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "微波"
+        }
+      ]
+    }
+  ],
+  "transportation": [
+    {
+      "original": "[经] 运转, 运输, 运输费",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "运转, 运输, 运输费"
+        }
+      ]
+    }
+  ],
+  "fever": [
+    {
+      "original": "[医] 发热, 热",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "发热, 热"
+        }
+      ]
+    }
+  ],
+  "energy": [
+    {
+      "original": "[化] 能; 能量",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "能; 能量"
+        }
+      ]
+    }
+  ],
+  "carrot": [
+    {
+      "original": "[医] 胡萝卜",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "胡萝卜"
+        }
+      ]
+    }
+  ],
+  "strict": [
+    {
+      "original": "[法] 严格的, 精确的, 绝对的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "严格的, 精确的, 绝对的"
+        }
+      ]
+    }
+  ],
+  "pass": [
+    {
+      "original": "[计] 遍",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "一遍；一次通过"
+        }
+      ]
+    }
+  ],
+  "robot": [
+    {
+      "original": "[计] 机器人; 自动机",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "机器人; 自动机"
+        }
+      ]
+    }
+  ],
+  "time": [
+    {
+      "original": "[计] DOS内部命令:用于显示或设定系统的时间",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "时间"
+        }
+      ]
+    }
+  ],
+  "ping-pong": [
+    {
+      "original": "[电] 交替术",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "交替术"
+        }
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "original": "[计] 比较",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "比较"
+        }
+      ]
+    }
+  ],
+  "sea": [
+    {
+      "original": "[法] 海, 海洋",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "海, 海洋"
+        }
+      ]
+    }
+  ],
+  "athlete": [
+    {
+      "original": "[医] 运动员",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "运动员"
+        }
+      ]
+    }
+  ],
+  "thick": [
+    {
+      "original": "[计] 暗, 粗线",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "粗的"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "粗线"
+        }
+      ]
+    }
+  ],
+  "share": [
+    {
+      "original": "[计] 共享; DOS外部命令:在网络或多工系统中提供文件共享",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "共享；分享"
+        }
+      ]
+    },
+    {
+      "original": "文件锁定及检测磁盘更动和对超过32MB硬盘分区的支持",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "共享；分享"
+        }
+      ]
+    }
+  ],
+  "online": [
+    {
+      "original": "[计] 联机",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "在线的；联网的"
+        },
+        {
+          "part_of_speech": "adverb",
+          "meaning": "在网上；在线地"
+        }
+      ]
+    }
+  ],
+  "importance": [
+    {
+      "original": "[机] 重要, 重要性",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "重要, 重要性"
+        }
+      ]
+    }
+  ],
+  "attitude": [
+    {
+      "original": "[医] 体态, 姿势, 态度",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "体态, 姿势, 态度"
+        }
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "original": "[医] 畸胎",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "畸胎"
+        }
+      ]
+    }
+  ],
+  "print": [
+    {
+      "original": "[计] DOS外部命令:在打印机上打印文件, 可一边打印文件一边执行其他工作",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "打印"
+        }
+      ]
+    }
+  ],
+  "enter": [
+    {
+      "original": "[计] 输入, 回车",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "输入, 回车"
+        }
+      ]
+    }
+  ],
+  "chemistry": [
+    {
+      "original": "[化] 化学",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "化学"
+        }
+      ]
+    }
+  ],
+  "put": [
+    {
+      "original": "[计] 发送文件",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "发送文件"
+        }
+      ]
+    }
+  ],
+  "show": [
+    {
+      "original": "[计] 显示",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "显示"
+        }
+      ]
+    }
+  ],
+  "deal": [
+    {
+      "original": "[计] 发牌",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "发牌"
+        }
+      ]
+    }
+  ],
+  "apple": [
+    {
+      "original": "[医] 苹果",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "苹果"
+        }
+      ]
+    }
+  ],
+  "mouse": [
+    {
+      "original": "[计] 鼠标",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "鼠标"
+        }
+      ]
+    }
+  ],
+  "choose": [
+    {
+      "original": "[计] 选取",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "选取"
+        }
+      ]
+    }
+  ],
+  "job": [
+    {
+      "original": "[计] 作业",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "作业"
+        }
+      ]
+    }
+  ],
+  "add": [
+    {
+      "original": "[计] 加法",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "相加；添加"
+        }
+      ]
+    }
+  ],
+  "act": [
+    {
+      "original": "[计] 先进通信技术, 先进计算机工艺, 自动代码翻译技术",
+      "replacement": []
+    }
+  ],
+  "talk": [
+    {
+      "original": "[计] 对话类, 聊天",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "对话；聊天"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "交谈"
+        }
+      ]
+    }
+  ],
+  "count": [
+    {
+      "original": "[计] 计数",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "计数"
+        }
+      ]
+    }
+  ],
+  "accident": [
+    {
+      "original": "[化] 意外事故; 事故",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "意外事故; 事故"
+        }
+      ]
+    }
+  ],
+  "cola": [
+    {
+      "original": "结肠, 冒号, 科朗",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "可乐（饮料）"
+        }
+      ]
+    },
+    {
+      "original": "[化] 可乐果; 可乐果属; 可乐果干子叶",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "可乐（饮料）"
+        }
+      ]
+    }
+  ],
+  "golden": [
+    {
+      "original": "[法] 金制的, 金色的, 兴隆的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "金制的, 金色的, 兴隆的"
+        }
+      ]
+    }
+  ],
+  "net": [
+    {
+      "original": "[计] 网络, 网络分析程序",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "网；网络"
+        }
+      ]
+    }
+  ],
+  "suitable": [
+    {
+      "original": "[法] 合适的, 适宜的, 适当的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "合适的, 适宜的, 适当的"
+        }
+      ]
+    }
+  ],
+  "bulb": [
+    {
+      "original": "[医] 球, 鳞茎, 球茎",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "球, 鳞茎, 球茎"
+        }
+      ]
+    }
+  ],
+  "permission": [
+    {
+      "original": "[计] 许可, 认可",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "许可, 认可"
+        }
+      ]
+    }
+  ],
+  "record": [
+    {
+      "original": "[计] 录制, 记录",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "录制, 记录"
+        }
+      ]
+    }
+  ],
+  "off": [
+    {
+      "original": "[计] 关闭, 清屏命令",
+      "replacement": [
+        {
+          "part_of_speech": "adverb",
+          "meaning": "断开；关闭"
+        }
+      ]
+    }
+  ],
+  "break": [
+    {
+      "original": "[计] 分隔符; 中断; DOS内部命令:设定扫描中断按键的时机",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "分隔符；中断"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "中断"
+        }
+      ]
+    }
+  ],
+  "convenient": [
+    {
+      "original": "[法] 适当的, 合理而可行的, 方便的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "适当的, 合理而可行的, 方便的"
+        }
+      ]
+    }
+  ],
+  "more": [
+    {
+      "original": "[计] DOS外部命令:显示满屏后自动暂停, 并显示:\"--More--\", 按任意键继续",
+      "replacement": [
+        {
+          "part_of_speech": "adverb",
+          "meaning": "更多；更大程度地"
+        }
+      ]
+    }
+  ],
+  "diary": [
+    {
+      "original": "[经] 日记簿",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "日记簿"
+        }
+      ]
+    }
+  ],
+  "bridge": [
+    {
+      "original": "[计] 桥, 网桥, 桥接器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "桥, 网桥, 桥接器"
+        }
+      ]
+    }
+  ],
+  "product": [
+    {
+      "original": "[化] 生产物",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "生产物"
+        }
+      ]
+    }
+  ],
+  "never": [
+    {
+      "original": "[法] 永不, 决不, 从来没有",
+      "replacement": [
+        {
+          "part_of_speech": "adverb",
+          "meaning": "永不, 决不, 从来没有"
+        }
+      ]
+    }
+  ],
+  "insect": [
+    {
+      "original": "[医] 昆虫",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "昆虫"
+        }
+      ]
+    }
+  ],
+  "camera": [
+    {
+      "original": "[计] 摄影",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "照相机；摄像机"
+        }
+      ]
+    }
+  ],
+  "idea": [
+    {
+      "original": "[医] 观念, 思想",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "观念, 思想"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "original": "[医] 教育, 训练",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "教育, 训练"
+        }
+      ]
+    }
+  ],
+  "order": [
+    {
+      "original": "[计] 顺序, 阶数",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "顺序, 阶数"
+        }
+      ]
+    }
+  ],
+  "statement": [
+    {
+      "original": "[计] 程序语句; 语句",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "程序语句; 语句"
+        }
+      ]
+    }
+  ],
+  "district": [
+    {
+      "original": "[医] 地区, 地段",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "地区, 地段"
+        }
+      ]
+    }
+  ],
+  "discovery": [
+    {
+      "original": "[法] 要求告知, 发现, 发觉",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "要求告知, 发现, 发觉"
+        }
+      ]
+    }
+  ],
+  "association": [
+    {
+      "original": "[计] 关联",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "关联"
+        }
+      ]
+    }
+  ],
+  "reduce": [
+    {
+      "original": "[计] 缩小",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "缩小"
+        }
+      ]
+    }
+  ],
+  "cabbage": [
+    {
+      "original": "[医] 卷心菜, 甘兰",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "卷心菜, 甘蓝"
+        }
+      ]
+    }
+  ],
+  "not": [
+    {
+      "original": "[计] 非",
+      "replacement": [
+        {
+          "part_of_speech": "adverb",
+          "meaning": "不；非（逻辑运算）"
+        }
+      ]
+    }
+  ],
+  "positive": [
+    {
+      "original": "[医] 正的, 阳性的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "正的, 阳性的"
+        }
+      ]
+    }
+  ],
+  "pear": [
+    {
+      "original": "[机] 梨木",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "梨木"
+        }
+      ]
+    }
+  ],
+  "dig": [
+    {
+      "original": "[计] 数字, 数位",
+      "replacement": []
+    }
+  ],
+  "death": [
+    {
+      "original": "[医] 死亡",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "死亡"
+        }
+      ]
+    }
+  ],
+  "ground": [
+    {
+      "original": "grind的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "grind 的过去式和过去分词（磨碎；研磨）"
+        }
+      ]
+    }
+  ],
+  "cap": [
+    {
+      "original": "[计] 调用程序分析, 容量, 代码分析程序, 计算机辅助生产, 计算机辅助印刷",
+      "replacement": []
+    }
+  ],
+  "animal": [
+    {
+      "original": "[医] 动物",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "动物"
+        }
+      ]
+    }
+  ],
+  "card": [
+    {
+      "original": "[计] 卡片, 卡",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "卡片, 卡"
+        }
+      ]
+    }
+  ],
+  "guide": [
+    {
+      "original": "[计] 辅助线",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "辅助线"
+        }
+      ]
+    }
+  ],
+  "a": [
+    {
+      "original": "第一个字母 A; 一个; 第一的\\r",
+      "replacement": [
+        {
+          "part_of_speech": "article",
+          "meaning": "一；一个（用于辅音音素前）"
+        }
+      ]
+    }
+  ],
+  "kilo": [
+    {
+      "original": "[计] 千",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "千克；公斤"
+        }
+      ]
+    }
+  ],
+  "full": [
+    {
+      "original": "[计] 完整",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "完整"
+        }
+      ]
+    }
+  ],
+  "supermarket": [
+    {
+      "original": "[经] 超级市场, 自助售货商店",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "超级市场；超市"
+        }
+      ]
+    }
+  ],
+  "nature": [
+    {
+      "original": "[医] 自然, 大自然; 本性, 性能",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "自然, 大自然; 本性, 性能"
+        }
+      ]
+    }
+  ],
+  "list": [
+    {
+      "original": "[计] 列表, 序列, 数据清单",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "列表, 序列, 数据清单"
+        }
+      ]
+    }
+  ],
+  "author": [
+    {
+      "original": "[法] 作者, 著作人, 本人",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "作者, 著作人, 本人"
+        }
+      ]
+    }
+  ],
+  "soap": [
+    {
+      "original": "[计] 评语",
+      "replacement": []
+    }
+  ],
+  "fiction": [
+    {
+      "original": "[法] 虚构的事实, 捏造, 拟制",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "虚构的事实, 捏造, 拟制"
+        }
+      ]
+    }
+  ],
+  "digital": [
+    {
+      "original": "[计] 数字, 数字式",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "数字的；数字式的"
+        }
+      ]
+    }
+  ],
+  "hide": [
+    {
+      "original": "[计] 隐藏",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "隐藏"
+        }
+      ]
+    }
+  ],
+  "quality": [
+    {
+      "original": "[计] 品质",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "品质"
+        }
+      ]
+    }
+  ],
+  "grass": [
+    {
+      "original": "[医] 草, 禾本",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "草, 禾本"
+        }
+      ]
+    }
+  ],
+  "conversation": [
+    {
+      "original": "[法] 交谈, 社交, 性交",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "交谈；会话"
+        }
+      ]
+    }
+  ],
+  "tap": [
+    {
+      "original": "[计] 接头",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "接头"
+        }
+      ]
+    }
+  ],
+  "object": [
+    {
+      "original": "[计] 对象",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "对象"
+        }
+      ]
+    }
+  ],
+  "president": [
+    {
+      "original": "[经] 总经理, 董事长, 总裁",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "总经理, 董事长, 总裁"
+        }
+      ]
+    }
+  ],
+  "bell": [
+    {
+      "original": "[计] 响铃命令",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "响铃命令"
+        }
+      ]
+    }
+  ],
+  "message": [
+    {
+      "original": "[计] 报文; 消息; 信息",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "报文; 消息; 信息"
+        }
+      ]
+    }
+  ],
+  "run": [
+    {
+      "original": "run的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "run 的过去分词（跑；运行）"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "运行"
+        }
+      ]
+    },
+    {
+      "original": "[计] 运行",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "run 的过去分词（跑；运行）"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "运行"
+        }
+      ]
+    }
+  ],
+  "invent": [
+    {
+      "original": "[机] 发明",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "发明"
+        }
+      ]
+    }
+  ],
+  "population": [
+    {
+      "original": "[化] 群体; 总体",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "群体; 总体"
+        }
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "original": "[计] 条件",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "条件"
+        }
+      ]
+    }
+  ],
+  "pick": [
+    {
+      "original": "[计] 拾取",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "拾取"
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "original": "[计] 历史记录",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "历史记录"
+        }
+      ]
+    }
+  ],
+  "expert": [
+    {
+      "original": "[计] 高级",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "高级"
+        }
+      ]
+    }
+  ],
+  "duty": [
+    {
+      "original": "[化] 职责",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "职责"
+        }
+      ]
+    }
+  ],
+  "building": [
+    {
+      "original": "[法] 营造, 建筑, 建筑物",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "营造, 建筑, 建筑物"
+        }
+      ]
+    }
+  ],
+  "important": [
+    {
+      "original": "[计] 要点",
+      "replacement": []
+    }
+  ],
+  "model": [
+    {
+      "original": "[计] 模型",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "模型"
+        }
+      ]
+    }
+  ],
+  "mistake": [
+    {
+      "original": "[计] 错误",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "错误"
+        }
+      ]
+    }
+  ],
+  "instrument": [
+    {
+      "original": "[化] 仪器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "仪器"
+        }
+      ]
+    }
+  ],
+  "call": [
+    {
+      "original": "[计] 调用; 呼叫; DOS内部命令:在批处理文件中调用另一个批处理文件",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "调用; 呼叫; DOS内部命令:在批处理文件中调用另一个批处理文件"
+        }
+      ]
+    }
+  ],
+  "fireman": [
+    {
+      "original": "[机] 司炉",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "司炉"
+        }
+      ]
+    }
+  ],
+  "kill": [
+    {
+      "original": "[计] 删除",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "删除"
+        }
+      ]
+    }
+  ],
+  "discuss": [
+    {
+      "original": "[医] 讨论, 辩论",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "讨论, 辩论"
+        }
+      ]
+    }
+  ],
+  "even": [
+    {
+      "original": "[计] 偶数, 偶校验",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "偶数的"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "偶校验"
+        }
+      ]
+    }
+  ],
+  "opinion": [
+    {
+      "original": "[经] 意见",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "意见"
+        }
+      ]
+    }
+  ],
+  "money": [
+    {
+      "original": "[经] 货币, 金钱, 财产",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "货币, 金钱, 财产"
+        }
+      ]
+    }
+  ],
+  "protect": [
+    {
+      "original": "[法] 庇护, 保护, 警戒",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "庇护, 保护, 警戒"
+        }
+      ]
+    }
+  ],
+  "birth": [
+    {
+      "original": "[医] 生产, 分娩",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "生产, 分娩"
+        }
+      ]
+    }
+  ],
+  "grandpa": [
+    {
+      "original": "爷爷, 老太爷, 外公",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "爷爷；外公"
+        }
+      ]
+    }
+  ],
+  "elementary": [
+    {
+      "original": "[医] 元素的, 基础的, 初级的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "元素的, 基础的, 初级的"
+        }
+      ]
+    }
+  ],
+  "mixture": [
+    {
+      "original": "[化] 混合物",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "混合物"
+        }
+      ]
+    }
+  ],
+  "stream": [
+    {
+      "original": "[计] 流",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "流"
+        }
+      ]
+    }
+  ],
+  "fold": [
+    {
+      "original": "[计] 折叠; 合并",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "折叠; 合并"
+        }
+      ]
+    }
+  ],
+  "solid": [
+    {
+      "original": "[计] 原色",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "纯色的；单色的"
+        }
+      ]
+    }
+  ],
+  "secretary": [
+    {
+      "original": "[经] 秘书",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "秘书"
+        }
+      ]
+    }
+  ],
+  "get": [
+    {
+      "original": "[计] 取得指令, 获取文件",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "取得指令, 获取文件"
+        }
+      ]
+    }
+  ],
+  "write": [
+    {
+      "original": "[计] 书写器",
+      "replacement": []
+    }
+  ],
+  "fine": [
+    {
+      "original": "[计] 精细",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "精细"
+        }
+      ]
+    }
+  ],
+  "sound": [
+    {
+      "original": "[计] 声音",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "声音"
+        }
+      ]
+    }
+  ],
+  "foreign": [
+    {
+      "original": "[机] 外来的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "外来的"
+        }
+      ]
+    }
+  ],
+  "passenger": [
+    {
+      "original": "[经] 乘客, 旅客",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "乘客, 旅客"
+        }
+      ]
+    }
+  ],
+  "situation": [
+    {
+      "original": "[医] 情境, 处境",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "情境, 处境"
+        }
+      ]
+    }
+  ],
+  "baseball": [
+    {
+      "original": "[计] 棒球系统",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "棒球系统"
+        }
+      ]
+    }
+  ],
+  "found": [
+    {
+      "original": "find的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "find 的过去式和过去分词（找到；发现）"
+        }
+      ]
+    }
+  ],
+  "trust": [
+    {
+      "original": "[计] 委托, 信任",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "委托, 信任"
+        }
+      ]
+    }
+  ],
+  "past": [
+    {
+      "original": "pass的过去分词",
+      "replacement": []
+    }
+  ],
+  "food": [
+    {
+      "original": "[医] 食物, 食品",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "食物, 食品"
+        }
+      ]
+    }
+  ],
+  "force": [
+    {
+      "original": "[计] 人工转移; 强制",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "人工转移; 强制"
+        }
+      ]
+    }
+  ],
+  "feed": [
+    {
+      "original": "[计] 送纸",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "送纸"
+        }
+      ]
+    }
+  ],
+  "railway": [
+    {
+      "original": "[经] 铁路",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "铁路"
+        }
+      ]
+    }
+  ],
+  "different": [
+    {
+      "original": "[机] 差动, 微分的, 差速器",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "差动, 微分的, 差速器"
+        }
+      ]
+    }
+  ],
+  "healthy": [
+    {
+      "original": "[医] 健康的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "健康的"
+        }
+      ]
+    }
+  ],
+  "shorts": [
+    {
+      "original": "[经] 空头户, 空头, 短期债券",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "空头户, 空头, 短期债券"
+        }
+      ]
+    }
+  ],
+  "cooperate": [
+    {
+      "original": "[化] 合作",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "合作"
+        }
+      ]
+    }
+  ],
+  "major": [
+    {
+      "original": "[计] 主要, 主要刻度",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "主要的"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "主刻度"
+        }
+      ]
+    }
+  ],
+  "legend": [
+    {
+      "original": "[计] 图例",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "图例"
+        }
+      ]
+    }
+  ],
+  "agent": [
+    {
+      "original": "[计] 代理程序",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "代理程序"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "original": "[计] 图库",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "图库"
+        }
+      ]
+    }
+  ],
+  "citizen": [
+    {
+      "original": "[法] 公民, 国民, 市民",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "公民, 国民, 市民"
+        }
+      ]
+    }
+  ],
+  "search": [
+    {
+      "original": "[计] 搜索, 路径检索程序",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "搜索, 路径检索程序"
+        }
+      ]
+    }
+  ],
+  "postman": [
+    {
+      "original": "[法] 邮递员, 理财法庭的高级律师",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "邮递员, 理财法庭的高级律师"
+        }
+      ]
+    }
+  ],
+  "deaf": [
+    {
+      "original": "[医] 聋的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "聋的"
+        }
+      ]
+    }
+  ],
+  "thought": [
+    {
+      "original": "think的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "think 的过去式和过去分词（想；认为）"
+        }
+      ]
+    }
+  ],
+  "save": [
+    {
+      "original": "[计] 保存",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "保存"
+        }
+      ]
+    }
+  ],
+  "baby": [
+    {
+      "original": "[医] 婴儿",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "婴儿"
+        }
+      ]
+    }
+  ],
+  "responsible": [
+    {
+      "original": "[法] 应负责任的, 有责任的, 能履行责任的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "应负责任的, 有责任的, 能履行责任的"
+        }
+      ]
+    }
+  ],
+  "nation": [
+    {
+      "original": "[法] 民族, 国家",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "民族, 国家"
+        }
+      ]
+    }
+  ],
+  "computer": [
+    {
+      "original": "[计] 计算机",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "计算机"
+        }
+      ]
+    }
+  ],
+  "long": [
+    {
+      "original": "[计] 长, 长整型",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "长的"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "长整型（数据类型）"
+        }
+      ]
+    }
+  ],
+  "dragon": [
+    {
+      "original": "[法] 凶恶的人, 凶恶严厉的监护人",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "凶恶的人, 凶恶严厉的监护人"
+        }
+      ]
+    }
+  ],
+  "row": [
+    {
+      "original": "[计] 行",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "行"
+        }
+      ]
+    }
+  ],
+  "as": [
+    {
+      "original": "[计] 高级系统, 先进系统, 辅助存储器, 自治系统",
+      "replacement": []
+    }
+  ],
+  "download": [
+    {
+      "original": "[计] 卸载, 下栽",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "下载"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "下载；下载的文件"
+        }
+      ]
+    }
+  ],
+  "basic": [
+    {
+      "original": "(计算机)BASIC语言",
+      "replacement": []
+    }
+  ],
+  "fetch": [
+    {
+      "original": "[计] 取",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "取"
+        }
+      ]
+    }
+  ],
+  "calculator": [
+    {
+      "original": "[计] 计算器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "计算器"
+        }
+      ]
+    }
+  ],
+  "exhibition": [
+    {
+      "original": "[医] 投药, 展览, 展出",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "投药, 展览, 展出"
+        }
+      ]
+    }
+  ],
+  "conjunction": [
+    {
+      "original": "[计] 合取",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "连词；连接；合取（逻辑运算）"
+        }
+      ]
+    }
+  ],
+  "tradition": [
+    {
+      "original": "[法] 传统, 惯例, 移交",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "传统, 惯例, 移交"
+        }
+      ]
+    }
+  ],
+  "sign": [
+    {
+      "original": "[计] 正负号; 符号; 符号字符",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "正负号; 符号; 符号字符"
+        }
+      ]
+    }
+  ],
+  "require": [
+    {
+      "original": "[法] 需要, 要求, 命令",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "需要, 要求, 命令"
+        }
+      ]
+    }
+  ],
+  "allow": [
+    {
+      "original": "[计] 允许命令",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "允许命令"
+        }
+      ]
+    }
+  ],
+  "chore": [
+    {
+      "original": "[经] 零工",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "零工"
+        }
+      ]
+    }
+  ],
+  "hair": [
+    {
+      "original": "[医] 毛, 发",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "毛, 发"
+        }
+      ]
+    }
+  ],
+  "fork": [
+    {
+      "original": "[计] 派生指令",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "派生指令"
+        }
+      ]
+    }
+  ],
+  "land": [
+    {
+      "original": "[计] 连接盘; 焊盘",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "连接盘; 焊盘"
+        }
+      ]
+    }
+  ],
+  "introduce": [
+    {
+      "original": "[法] 引进, 输入, 介绍",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "引进, 输入, 介绍"
+        }
+      ]
+    }
+  ],
+  "return": [
+    {
+      "original": "[计] 返回",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "返回"
+        }
+      ]
+    }
+  ],
+  "popular": [
+    {
+      "original": "[经] 大众的, 通俗的, 普及的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "大众的, 通俗的, 普及的"
+        }
+      ]
+    }
+  ],
+  "be": [
+    {
+      "original": "[计] 后端, 总线允许",
+      "replacement": []
+    }
+  ],
+  "flag": [
+    {
+      "original": "[计] 标志; 属性标记命令",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "标志; 属性标记命令"
+        }
+      ]
+    }
+  ],
+  "worker": [
+    {
+      "original": "[经] 工人, 劳工, 劳动者",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "工人, 劳工, 劳动者"
+        }
+      ]
+    }
+  ],
+  "training": [
+    {
+      "original": "[医] 训练",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "训练"
+        }
+      ]
+    }
+  ],
+  "player": [
+    {
+      "original": "[经] 交易者",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "交易者"
+        }
+      ]
+    }
+  ],
+  "lookout": [
+    {
+      "original": "[法] 看守, 守望",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "看守, 守望"
+        }
+      ]
+    }
+  ],
+  "seek": [
+    {
+      "original": "[计] 查找",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "查找"
+        }
+      ]
+    }
+  ],
+  "misleading": [
+    {
+      "original": "[法] 误写姓名的, 误称的, 令人误解的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "误写姓名的, 误称的, 令人误解的"
+        }
+      ]
+    }
+  ],
+  "aggressive": [
+    {
+      "original": "[法] 侵略的, 爱挑衅的, 行为过火的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "侵略的, 爱挑衅的, 行为过火的"
+        }
+      ]
+    }
+  ],
+  "forbid": [
+    {
+      "original": "[法] 不许, 禁止, 阻止",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "不许, 禁止, 阻止"
+        }
+      ]
+    }
+  ],
+  "pie": [
+    {
+      "original": "[计] 饼图",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "饼图"
+        }
+      ]
+    }
+  ],
+  "power": [
+    {
+      "original": "[计] 乘幂; DOS外部命令:能控制许多电池电源计算机上的电源管理特性",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "幂（数学运算）"
+        }
+      ]
+    }
+  ],
+  "focus": [
+    {
+      "original": "[计] 焦点",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "焦点"
+        }
+      ]
+    }
+  ],
+  "car": [
+    {
+      "original": "[机] 车",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "车"
+        }
+      ]
+    }
+  ],
+  "cheese": [
+    {
+      "original": "[化] 干酪",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "干酪"
+        }
+      ]
+    }
+  ],
+  "born": [
+    {
+      "original": "bear的过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "bear 的过去分词（出生）"
+        }
+      ]
+    }
+  ],
+  "read": [
+    {
+      "original": "[计] 读取",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "读取"
+        }
+      ]
+    }
+  ],
+  "left": [
+    {
+      "original": "leave的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "leave 的过去式和过去分词（离开；留下）"
+        }
+      ]
+    }
+  ],
+  "book": [
+    {
+      "original": "[计] 工作簿",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "工作簿"
+        }
+      ]
+    }
+  ],
+  "cookie": [
+    {
+      "original": "[建] 糕点",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "糕点"
+        }
+      ]
+    }
+  ],
+  "useful": [
+    {
+      "original": "[机] 有用的, 有效的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "有用的, 有效的"
+        }
+      ]
+    }
+  ],
+  "competition": [
+    {
+      "original": "[经] 竞争, 竞销, 比赛",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "竞争, 竞销, 比赛"
+        }
+      ]
+    }
+  ],
+  "terrorist": [
+    {
+      "original": "[法] 恐怖份子, 恐怖主义",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "恐怖分子"
+        }
+      ]
+    }
+  ],
+  "elevator": [
+    {
+      "original": "[化] 提升机",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "提升机"
+        }
+      ]
+    }
+  ],
+  "fax": [
+    {
+      "original": "[计] 传真系统; 传真",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "传真系统; 传真"
+        }
+      ]
+    }
+  ],
+  "climate": [
+    {
+      "original": "[医] 气候",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "气候"
+        }
+      ]
+    }
+  ],
+  "lay": [
+    {
+      "original": "lie的过去式",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "lie 的过去式（躺）"
+        }
+      ]
+    }
+  ],
+  "friend": [
+    {
+      "original": "[法] 朋友, 友人, 赞助者",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "朋友, 友人, 赞助者"
+        }
+      ]
+    }
+  ],
+  "recommend": [
+    {
+      "original": "[经] 建议, 推荐",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "建议, 推荐"
+        }
+      ]
+    }
+  ],
+  "dictionary": [
+    {
+      "original": "[计] 词典",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "词典"
+        }
+      ]
+    }
+  ],
+  "meeting": [
+    {
+      "original": "[法] 会议, 会谈, 集会",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "会议, 会谈, 集会"
+        }
+      ]
+    }
+  ],
+  "appear": [
+    {
+      "original": "[法] 出庭, 到案, 出现",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "出庭, 到案, 出现"
+        }
+      ]
+    }
+  ],
+  "passport": [
+    {
+      "original": "[法] 通行证, 护照",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "通行证, 护照"
+        }
+      ]
+    }
+  ],
+  "aid": [
+    {
+      "original": "[计] 自动内部诊断",
+      "replacement": []
+    }
+  ],
+  "science": [
+    {
+      "original": "[医] 科学",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "科学"
+        }
+      ]
+    }
+  ],
+  "gun": [
+    {
+      "original": "[医] 枪",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "枪"
+        }
+      ]
+    }
+  ],
+  "farmer": [
+    {
+      "original": "[法] 农民, 农场主, 承包者",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "农民, 农场主, 承包者"
+        }
+      ]
+    }
+  ],
+  "and": [
+    {
+      "original": "[计] 与",
+      "replacement": [
+        {
+          "part_of_speech": "conjunction",
+          "meaning": "与"
+        }
+      ]
+    }
+  ],
+  "corner": [
+    {
+      "original": "[计] 边角",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "边角"
+        }
+      ]
+    }
+  ],
+  "cat": [
+    {
+      "original": "计算机辅助教育, 计算机辅助测试, 计算机辅助翻译, 计算机辅助排版",
+      "replacement": []
+    },
+    {
+      "original": "[计] 计算机辅助教学, 计算机辅助翻译, 计算机辅助排字, 计算机辅助测试",
+      "replacement": []
+    }
+  ],
+  "nor": [
+    {
+      "original": "[计] 或非",
+      "replacement": []
+    }
+  ],
+  "background": [
+    {
+      "original": "[计] 背景, 后台",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "背景, 后台"
+        }
+      ]
+    }
+  ],
+  "night": [
+    {
+      "original": "[法] 夜, 黑夜, 黑暗",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "夜, 黑夜, 黑暗"
+        }
+      ]
+    }
+  ],
+  "physics": [
+    {
+      "original": "[化] 物理; 物理学",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "物理; 物理学"
+        }
+      ]
+    }
+  ],
+  "lab": [
+    {
+      "original": "[医] 凝乳酶",
+      "replacement": []
+    }
+  ],
+  "screen": [
+    {
+      "original": "[计] 筛选; 屏幕",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "屏幕"
+        },
+        {
+          "part_of_speech": "verb",
+          "meaning": "筛选"
+        }
+      ]
+    }
+  ],
+  "level": [
+    {
+      "original": "[计] 级别",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "级别"
+        }
+      ]
+    }
+  ],
+  "hungry": [
+    {
+      "original": "[化] 欠鞣皮",
+      "replacement": []
+    }
+  ],
+  "customer": [
+    {
+      "original": "[化] 顾客",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "顾客"
+        }
+      ]
+    }
+  ],
+  "treatment": [
+    {
+      "original": "[医] 疗法, 治疗; 处理",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "疗法, 治疗; 处理"
+        }
+      ]
+    }
+  ],
+  "airplane": [
+    {
+      "original": "[机] 飞机",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "飞机"
+        }
+      ]
+    }
+  ],
+  "escalator": [
+    {
+      "original": "[机] 升降阶梯",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "升降阶梯"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "original": "[计] 词表",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "词表"
+        }
+      ]
+    }
+  ],
+  "writer": [
+    {
+      "original": "[化] 记录器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "记录器"
+        }
+      ]
+    }
+  ],
+  "spider": [
+    {
+      "original": "[化] 星形轮",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "星形轮"
+        }
+      ]
+    }
+  ],
+  "ocean": [
+    {
+      "original": "[法] 海洋, 海",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "海洋, 海"
+        }
+      ]
+    }
+  ],
+  "electric": [
+    {
+      "original": "[医] 电的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "电的"
+        }
+      ]
+    }
+  ],
+  "begin": [
+    {
+      "original": "[计] 开始",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "开始"
+        }
+      ]
+    }
+  ],
+  "pepper": [
+    {
+      "original": "[化] 胡椒; 辣椒; 花椒",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "胡椒; 辣椒; 花椒"
+        }
+      ]
+    }
+  ],
+  "height": [
+    {
+      "original": "[化] 高度",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "高度"
+        }
+      ]
+    }
+  ],
+  "clear": [
+    {
+      "original": "[计] 清除",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "清除"
+        }
+      ]
+    }
+  ],
+  "home": [
+    {
+      "original": "[计] 返回始位",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "返回初始位置；归位"
+        }
+      ]
+    }
+  ],
+  "common": [
+    {
+      "original": "[计] 公用块",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "公用块"
+        }
+      ]
+    }
+  ],
+  "his": [
+    {
+      "original": "[化] 组氨酸",
+      "replacement": []
+    }
+  ],
+  "disease": [
+    {
+      "original": "[医] [疾]病",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "[疾]病"
+        }
+      ]
+    }
+  ],
+  "number": [
+    {
+      "original": "[计] 数字",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "数字"
+        }
+      ]
+    }
+  ],
+  "town": [
+    {
+      "original": "[法] 城镇, 城市, 闹市",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "城镇, 城市, 闹市"
+        }
+      ]
+    }
+  ],
+  "yard": [
+    {
+      "original": "[化] 堆置场",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "堆置场"
+        }
+      ]
+    }
+  ],
+  "appointment": [
+    {
+      "original": "[经] 任命, 派, 指定",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "任命, 派, 指定"
+        }
+      ]
+    }
+  ],
+  "chest": [
+    {
+      "original": "[医] 胸, 胸廓",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "胸, 胸廓"
+        }
+      ]
+    }
+  ],
+  "injure": [
+    {
+      "original": "[医] 损伤",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "损伤"
+        }
+      ]
+    }
+  ],
+  "spoken": [
+    {
+      "original": "speak的过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "speak 的过去分词（说；讲话）"
+        }
+      ]
+    }
+  ],
+  "rank": [
+    {
+      "original": "[计] 秩",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "秩"
+        }
+      ]
+    }
+  ],
+  "serious": [
+    {
+      "original": "[电] 严重的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "严重的"
+        }
+      ]
+    }
+  ],
+  "certain": [
+    {
+      "original": "[法] 确凿的, 无疑的, 可靠的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "确凿的, 无疑的, 可靠的"
+        }
+      ]
+    }
+  ],
+  "illness": [
+    {
+      "original": "[医] 病",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "病"
+        }
+      ]
+    }
+  ],
+  "word": [
+    {
+      "original": "[计] 字",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "字"
+        }
+      ]
+    }
+  ],
+  "control": [
+    {
+      "original": "[计] 控制; 控制器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "控制; 控制器"
+        }
+      ]
+    }
+  ],
+  "report": [
+    {
+      "original": "[计] 报告",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "报告"
+        }
+      ]
+    }
+  ],
+  "gate": [
+    {
+      "original": "[计] 门; 栅",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "门; 栅"
+        }
+      ]
+    }
+  ],
+  "pack": [
+    {
+      "original": "[计] 压缩",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "压缩"
+        }
+      ]
+    }
+  ],
+  "country": [
+    {
+      "original": "[计] DOS外部命令:用于设定国家代码, 包括日期时间及货币格式",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "国家；乡村"
+        }
+      ]
+    }
+  ],
+  "belt": [
+    {
+      "original": "[医] 带, 腰带, 束带, 地带, 区",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "带, 腰带, 束带, 地带, 区"
+        }
+      ]
+    }
+  ],
+  "role": [
+    {
+      "original": "[医] 作用, 功用",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "作用, 功用"
+        }
+      ]
+    }
+  ],
+  "busy": [
+    {
+      "original": "[计] 忙; 忙碌",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "忙; 忙碌"
+        }
+      ]
+    }
+  ],
+  "bye": [
+    {
+      "original": "[计] 结束命令",
+      "replacement": [
+        {
+          "part_of_speech": "interjection",
+          "meaning": "再见"
+        }
+      ]
+    }
+  ],
+  "scissors": [
+    {
+      "original": "[医] 剪",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "剪"
+        }
+      ]
+    }
+  ],
+  "action": [
+    {
+      "original": "[计] 方式",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "方式"
+        }
+      ]
+    }
+  ],
+  "lemon": [
+    {
+      "original": "[医] 柠檬",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "柠檬"
+        }
+      ]
+    }
+  ],
+  "chairman": [
+    {
+      "original": "[经] 主席",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "主席"
+        }
+      ]
+    }
+  ],
+  "prediction": [
+    {
+      "original": "[化] 预测",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "预测"
+        }
+      ]
+    }
+  ],
+  "feature": [
+    {
+      "original": "[计] 特性",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "特性"
+        }
+      ]
+    }
+  ],
+  "penny": [
+    {
+      "original": "[经] 便士",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "便士"
+        }
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "original": "[计] 菜单",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "菜单"
+        }
+      ]
+    }
+  ],
+  "my": [
+    {
+      "original": "[医] 迈尔(热容单位)",
+      "replacement": []
+    }
+  ],
+  "match": [
+    {
+      "original": "[计] 比较",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "比较"
+        }
+      ]
+    }
+  ],
+  "bit": [
+    {
+      "original": "bite的过去式和过去分词",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "bite 的过去式（咬）"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "比特；二进制位"
+        }
+      ]
+    },
+    {
+      "original": "[计] 比特, 二进制数位, 机内测试",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "bite 的过去式（咬）"
+        },
+        {
+          "part_of_speech": "noun",
+          "meaning": "比特；二进制位"
+        }
+      ]
+    }
+  ],
+  "host": [
+    {
+      "original": "[计] 主机, 宿主机",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "主机, 宿主机"
+        }
+      ]
+    }
+  ],
+  "choice": [
+    {
+      "original": "[计] DOS内部命令:在批处理文件中",
+      "replacement": []
+    },
+    {
+      "original": "该命令用于提示用户作出选择, 决定批处理文件的流程",
+      "replacement": []
+    }
+  ],
+  "ability": [
+    {
+      "original": "[经] 能力, 才能",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "能力, 才能"
+        }
+      ]
+    }
+  ],
+  "unit": [
+    {
+      "original": "[计] 单元常数; 部件",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "单元常数; 部件"
+        }
+      ]
+    }
+  ],
+  "fat": [
+    {
+      "original": "[计] 文件分配表",
+      "replacement": []
+    }
+  ],
+  "encourage": [
+    {
+      "original": "[法] 怂恿, 煽动, 助长",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "怂恿, 煽动, 助长"
+        }
+      ]
+    }
+  ],
+  "concert": [
+    {
+      "original": "[计] 美国北卡罗来纳州Internet网",
+      "replacement": []
+    }
+  ],
+  "envelope": [
+    {
+      "original": "[医] 膜, 包袋",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "膜, 包袋"
+        }
+      ]
+    }
+  ],
+  "pollution": [
+    {
+      "original": "[化] 污染",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "污染"
+        }
+      ]
+    }
+  ],
+  "battery": [
+    {
+      "original": "[化] 蓄电池",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "蓄电池"
+        }
+      ]
+    }
+  ],
+  "rural": [
+    {
+      "original": "[法] 农村的, 乡村的, 有关农业的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "农村的, 乡村的, 有关农业的"
+        }
+      ]
+    }
+  ],
+  "blank": [
+    {
+      "original": "[计] 空白",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "空白"
+        }
+      ]
+    }
+  ],
+  "recipe": [
+    {
+      "original": "[医] 取(处方头语), 处方",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "处方；配方"
+        }
+      ]
+    }
+  ],
+  "factory": [
+    {
+      "original": "[经] 工厂, 代理店, 商行在国外的代理处",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "工厂, 代理店, 商行在国外的代理处"
+        }
+      ]
+    }
+  ],
+  "director": [
+    {
+      "original": "[计] 寻向偶极子; 指挥仪",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "寻向偶极子; 指挥仪"
+        }
+      ]
+    }
+  ],
+  "butterfly": [
+    {
+      "original": "[医] 蝶式棉块, 翼形皮癣, 纸蝶",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "蝶式棉块, 翼形皮癣, 纸蝶"
+        }
+      ]
+    }
+  ],
+  "vacation": [
+    {
+      "original": "[法] 假期, 停审期, 休庭期",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "假期, 停审期, 休庭期"
+        }
+      ]
+    }
+  ],
+  "cancer": [
+    {
+      "original": "[医] 癌",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "癌"
+        }
+      ]
+    }
+  ],
+  "pilot": [
+    {
+      "original": "[计] 引导",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "引导"
+        }
+      ]
+    }
+  ],
+  "driver": [
+    {
+      "original": "[化] 驱动器",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "驱动器"
+        }
+      ]
+    }
+  ],
+  "exciting": [
+    {
+      "original": "[电] 激磁",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "励磁的；激磁的（电学用语）"
+        }
+      ]
+    }
+  ],
+  "ice cream": [
+    {
+      "original": "冰淇淋",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "冰淇淋"
+        }
+      ]
+    },
+    {
+      "original": "[化] 冰淇淋",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "冰淇淋"
+        }
+      ]
+    }
+  ],
+  "biscuit": [
+    {
+      "original": "[化] 素坯; 饼干",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "饼干；素坯（陶瓷用语）"
+        }
+      ]
+    }
+  ],
+  "brush": [
+    {
+      "original": "[计] 电刷",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "电刷"
+        }
+      ]
+    }
+  ],
+  "keyboard": [
+    {
+      "original": "[计] 键盘",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "键盘"
+        }
+      ]
+    }
+  ],
+  "boring": [
+    {
+      "original": "[机] 成孔期, 搪孔",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "钻孔；镗孔（机械加工）"
+        }
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "original": "[医] 技术学, 工艺学",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "技术学, 工艺学"
+        }
+      ]
+    }
+  ],
+  "bean": [
+    {
+      "original": "[化] 油嘴; 豆",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "油嘴; 豆"
+        }
+      ]
+    }
+  ],
+  "community": [
+    {
+      "original": "[经] 公众, 共有, 社会",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "公众, 共有, 社会"
+        }
+      ]
+    }
+  ],
+  "relationship": [
+    {
+      "original": "[医] 关系",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "关系"
+        }
+      ]
+    }
+  ],
+  "pollute": [
+    {
+      "original": "[化] 污染",
+      "replacement": [
+        {
+          "part_of_speech": "verb",
+          "meaning": "污染"
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "original": "[医] 人的; 个人的, 自身的",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "人的; 个人的, 自身的"
+        }
+      ]
+    }
+  ],
+  "winner": [
+    {
+      "original": "[法] 取胜者",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "取胜者"
+        }
+      ]
+    }
+  ],
+  "solution": [
+    {
+      "original": "[化] 溶液",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "溶液"
+        }
+      ]
+    }
+  ],
+  "verb": [
+    {
+      "original": "[计] 动词",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "动词"
+        }
+      ]
+    }
+  ],
+  "custom": [
+    {
+      "original": "[计] 定制; 自定义",
+      "replacement": [
+        {
+          "part_of_speech": "noun",
+          "meaning": "定制"
+        },
+        {
+          "part_of_speech": "adjective",
+          "meaning": "定制的；自定义的"
+        }
+      ]
+    }
+  ],
+  "scientific": [
+    {
+      "original": "[计] 科学记数法",
+      "replacement": [
+        {
+          "part_of_speech": "adjective",
+          "meaning": "科学的；科学计数法的（格式）"
+        }
+      ]
+    }
+  ]
+}
