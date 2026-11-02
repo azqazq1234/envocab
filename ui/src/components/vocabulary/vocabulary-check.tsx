@@ -118,28 +118,30 @@ export function VocabularyCheck({
           </Button>
         </div>
       ) : result === null ? null : word ? (
-        <div className="grid h-full min-h-0 w-full max-w-3xl content-start grid-rows-[clamp(4rem,10vw,9rem)_2.5rem_clamp(6rem,16dvh,9rem)_6rem] gap-4 pt-[clamp(1rem,10dvh,6rem)]">
+        <div className="grid h-full min-h-0 w-full max-w-3xl content-start grid-rows-[clamp(4rem,10vw,9rem)_2.5rem_2.5rem_clamp(6rem,16dvh,9rem)_6rem] gap-4 pt-[clamp(1rem,10dvh,6rem)]">
           <div className="flex min-h-0 items-center justify-center">
-            <div className="relative flex min-h-0 max-h-full min-w-0 max-w-[calc(100%-7rem)] items-center sm:max-w-[calc(100%-8rem)]">
+            <div className="flex min-h-0 max-h-full min-w-0 max-w-full items-center">
               <p
                 lang="en"
                 className="min-h-0 min-w-0 max-h-full max-w-full overflow-auto text-[clamp(3rem,8vw,7rem)] leading-tight font-bold text-emerald-700 [overflow-wrap:anywhere]"
               >
                 {word.term}
               </p>
-              <IconButton
-                className="absolute inset-y-0 left-full my-auto ml-6 text-stone-500 active:not-aria-[haspopup]:translate-y-0 sm:ml-8"
-                aria-label={`Play pronunciation of ${word.term}`}
-                title="Play pronunciation (US)"
-                onClick={pronunciation.replay}
-              >
-                <Volume2 aria-hidden="true" className="size-5" />
-              </IconButton>
             </div>
           </div>
           <p lang="en" className="text-xl leading-relaxed text-stone-500 sm:text-2xl">
             {word.phonetic ? `[${word.phonetic}]` : null}
           </p>
+          <div className="flex items-center justify-center">
+            <IconButton
+              className="text-stone-500"
+              aria-label={`Play pronunciation of ${word.term}`}
+              title="Play pronunciation (US)"
+              onClick={pronunciation.replay}
+            >
+              <Volume2 aria-hidden="true" className="size-5" />
+            </IconButton>
+          </div>
           <div className="min-h-0 w-full overflow-y-auto" aria-live="polite">
             {pronunciation.message ? (
               <p role="status" className="mb-2 text-sm text-stone-500">{pronunciation.message}</p>
