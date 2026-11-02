@@ -1,0 +1,55 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: deploy/server.Dockerfile
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?Set the existing PostgreSQL connection URL}
+    expose:
+      - "8000"
+    networks:
+      coolify:
+        aliases:
+          - envocab-api
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/groups', timeout=5).read()"
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  ui:
+    build:
+      context: .
+      dockerfile: deploy/ui.Dockerfile
+      args:
+        API_URL: http://envocab-api:8000
+    restart: unless-stopped
+    environment:
+      API_URL: http://envocab-api:8000
+    expose:
+      - "3000"
+    depends_on:
+      api:
+        condition: service_healthy
+    networks:
+      - coolify
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:3000/api/groups').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+networks:
+  coolify:
+    external: true
