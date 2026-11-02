@@ -805,19 +805,19 @@ def test_random_word_handles_empty_single_and_excluded_words(client):
     db.flush()
     response = api.get("/api/words/random", params={"group": slug})
     assert response.status_code == 200
-    assert response.json() == {"word": None, "total": 0}
+    assert response.json() == {"word": None, "total": 0, "next_due": None}
     first = api.post(f"/api/groups/{slug}/words", json=payload()).json()
     single = api.get(
         "/api/words/random", params={"group": slug, "exclude_id": first["id"]}
     ).json()
-    assert single == {"word": first, "total": 1}
+    assert single == {"word": first, "total": 1, "next_due": None}
     second = api.post(f"/api/groups/{slug}/words", json=payload()).json()
     for previous, expected in [(first, second), (second, first)]:
         response = api.get(
             "/api/words/random", params={"group": slug, "exclude_id": previous["id"]}
         )
         assert response.status_code == 200
-        assert response.json() == {"word": expected, "total": 2}
+        assert response.json() == {"word": expected, "total": 2, "next_due": None}
     invalid_exclusion = api.get(
         "/api/words/random", params={"group": slug, "exclude_id": 999999999}
     ).json()
@@ -841,3 +841,111 @@ def test_random_word_handles_empty_single_and_excluded_words(client):
 def test_invalid_pagination(client, params):
     api, _ = client
     assert api.get("/api/words", params=params).status_code == 422
+
+
+@pytest.mark.parametrize("answer,rating,seconds", [("no", 1, 60), ("not_sure", 2, 330), ("yes", 3, 600)])
+def test_fsrs_answer_persists_schedule_and_review_history(client, answer, rating, seconds):
+    from datetime import datetime, timedelta
+
+    from app.models import LearningProgress, WordReview
+
+    api, db = client
+    user_id = api.get("/api/auth/me").json()["id"]
+    word = api.post("/api/groups/junior/words", json=payload()).json()
+    response = api.post(f"/api/words/{word['id']}/progress", json={"answer": answer})
+    assert response.status_code == 200
+    db.expire_all()
+    progress = db.get(LearningProgress, (user_id, word["id"]))
+    logs = list(db.scalars(select(WordReview).where(WordReview.user_id == user_id, WordReview.word_id == word["id"])))
+    assert len(logs) == 1
+    log = logs[0]
+    assert log.rating == rating
+    assert log.card_after == progress.fsrs_card
+    assert log.card_before["last_review"] is None
+    assert progress.due_at == log.reviewed_at + timedelta(seconds=seconds)
+    assert datetime.fromisoformat(response.json()["next_review_at"]) == progress.due_at
+    assert progress.attempts == 1
+    api.post(f"/api/words/{word['id']}/progress", json={"answer": "yes"})
+    logs = list(db.scalars(select(WordReview).where(WordReview.user_id == user_id, WordReview.word_id == word["id"]).order_by(WordReview.id)))
+    assert len(logs) == 2
+    assert logs[1].card_before == logs[0].card_after
+    assert db.get(LearningProgress, (user_id, word["id"])).attempts == 2
+    assert api.delete(f"/api/words/{word['id']}?group=all").status_code == 204
+    assert not list(db.scalars(select(WordReview).where(WordReview.word_id == word["id"])))
+
+
+def test_fsrs_selection_prioritizes_due_reviews_then_new_words(client):
+    from datetime import UTC, datetime, timedelta
+
+    from app.models import LearningProgress, VocabularyGroup
+
+    api, db = client
+    user_id = api.get("/api/auth/me").json()["id"]
+    slug = "fsrs-" + uuid4().hex[:10]
+    db.add(VocabularyGroup(slug=slug, name="FSRS test"))
+    db.flush()
+    due, future, new = [api.post(f"/api/groups/{slug}/words", json=payload()).json()["id"] for _ in range(3)]
+    for word_id in (due, future):
+        assert api.post(f"/api/words/{word_id}/progress", json={"answer": "yes"}).status_code == 200
+    progress = db.get(LearningProgress, (user_id, due))
+    progress.due_at = datetime.now(UTC) - timedelta(minutes=1)
+    progress.fsrs_card = {**progress.fsrs_card, "due": progress.due_at.isoformat()}
+    db.flush()
+    assert api.get("/api/words/random", params={"group": slug}).json()["word"]["id"] == due
+    api.post(f"/api/words/{due}/progress", json={"answer": "yes"})
+    assert api.get("/api/words/random", params={"group": slug}).json()["word"]["id"] == new
+    api.post(f"/api/words/{new}/progress", json={"answer": "yes"})
+    result = api.get("/api/words/random", params={"group": slug}).json()
+    assert result["word"] is None
+    assert result["total"] == 3
+    expected_due = db.scalar(select(func.min(LearningProgress.due_at)).where(LearningProgress.user_id == user_id, LearningProgress.word_id.in_([due, future, new])))
+    assert datetime.fromisoformat(result["next_due"]) == expected_due
+    other = api.post("/api/auth/login", json={"username": "fsrs_" + uuid4().hex}).json()["id"]
+    db.add(LearningProgress(user_id=other, word_id=future, score=2, attempts=3))
+    db.flush()
+    assert api.get("/api/words/random", params={"group": slug}).json()["word"]["id"] == future
+    api.post("/api/auth/logout")
+    assert api.get("/api/words/random", params={"group": slug}).json()["word"]["id"] in {due, future, new}
+
+
+def test_fsrs_single_word_waits_until_due_instead_of_repeating_early(client):
+    from datetime import UTC, datetime, timedelta
+
+    from app.models import LearningProgress, VocabularyGroup
+
+    api, db = client
+    user_id = api.get("/api/auth/me").json()["id"]
+    slug = "single-" + uuid4().hex[:10]
+    db.add(VocabularyGroup(slug=slug, name="Single test"))
+    db.flush()
+    word = api.post(f"/api/groups/{slug}/words", json=payload()).json()
+    api.post(f"/api/words/{word['id']}/progress", json={"answer": "no"})
+    result = api.get("/api/words/random", params={"group": slug, "exclude_id": word["id"]}).json()
+    assert result["word"] is None and result["next_due"]
+    progress = db.get(LearningProgress, (user_id, word["id"]))
+    progress.due_at = datetime.now(UTC) - timedelta(seconds=1)
+    progress.fsrs_card = {**progress.fsrs_card, "due": progress.due_at.isoformat()}
+    db.flush()
+    result = api.get("/api/words/random", params={"group": slug, "exclude_id": word["id"]}).json()
+    assert result["word"]["id"] == word["id"]
+
+
+def test_fsrs_legacy_progress_remains_eligible_without_fabricated_history(client):
+    from app.models import LearningProgress, VocabularyGroup, WordReview
+
+    api, db = client
+    user_id = api.get("/api/auth/me").json()["id"]
+    slug = "legacy-" + uuid4().hex[:10]
+    db.add(VocabularyGroup(slug=slug, name="Legacy test"))
+    db.flush()
+    word = api.post(f"/api/groups/{slug}/words", json=payload()).json()
+    db.add(LearningProgress(user_id=user_id, word_id=word["id"], score=5, attempts=12))
+    db.flush()
+    result = api.get("/api/words/random", params={"group": slug}).json()
+    assert result["word"]["score"] == 5
+    assert not list(db.scalars(select(WordReview).where(WordReview.user_id == user_id, WordReview.word_id == word["id"])))
+    api.post(f"/api/words/{word['id']}/progress", json={"answer": "yes"})
+    progress = db.get(LearningProgress, (user_id, word["id"]))
+    assert progress.attempts == 13
+    assert progress.fsrs_card and progress.due_at
+    assert len(list(db.scalars(select(WordReview).where(WordReview.user_id == user_id, WordReview.word_id == word["id"])))) == 1

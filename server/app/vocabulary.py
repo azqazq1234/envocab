@@ -1,11 +1,12 @@
 import hashlib
 import re
 import unicodedata
+from datetime import UTC, datetime
 from typing import Annotated, Literal
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Response
 from pydantic import BaseModel, Field, field_validator
-from sqlalchemy import Select, cast, delete, exists, func, literal, or_, select
+from sqlalchemy import Select, case, cast, delete, exists, func, literal, or_, select
 from sqlalchemy.dialects.postgresql import JSONPATH, insert
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
@@ -20,6 +21,7 @@ from app.models import (
     WordGroup,
     WordMeaning,
 )
+from app.review_schedule import schedule_answer
 from app.reviewed_vocabulary import canonical_term
 
 router = APIRouter(prefix="/api")
@@ -71,6 +73,7 @@ class WordOut(BaseModel):
     groups: list[GroupOut]
     score: int = 0
     studied: bool = False
+    next_review_at: datetime | None = None
     senior_type: Literal["core", "extend", "basic"] | None = None
     senior_types: list[Literal["core", "extend", "basic"]] = Field(default_factory=list)
 
@@ -93,6 +96,7 @@ class GroupSummary(GroupOut):
 class RandomWord(BaseModel):
     word: WordOut | None
     total: int
+    next_due: datetime | None = None
 
 
 def words_in_group(db: Session, group: str) -> Select:
@@ -164,6 +168,7 @@ def serialize_words(
             id=word.id,
             score=progress[word.id].score if word.id in progress else 0,
             studied=word.id in progress,
+            next_review_at=progress[word.id].due_at if word.id in progress else None,
             term=word.term,
             phonetic=word.phonetic,
             meanings=meanings[word.id],
@@ -301,12 +306,41 @@ def random_word(
     response.headers["Cache-Control"] = "no-store"
     query = words_in_group(db, group)
     total = db.scalar(select(func.count()).select_from(query.subquery()))
-    if total > 1 and exclude_id is not None:
-        query = query.where(Word.id != exclude_id)
-    word = db.scalar(query.order_by(func.random()).limit(1))
+    next_due = None
+    if user is not None:
+        query = query.outerjoin(
+            LearningProgress,
+            (LearningProgress.word_id == Word.id)
+            & (LearningProgress.user_id == user.id),
+        )
+        now = datetime.now(UTC)
+        previous_last = case((Word.id == exclude_id, 1), else_=0)
+        # Due learning/relearning cards come first, then due reviews. Legacy
+        # progress without a due date is eligible for its first FSRS review.
+        due = query.where(
+            LearningProgress.word_id.is_not(None),
+            or_(LearningProgress.due_at.is_(None), LearningProgress.due_at <= now),
+        )
+        learning_first = case(
+            (LearningProgress.fsrs_card["state"].as_integer().in_([1, 3]), 0),
+            else_=1,
+        )
+        word = db.scalar(due.order_by(
+            learning_first, previous_last, LearningProgress.due_at.asc().nulls_first(), Word.id
+        ).limit(1))
+        if word is None:
+            word = db.scalar(query.where(LearningProgress.word_id.is_(None))
+                .order_by(previous_last, func.random()).limit(1))
+        if word is None:
+            next_due = db.scalar(query.with_only_columns(func.min(LearningProgress.due_at)))
+    else:
+        if total > 1 and exclude_id is not None:
+            query = query.where(Word.id != exclude_id)
+        word = db.scalar(query.order_by(func.random()).limit(1))
     return RandomWord(
         word=serialize_words(db, [word], user)[0] if word is not None else None,
         total=total,
+        next_due=next_due,
     )
 
 
@@ -490,27 +524,14 @@ class AnswerInput(BaseModel):
     dependencies=[Depends(require_mutation_header)],
 )
 def record_answer(word_id: int, data: AnswerInput, db: DB, user: CurrentUser):
-    # Serialize answers and vocabulary deletion for this word; increment atomically.
+    # Serialize answers and vocabulary deletion; persist state and log atomically.
     word = lock_word(db, word_id)
-    change = {"yes": 1, "not_sure": 0, "no": -1}[data.answer]
-    db.execute(
-        insert(LearningProgress)
-        .values(
-            user_id=user.id,
-            word_id=word_id,
-            score=max(0, change),
-            attempts=1,
-        )
-        .on_conflict_do_update(
-            index_elements=[LearningProgress.user_id, LearningProgress.word_id],
-            set_={
-                "score": func.greatest(
-                    0, func.least(5, LearningProgress.score + change)
-                ),
-                "attempts": LearningProgress.attempts + 1,
-                "updated_at": func.now(),
-            },
-        )
-    )
+    progress = db.get(LearningProgress, (user.id, word_id))
+    if progress is None:
+        progress = LearningProgress(user_id=user.id, word_id=word_id, attempts=0)
+        db.add(progress)
+    review = schedule_answer(progress, data.answer)
+    db.flush()
+    db.add(review)
     db.commit()
     return serialize_words(db, [word], user)[0]

@@ -5,6 +5,8 @@ from sqlalchemy import (
     CheckConstraint,
     DateTime,
     ForeignKey,
+    ForeignKeyConstraint,
+    Index,
     Integer,
     String,
     Text,
@@ -98,6 +100,7 @@ class LearningProgress(Base):
     __tablename__ = "learning_progress"
     __table_args__ = (
         CheckConstraint("score BETWEEN 0 AND 5", name="ck_learning_score"),
+        Index("ix_learning_progress_user_due", "user_id", "due_at"),
     )
 
     user_id: Mapped[int] = mapped_column(
@@ -111,3 +114,26 @@ class LearningProgress(Base):
     updated_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now()
     )
+    fsrs_card: Mapped[dict | None] = mapped_column(JSONB)
+    due_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+
+
+class WordReview(Base):
+    __tablename__ = "word_reviews"
+    __table_args__ = (
+        ForeignKeyConstraint(
+            ["user_id", "word_id"],
+            ["learning_progress.user_id", "learning_progress.word_id"],
+            ondelete="CASCADE",
+        ),
+        CheckConstraint("rating BETWEEN 1 AND 4", name="ck_word_review_rating"),
+        Index("ix_word_reviews_user_word", "user_id", "word_id"),
+    )
+
+    id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    user_id: Mapped[int] = mapped_column(BigInteger)
+    word_id: Mapped[int] = mapped_column(BigInteger)
+    reviewed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    rating: Mapped[int] = mapped_column(Integer)
+    card_before: Mapped[dict] = mapped_column(JSONB)
+    card_after: Mapped[dict] = mapped_column(JSONB)

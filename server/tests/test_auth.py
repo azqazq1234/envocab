@@ -87,7 +87,7 @@ def test_permissions_are_enforced_on_server(client):
     assert api.delete(f"/api/words/{word_id}?group=all").status_code == 204
 
 
-def test_progress_isolated_persistent_clamped_and_shared_across_groups(client):
+def test_fsrs_progress_isolated_persistent_and_shared_across_groups(client):
     api, db = client
     word, data = create_word(api)
     word_id = word["id"]
@@ -98,18 +98,18 @@ def test_progress_isolated_persistent_clamped_and_shared_across_groups(client):
     for _ in range(7):
         response = api.post(f"/api/words/{word_id}/progress", json={"answer": "yes"})
         assert response.status_code == 200
-    assert response.json()["score"] == 5
+    assert 1 <= response.json()["score"] < 5
     assert response.json()["studied"] is True
-    assert api.post(f"/api/words/{word_id}/progress", json={"answer": "not_sure"}).json()["score"] == 5
-    assert api.post(f"/api/words/{word_id}/progress", json={"answer": "no"}).json()["score"] == 4
+    assert api.post(f"/api/words/{word_id}/progress", json={"answer": "not_sure"}).status_code == 200
+    assert api.post(f"/api/words/{word_id}/progress", json={"answer": "no"}).json()["score"] == 0
     for slug in ["junior", "senior", "all"]:
         listed = api.get("/api/words", params={"group": slug, "q": word["term"]}).json()["items"]
-        assert len(listed) == 1 and listed[0]["score"] == 4
+        assert len(listed) == 1 and listed[0]["score"] == 0
     groups = {g["slug"]: g for g in api.get("/api/groups?include_all=true").json()}
     for slug in ["junior", "senior", "all"]:
         assert groups[slug]["studied"] == baseline[slug]["studied"] + 1
-        assert groups[slug]["score_counts"][4] == baseline[slug]["score_counts"][4] + 1
-        assert groups[slug]["completion"] == pytest.approx(4 / (groups[slug]["total"] * 5) * 100)
+        assert groups[slug]["score_counts"][0] == baseline[slug]["score_counts"][0]
+        assert groups[slug]["completion"] == 0
     second = login(api, "other_" + uuid4().hex)
     assert second["id"] != first["id"]
     own = api.get("/api/words", params={"q": word["term"]}).json()["items"][0]
@@ -117,7 +117,7 @@ def test_progress_isolated_persistent_clamped_and_shared_across_groups(client):
     api.post(f"/api/words/{word_id}/progress", json={"answer": "no"})
     assert db.get(LearningProgress, (second["id"], word_id)).score == 0
     assert login(api, username) == first
-    assert api.get("/api/words", params={"q": word["term"]}).json()["items"][0]["score"] == 4
+    assert api.get("/api/words", params={"q": word["term"]}).json()["items"][0]["score"] == 0
     assert db.get(LearningProgress, (first["id"], word_id)).attempts == 9
     login(api, "harvey")
     assert api.delete(f"/api/words/{word_id}?group=all").status_code == 204

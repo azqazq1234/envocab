@@ -12,9 +12,16 @@ export type SavedWord = WordInput & {
   id: number;
   score: number;
   studied: boolean;
+  next_review_at?: string | null;
   groups: { slug: string; name: string }[];
   senior_type: "core" | "extend" | "basic" | null;
   senior_types: ("core" | "extend" | "basic")[];
+};
+
+export type CheckResult = {
+  word: SavedWord | null;
+  total: number;
+  next_due: string | null;
 };
 
 export type DictionaryEntry = WordInput & { source: string };
@@ -43,7 +50,7 @@ export function getRandomWord(
 ) {
   const params = new URLSearchParams({ group });
   if (excludeId !== null) params.set("exclude_id", String(excludeId));
-  return apiRequest<{ word: SavedWord | null; total: number }>(
+  return apiRequest<CheckResult>(
     `/words/random?${params}`,
     { signal, cache: "no-store" },
   );
