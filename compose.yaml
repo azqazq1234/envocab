@@ -40,7 +40,9 @@ services:
       api:
         condition: service_healthy
     networks:
-      - coolify
+      coolify:
+        aliases:
+          - envocab-ui
     healthcheck:
       test:
         - CMD
