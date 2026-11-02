@@ -141,3 +141,18 @@ test("API helper handles unavailable servers and malformed success responses", a
   fetch.mock.mockImplementation(async () => new Response("not json"));
   await assert.rejects(apiRequest("/words"), /invalid response/);
 });
+
+
+test("mutations include the origin guard header and preserve JSON headers", async (t) => {
+  const fetch = t.mock.method(globalThis, "fetch", async () => Response.json({ id: 1 }));
+  await apiRequest("/auth/login", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ username: "learner" }),
+  });
+  const headers = new Headers(fetch.mock.calls[0].arguments[1].headers);
+  assert.equal(headers.get("X-Envocab-Request"), "1");
+  assert.equal(headers.get("Content-Type"), "application/json");
+  await apiRequest("/auth/me");
+  assert.equal(new Headers(fetch.mock.calls[1].arguments[1].headers).has("X-Envocab-Request"), false);
+});

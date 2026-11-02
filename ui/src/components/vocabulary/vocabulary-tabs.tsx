@@ -1,5 +1,7 @@
 "use client";
 
+import { useAuth } from "@/components/auth/auth-provider";
+import { useGroupProgress } from "@/hooks/use-group-progress";
 import { PageHeader } from "@/components/layout/page-header";
 import { AddWordDialog } from "@/components/vocabulary/add-word-dialog";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -15,6 +17,7 @@ export function VocabularyTabs({
   groupLabel: string;
   groupSlug: string;
 }) {
+  const { user } = useAuth();
   const [view, setView] = useState("check");
   const [revision, setRevision] = useState(0);
   const [checkRevision, setCheckRevision] = useState(0);
@@ -22,9 +25,13 @@ export function VocabularyTabs({
     id: number;
     revision: number;
   } | null>(null);
-  const [total, setTotal] = useState<number | null>(null);
   const [groupFilter, setGroupFilter] = useState<string[]>([]);
   const [typeFilter, setTypeFilter] = useState<string[]>([]);
+
+  const { groups } = useGroupProgress(revision, groupSlug === "all");
+  const groupProgress = groups?.find((group) => group.slug === groupSlug);
+  const completion = groupProgress?.completion;
+  const percent = completion === undefined ? null : Math.round(completion);
 
   return (
     <Tabs
@@ -66,34 +73,36 @@ export function VocabularyTabs({
             aria-label={`${groupLabel} learning progress`}
             aria-valuemin={0}
             aria-valuemax={100}
-            aria-valuenow={0}
+            aria-valuenow={percent ?? undefined}
             className="h-2 min-w-0 flex-1 overflow-hidden rounded-full bg-emerald-100"
           >
             <div
               className="h-full rounded-full bg-emerald-700"
-              style={{ width: "0%" }}
+              style={{ width: `${completion ?? 0}%` }}
             />
           </div>
           <span className="shrink-0 text-sm text-stone-500 tabular-nums">
-            {total === null ? "—" : "0%"}
+            {percent === null ? "—" : `${percent}%`}
           </span>
         </div>
-        <div className="order-5 flex w-full min-w-0 basis-full justify-center [&>div]:w-4/5 @[1100px]/vocabulary:col-start-5 @[1100px]/vocabulary:basis-auto @[1100px]/vocabulary:[&>div]:w-full">
-          <VocabularySearch
-            groupSlug={groupSlug}
-            memberOf={groupFilter}
-            seniorTypes={typeFilter}
-            groupLabel={groupLabel}
-            onSelect={(word) => {
-              setFocusTarget((previous) => ({
-                id: word.id,
-                revision: (previous?.revision ?? 0) + 1,
-              }));
-              setView("list");
-            }}
-          />
-        </div>
-        {groupSlug !== "all" ? (
+        {view === "list" ? (
+          <div className="order-5 flex w-full min-w-0 basis-full justify-center [&>div]:w-4/5 @[1100px]/vocabulary:col-start-5 @[1100px]/vocabulary:basis-auto @[1100px]/vocabulary:[&>div]:w-full">
+            <VocabularySearch
+              groupSlug={groupSlug}
+              memberOf={groupFilter}
+              seniorTypes={typeFilter}
+              groupLabel={groupLabel}
+              onSelect={(word) => {
+                setFocusTarget((previous) => ({
+                  id: word.id,
+                  revision: (previous?.revision ?? 0) + 1,
+                }));
+                setView("list");
+              }}
+            />
+          </div>
+        ) : null}
+        {user?.is_admin && groupSlug !== "all" ? (
           <div className="order-4 ml-auto size-9 shrink-0 @[1100px]/vocabulary:absolute @[1100px]/vocabulary:top-2.5 @[1100px]/vocabulary:right-2.5">
             <AddWordDialog
               groupLabel={groupLabel}
@@ -112,7 +121,6 @@ export function VocabularyTabs({
           <VocabularyCheck
             requestRevision={checkRevision}
             groupSlug={groupSlug}
-            onTotalChange={setTotal}
           />
         ) : null}
       </TabsContent>
@@ -130,7 +138,6 @@ export function VocabularyTabs({
           }}
           additionRevision={revision}
           focusTarget={focusTarget}
-          onTotalChange={setTotal}
           groupSlug={groupSlug}
           groupLabel={groupLabel}
         />

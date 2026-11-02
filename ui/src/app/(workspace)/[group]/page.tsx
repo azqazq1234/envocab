@@ -17,7 +17,7 @@ export default async function GroupPage({
   return (
     <section
       aria-labelledby="vocabulary-title"
-      className="h-[calc(100dvh-3.5rem)] min-h-0 min-w-0 bg-[#fcfcfc]"
+      className="h-dvh min-h-0 sm:h-[calc(100dvh-3.5rem)] min-w-0 bg-[#fcfcfc]"
     >
       <VocabularyTabs
         key={group.slug}

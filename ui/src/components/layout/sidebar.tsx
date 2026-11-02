@@ -42,24 +42,16 @@ const groups = [
   })),
 ];
 
-export function Sidebar({
-  collapsed,
-  onToggle,
-}: {
-  collapsed: boolean;
-  onToggle: () => void;
+export function SidebarNavigation({ collapsed = false, onNavigate, id }: {
+  collapsed?: boolean;
+  onNavigate?: () => void;
+  id: string;
 }) {
   const pathname = usePathname();
 
   return (
-    <aside
-      className={cn(
-        "fixed bottom-0 left-0 top-14 z-30 flex flex-col border-r bg-background pt-1 pl-2 pr-[7px] transition-[width] duration-200 motion-reduce:transition-none",
-        collapsed ? "w-16" : "w-40 sm:w-56",
-      )}
-    >
       <nav
-        id="sidebar-navigation"
+        id={id}
         aria-label="Sidebar navigation"
         className="min-h-0 flex-1 overflow-y-auto"
       >
@@ -72,6 +64,7 @@ export function Sidebar({
               <Link
                 key={href}
                 href={href}
+                onClick={onNavigate}
                 aria-current={active ? "page" : undefined}
                 aria-label={label}
                 title={collapsed ? label : undefined}
@@ -96,6 +89,24 @@ export function Sidebar({
           })}
         </div>
       </nav>
+  );
+}
+
+export function Sidebar({
+  collapsed,
+  onToggle,
+}: {
+  collapsed: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <aside
+      className={cn(
+        "fixed bottom-0 left-0 top-14 z-30 hidden flex-col border-r bg-background pt-1 pl-2 pr-[7px] transition-[width] duration-200 motion-reduce:transition-none sm:flex",
+        collapsed ? "w-16" : "w-56",
+      )}
+    >
+      <SidebarNavigation id="sidebar-navigation" collapsed={collapsed} />
       <div
         className={cn(
           "mt-4 flex h-[var(--app-footer-height)] shrink-0 items-center border-t",

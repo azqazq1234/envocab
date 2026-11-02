@@ -10,6 +10,8 @@ type WordInput = {
 
 export type SavedWord = WordInput & {
   id: number;
+  score: number;
+  studied: boolean;
   groups: { slug: string; name: string }[];
   senior_type: "core" | "extend" | "basic" | null;
   senior_types: ("core" | "extend" | "basic")[];
@@ -29,6 +31,9 @@ export type GroupSummary = {
   slug: string;
   name: string;
   total: number;
+  studied: number;
+  completion: number;
+  score_counts: number[];
 };
 
 export function getRandomWord(
@@ -107,10 +112,15 @@ async function fetchJson<T>(
   init: RequestInit | undefined,
   fallback: string,
 ): Promise<T> {
-  const response = await fetch(`/api${path}`, init);
+  const headers = new Headers(init?.headers);
+  if ((init?.method ?? "GET").toUpperCase() !== "GET") headers.set("X-Envocab-Request", "1");
+  const response = await fetch(`/api${path}`, { ...init, headers });
   if (response.status === 204) return undefined as T;
   const data = await response.json().catch(() => null);
   if (!response.ok) {
+    if (response.status === 401 && typeof window !== "undefined") {
+      window.dispatchEvent(new Event("envocab-session-expired"));
+    }
     const detail = data?.detail;
     const message =
       typeof detail === "string"

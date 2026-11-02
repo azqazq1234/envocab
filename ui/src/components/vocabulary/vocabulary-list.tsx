@@ -1,15 +1,16 @@
 "use client";
 
+import { useAuth } from "@/components/auth/auth-provider";
 import dynamic from "next/dynamic";
 import { Triangle } from "lucide-react";
 import type { WordActionMode } from "@/components/vocabulary/word-dialog";
-import { useState } from "react";
+import { Fragment, useId, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { VocabularyPagination } from "@/components/vocabulary/vocabulary-pagination";
-import { Checkbox } from "@/components/ui/checkbox";
 import { WordActions } from "@/components/vocabulary/word-actions";
 import { LearningScore } from "@/components/vocabulary/learning-score";
 import { WordMeanings } from "./word-meanings";
+import { WordTranslation } from "./word-translation";
 import {
   useVocabularyList,
   type WordFocusTarget,
@@ -30,14 +31,10 @@ const WordDialog = dynamic(() =>
   import("./word-dialog").then((module) => module.WordDialog),
 );
 
-const selectionCheckboxClassName =
-  "cursor-pointer data-checked:border-emerald-600 data-checked:bg-emerald-600 data-checked:text-white data-indeterminate:border-emerald-600 data-indeterminate:bg-emerald-600 data-indeterminate:text-white dark:data-checked:bg-emerald-600";
-
 export function VocabularyList({
   groupSlug,
   groupLabel,
   additionRevision,
-  onTotalChange,
   focusTarget,
   groupFilter,
   onGroupFilterChange,
@@ -47,18 +44,19 @@ export function VocabularyList({
   groupSlug: string;
   groupLabel: string;
   additionRevision: number;
-  onTotalChange: (total: number) => void;
   focusTarget: WordFocusTarget;
   groupFilter: string[];
   onGroupFilterChange: (value: string[]) => void;
   typeFilter: string[];
   onTypeFilterChange: (value: string[]) => void;
 }) {
+  const { user, refreshProgress, progressRevision } = useAuth();
+  const meaningsId = useId();
+  const [expandedWord, setExpandedWord] = useState<string | null>(null);
   const [action, setAction] = useState<{
     word: SavedWord;
     mode: WordActionMode;
   } | null>(null);
-  const [selected, setSelected] = useState<Set<number>>(() => new Set());
   const {
     scrollRef,
     data,
@@ -76,87 +74,60 @@ export function VocabularyList({
     changePageSize,
     refresh,
   } = useVocabularyList({
+    refreshRevision: progressRevision,
     groupSlug,
     additionRevision,
     focusTarget,
-    onTotalChange,
     memberOf: groupFilter.length ? groupFilter : undefined,
     seniorTypes: typeFilter.length ? typeFilter : undefined,
   });
-  const selectedOnPage = words.filter((word) => selected.has(word.id)).length;
-  const allSelected = words.length > 0 && selectedOnPage === words.length;
-  const showClassification = groupSlug === "all" || groupSlug === "senior";
+  const showGroups = groupSlug === "all";
+  const showTypes = groupSlug === "senior";
+  const showClassification = showGroups || showTypes;
   const showEmpty = empty && !measuring;
+  const canManage = Boolean(user?.is_admin);
+  const columnCount = 3 + Number(showClassification) + Number(canManage);
 
-  function toggleRows(ids: number[], checked: boolean) {
-    setSelected((previous) => {
-      const next = new Set(previous);
-      for (const id of ids) {
-        if (checked) next.add(id);
-        else next.delete(id);
-      }
-      return next;
-    });
-  }
-
-  function refreshAfterChange(id: number, deleted: boolean) {
-    if (deleted) {
-      toggleRows([id], false);
-      if (words.length === 1 && currentPage > 1)
-        navigateToPage(currentPage - 1);
+  function refreshAfterChange(_id: number, deleted: boolean) {
+    refreshProgress();
+    if (deleted && words.length === 1 && currentPage > 1) {
+      navigateToPage(currentPage - 1);
     }
-    refresh();
   }
 
   return (
     <div
       className="vocabulary-list flex h-full min-h-0 flex-col overflow-hidden rounded-xl bg-white"
-      data-show-groups={groupSlug === "all"}
-      data-show-types={groupSlug === "senior"}
+      data-can-manage={canManage}
+      data-show-groups={showGroups}
       aria-busy={loading}
     >
       <div
         className="vocabulary-table-viewport relative min-h-0 flex-1 overflow-hidden"
-        data-empty={showEmpty}
       >
         <div
           ref={scrollRef}
-          className={`h-full overflow-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [&_[data-slot=table-container]]:overflow-visible ${showEmpty ? "[&_[data-slot=table-container]]:h-full" : ""}`}
+          className={`h-full overflow-x-hidden overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [&_[data-slot=table-container]]:overflow-visible ${showEmpty ? "[&_[data-slot=table-container]]:h-full" : ""}`}
         >
           <Table
-            className={`vocabulary-table table-fixed min-w-[calc(var(--fixed-width)+max(var(--chinese-min-width),var(--chinese-content-width,0px)))] ${showEmpty ? "h-full" : ""}`}
+            className={`vocabulary-table table-fixed w-full ${showEmpty ? "h-full" : ""}`}
             aria-label={`${groupLabel} vocabulary list`}
           >
             <colgroup>
-              <col className="w-[var(--selection-width)]" />
               <col className="w-[var(--score-width)]" />
               <col className="w-[var(--english-width)]" />
               <col />
               {showClassification ? (
-                <col className="w-[var(--groups-width)]" />
+                <col data-column="classification" className="w-[var(--groups-width)]" />
               ) : null}
-              <col className="w-[var(--actions-width)]" />
+              {canManage ? <col className="w-[var(--actions-width)]" /> : null}
             </colgroup>
             <TableHeader className="h-10 [&_th]:text-sm [&_th]:font-normal">
               <TableRow className="hover:bg-transparent">
-                <TableHead scope="col">
-                  <Checkbox
-                    aria-label="Select all words on this page"
-                    className={selectionCheckboxClassName}
-                    disabled={empty}
-                    checked={allSelected}
-                    indeterminate={selectedOnPage > 0 && !allSelected}
-                    onCheckedChange={(checked) =>
-                      toggleRows(
-                        words.map((word) => word.id),
-                        checked,
-                      )
-                    }
-                  />
-                </TableHead>
-                <TableHead scope="col">Score</TableHead>
+                <TableHead scope="col" data-column="score">Score</TableHead>
                 <TableHead
                   scope="col"
+                  data-column="english"
                   aria-sort={
                     sort === null
                       ? "none"
@@ -191,41 +162,33 @@ export function VocabularyList({
                     </button>
                   </div>
                 </TableHead>
-                <TableHead scope="col">Chinese</TableHead>
-                {groupSlug === "all" ? (
-                  <TableHead scope="col">
+                <TableHead scope="col" data-column="chinese">Chinese</TableHead>
+                {showClassification ? (
+                  <TableHead scope="col" data-column="classification">
                     <GroupFilter
-                      value={groupFilter}
-                      onValueChange={onGroupFilterChange}
+                      label={showTypes ? "Types" : undefined}
+                      allLabel={showTypes ? "All types" : undefined}
+                      options={showTypes ? seniorTypes : undefined}
+                      value={showTypes ? typeFilter : groupFilter}
+                      onValueChange={showTypes ? onTypeFilterChange : onGroupFilterChange}
                     />
                   </TableHead>
                 ) : null}
-                {groupSlug === "senior" ? (
-                  <TableHead scope="col">
-                    <GroupFilter
-                      label="Types"
-                      allLabel="All types"
-                      options={seniorTypes}
-                      value={typeFilter}
-                      onValueChange={onTypeFilterChange}
-                    />
-                  </TableHead>
-                ) : null}
-                <TableHead scope="col" className="pr-0">Actions</TableHead>
+                {canManage ? <TableHead scope="col" data-column="actions" className="pr-0">Actions</TableHead> : null}
               </TableRow>
             </TableHeader>
             <TableBody className="[&_td]:py-1 [&_tr:last-child]:border-b">
               {measuring ? (
-                <TableRow data-page-size-probe="" aria-hidden="true" className="invisible">
-                  <TableCell colSpan={showClassification ? 6 : 5}>
-                    {/* Match the 8-unit action controls plus real cell padding/borders. */}
-                    <div className="h-8" />
+                <TableRow key="page-size-probe" data-page-size-probe="" aria-hidden="true" className="opacity-0">
+                  <TableCell colSpan={columnCount}>
+                    {/* Match the tallest cell in each role's rows. */}
+                    <div className={canManage ? "h-8" : "h-6"} />
                   </TableCell>
                 </TableRow>
               ) : empty ? (
-                <TableRow className="hover:bg-transparent">
+                <TableRow key="empty" className="hover:bg-transparent">
                   <TableCell
-                    colSpan={showClassification ? 6 : 5}
+                    colSpan={columnCount}
                     className="text-center align-middle text-muted-foreground"
                   >
                     {!loading && error ? (
@@ -247,83 +210,87 @@ export function VocabularyList({
                   const visibleGroups = groupFilter.length
                     ? word.groups.filter((group) => groupFilter.includes(group.slug))
                     : word.groups;
+                  const expansionKey = `${groupSlug}:${currentPage}:${word.id}`;
+                  const expanded = expandedWord === expansionKey;
+                  const detailId = `${meaningsId}-${word.id}`;
                   return (
-                    <TableRow
-                      key={word.id}
-                      className="group/word outline-none hover:bg-emerald-50 data-[state=selected]:bg-emerald-50"
-                      data-word-id={word.id}
-                      tabIndex={-1}
-                      data-state={
-                        selected.has(word.id) ? "selected" : undefined
-                      }
-                    >
-                      <TableCell>
-                        <Checkbox
-                          aria-label={`Select ${word.term}`}
-                          className={selectionCheckboxClassName}
-                          checked={selected.has(word.id)}
-                          onCheckedChange={(checked) =>
-                            toggleRows([word.id], checked)
-                          }
-                        />
-                      </TableCell>
-                      <TableCell>
-                        <LearningScore score={0} />
-                      </TableCell>
-                      <TableCell>
-                        <p className="truncate font-medium" title={word.term}>
-                          {word.term}
-                        </p>
-                      </TableCell>
-                      <TableCell>
-                        <div
-                          className="w-max whitespace-nowrap"
-                          data-chinese-content=""
-                          title={word.meanings
-                            .map((meaning) => meaning.meaning)
-                            .join(" · ")}
-                        >
-                          <WordMeanings meanings={word.meanings} inline />
-                        </div>
-                      </TableCell>
-                      {groupSlug === "all" ? (
-                        <TableCell>
-                          <div className="flex w-max flex-nowrap items-center gap-1">
-                            {visibleGroups.length > 0
-                              ? visibleGroups.map((group) => (
-                                  <span
-                                    key={group.slug}
-                                    title={group.name}
-                                    aria-label={group.name}
-                                    className="inline-flex h-4 min-w-4 shrink-0 items-center justify-center rounded-full bg-emerald-100 px-1 py-0 align-middle text-xs leading-none font-medium text-emerald-800"
-                                  >
-                                    {groupAbbreviations[group.slug] ??
-                                      group.name.toUpperCase()}
-                                  </span>
-                                ))
-                              : "—"}
-                          </div>
+                    <Fragment key={word.id}>
+                      <TableRow
+                        className="outline-none hover:bg-emerald-50"
+                        data-word-id={word.id}
+                        tabIndex={-1}
+                      >
+                        <TableCell data-column="score">
+                          <LearningScore score={word.score} />
                         </TableCell>
-                      ) : null}
-                      {groupSlug === "senior" ? (
-                        <TableCell>
-                          <div className="flex flex-wrap items-center gap-1">
-                            {word.senior_types?.length ? word.senior_types.map((type) => (
-                              <span key={type} className="inline-flex h-5 items-center justify-center rounded-full bg-emerald-700 px-1.5 py-0 align-middle text-xs leading-none font-medium text-white">
-                                {type}
-                              </span>
-                            )) : "—"}
-                          </div>
+                        <TableCell data-column="english">
+                          <p className="truncate font-medium" title={word.term}>
+                            {word.term}
+                          </p>
                         </TableCell>
-                      ) : null}
-                      <TableCell className="px-0">
-                        <WordActions
-                          term={word.term}
-                          onEdit={() => setAction({ word, mode: "edit" })}
-                          onDelete={() => setAction({ word, mode: "delete" })}
-                        />
-                      </TableCell>
-                    </TableRow>
+                        <TableCell data-column="chinese">
+                          <WordTranslation
+                            word={word}
+                            expanded={expanded}
+                            detailId={detailId}
+                            onToggle={() => setExpandedWord(expanded ? null : expansionKey)}
+                          />
+                        </TableCell>
+                        {showGroups ? (
+                          <TableCell data-column="classification">
+                            <div className="flex flex-wrap items-center gap-1">
+                              {visibleGroups.length > 0
+                                ? visibleGroups.map((group) => (
+                                    <span
+                                      key={group.slug}
+                                      title={group.name}
+                                      aria-label={group.name}
+                                      className="inline-flex h-4 min-w-4 shrink-0 items-center justify-center rounded-full bg-emerald-100 px-1 py-0 align-middle text-xs leading-none font-medium text-emerald-800"
+                                    >
+                                      {groupAbbreviations[group.slug] ??
+                                        group.name.toUpperCase()}
+                                    </span>
+                                  ))
+                                : "—"}
+                            </div>
+                          </TableCell>
+                        ) : null}
+                        {showTypes ? (
+                          <TableCell data-column="classification">
+                            <div className="flex flex-wrap items-center gap-1">
+                              {word.senior_types?.length ? word.senior_types.map((type) => (
+                                <span key={type} className="inline-flex h-5 items-center justify-center rounded-full bg-emerald-700 px-1.5 py-0 align-middle text-xs leading-none font-medium text-white">
+                                  {type}
+                                </span>
+                              )) : "—"}
+                            </div>
+                          </TableCell>
+                        ) : null}
+                        {canManage ? (
+                          <TableCell data-column="actions" className="px-0">
+                            <WordActions
+                              term={word.term}
+                              onEdit={() => setAction({ word, mode: "edit" })}
+                              onDelete={() => setAction({ word, mode: "delete" })}
+                            />
+                          </TableCell>
+                        ) : null}
+                      </TableRow>
+                      <TableRow id={detailId} hidden={!expanded} className="bg-emerald-50/50">
+                        {/* Groups is hidden on mobile, so each layout needs a different span. */}
+                        {[false, true].map((mobile) => (
+                          <TableCell
+                            key={String(mobile)}
+                            colSpan={columnCount - Number(mobile && showGroups)}
+                            className={`!whitespace-normal !py-3 ${mobile ? "sm:hidden" : "hidden sm:table-cell"}`}
+                          >
+                            <div className="flex min-w-0 flex-col gap-1 [overflow-wrap:anywhere] pl-[var(--score-width)] pr-[var(--actions-width)] sm:pl-[calc(var(--score-width)+var(--english-width))] sm:pr-0" aria-label={`${word.term} 中文释义`}>
+                              <WordMeanings meanings={word.meanings} />
+                            </div>
+                          </TableCell>
+                        ))}
+                      </TableRow>
+                    </Fragment>
                   );
                 })
               )}
@@ -336,7 +303,6 @@ export function VocabularyList({
         pageSize={pageSize}
         totalPages={totalPages}
         totalWords={data?.total ?? 0}
-        selectedCount={selected.size}
         loading={loading}
         onPageChange={navigateToPage}
         onPageSizeChange={changePageSize}

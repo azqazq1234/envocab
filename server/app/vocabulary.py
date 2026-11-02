@@ -5,13 +5,21 @@ from typing import Annotated, Literal
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Response
 from pydantic import BaseModel, Field, field_validator
-from sqlalchemy import Select, cast, delete, exists, func, or_, select
+from sqlalchemy import Select, cast, delete, exists, func, literal, or_, select
 from sqlalchemy.dialects.postgresql import JSONPATH, insert
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
+from app.auth import CurrentUser, OptionalUser, require_admin, require_mutation_header
 from app.database import get_session
-from app.models import VocabularyGroup, Word, WordGroup, WordMeaning
+from app.models import (
+    LearningProgress,
+    User,
+    VocabularyGroup,
+    Word,
+    WordGroup,
+    WordMeaning,
+)
 from app.reviewed_vocabulary import canonical_term
 
 router = APIRouter(prefix="/api")
@@ -61,6 +69,8 @@ class WordOut(BaseModel):
     phonetic: str
     meanings: list[MeaningInput]
     groups: list[GroupOut]
+    score: int = 0
+    studied: bool = False
     senior_type: Literal["core", "extend", "basic"] | None = None
     senior_types: list[Literal["core", "extend", "basic"]] = Field(default_factory=list)
 
@@ -75,6 +85,9 @@ class WordPage(BaseModel):
 
 class GroupSummary(GroupOut):
     total: int
+    studied: int = 0
+    completion: float = 0
+    score_counts: list[int] = Field(default_factory=lambda: [0] * 6)
 
 
 class RandomWord(BaseModel):
@@ -94,10 +107,25 @@ def words_in_group(db: Session, group: str) -> Select:
     return query.join(WordGroup).where(WordGroup.group_id == group_id)
 
 
-def serialize_words(db: Session, words: list[Word]) -> list[WordOut]:
+def serialize_words(
+    db: Session, words: list[Word], user: User | None = None
+) -> list[WordOut]:
     if not words:
         return []
     ids = [word.id for word in words]
+    progress = (
+        {
+            item.word_id: item
+            for item in db.scalars(
+                select(LearningProgress).where(
+                    LearningProgress.user_id == user.id,
+                    LearningProgress.word_id.in_(ids),
+                )
+            )
+        }
+        if user
+        else {}
+    )
     meanings: dict[int, list[MeaningInput]] = {word_id: [] for word_id in ids}
     groups: dict[int, list[GroupOut]] = {word_id: [] for word_id in ids}
     senior_types: dict[int, list[str]] = {}
@@ -110,14 +138,21 @@ def serialize_words(db: Session, words: list[Word]) -> list[WordOut]:
             )
         )
     for word_id, group, list_code, source_entries in db.execute(
-        select(WordGroup.word_id, VocabularyGroup, WordGroup.list_code, WordGroup.source_entries)
+        select(
+            WordGroup.word_id,
+            VocabularyGroup,
+            WordGroup.list_code,
+            WordGroup.source_entries,
+        )
         .join(VocabularyGroup, VocabularyGroup.id == WordGroup.group_id)
         .where(WordGroup.word_id.in_(ids))
         .order_by(VocabularyGroup.id)
     ):
         groups[word_id].append(GroupOut(slug=group.slug, name=group.name))
         if group.slug == "senior":
-            codes = [list_code] + [item.get("list_code") for item in source_entries or []]
+            codes = [list_code] + [
+                item.get("list_code") for item in source_entries or []
+            ]
             types = []
             for code in codes:
                 match = re.fullmatch(r"(core|extend|basic)\d+", code or "")
@@ -127,6 +162,8 @@ def serialize_words(db: Session, words: list[Word]) -> list[WordOut]:
     return [
         WordOut(
             id=word.id,
+            score=progress[word.id].score if word.id in progress else 0,
+            studied=word.id in progress,
             term=word.term,
             phonetic=word.phonetic,
             meanings=meanings[word.id],
@@ -174,24 +211,61 @@ def word_exists(
 
 
 @router.get("/groups", response_model=list[GroupSummary])
-def list_groups(db: DB):
-    return [
-        GroupSummary(slug=slug, name=name, total=total)
-        for slug, name, total in db.execute(
-            select(
-                VocabularyGroup.slug,
-                VocabularyGroup.name,
-                func.count(WordGroup.word_id),
-            )
-            .outerjoin(WordGroup, WordGroup.group_id == VocabularyGroup.id)
-            .group_by(VocabularyGroup.id)
-            .order_by(VocabularyGroup.id)
+def list_groups(
+    db: DB, user: OptionalUser, response: Response, include_all: bool = False
+):
+    response.headers["Cache-Control"] = "no-store"
+    summaries = {
+        group.id: GroupSummary(slug=group.slug, name=group.name, total=0)
+        for group in db.scalars(select(VocabularyGroup).order_by(VocabularyGroup.id))
+    }
+    user_id = user.id if user else -1
+    counts = (
+        select(WordGroup.group_id, LearningProgress.score, func.count())
+        .outerjoin(
+            LearningProgress,
+            (LearningProgress.word_id == WordGroup.word_id)
+            & (LearningProgress.user_id == user_id),
         )
-    ]
+        .group_by(WordGroup.group_id, LearningProgress.score)
+    )
+    if include_all:
+        summaries[-1] = GroupSummary(slug="all", name="All", total=0)
+        counts = counts.union_all(
+            select(literal(-1), LearningProgress.score, func.count(Word.id))
+            .select_from(Word)
+            .outerjoin(
+                LearningProgress,
+                (LearningProgress.word_id == Word.id)
+                & (LearningProgress.user_id == user_id),
+            )
+            .group_by(LearningProgress.score)
+        )
+    for group_id, score, count in db.execute(counts):
+        summary = summaries[group_id]
+        summary.total += count
+        summary.score_counts[score or 0] += count
+        if score is not None:
+            summary.studied += count
+    for summary in summaries.values():
+        summary.completion = (
+            (
+                sum(score * count for score, count in enumerate(summary.score_counts))
+                / (summary.total * 5)
+                * 100
+            )
+            if summary.total
+            else 0
+        )
+    return list(summaries.values())
 
 
-@router.post("/groups/{slug}/words", response_model=WordOut)
-def save_word(slug: str, data: WordInput, db: DB):
+@router.post(
+    "/groups/{slug}/words",
+    response_model=WordOut,
+    dependencies=[Depends(require_admin), Depends(require_mutation_header)],
+)
+def save_word(slug: str, data: WordInput, db: DB, user: CurrentUser):
     group = db.scalar(select(VocabularyGroup).where(VocabularyGroup.slug == slug))
     if group is None:
         raise HTTPException(404, "Group not found.")
@@ -213,22 +287,25 @@ def save_word(slug: str, data: WordInput, db: DB):
         raise HTTPException(409, "This word already exists in this group.")
     store_meanings(db, word_id, data.meanings)
     db.commit()
-    return serialize_words(db, [db.get(Word, word_id)])[0]
+    return serialize_words(db, [db.get(Word, word_id)], user)[0]
 
 
 @router.get("/words/random", response_model=RandomWord)
 def random_word(
     db: DB,
+    user: OptionalUser,
+    response: Response,
     group: str = "all",
     exclude_id: int | None = Query(None, ge=1),
 ):
+    response.headers["Cache-Control"] = "no-store"
     query = words_in_group(db, group)
     total = db.scalar(select(func.count()).select_from(query.subquery()))
     if total > 1 and exclude_id is not None:
         query = query.where(Word.id != exclude_id)
     word = db.scalar(query.order_by(func.random()).limit(1))
     return RandomWord(
-        word=serialize_words(db, [word])[0] if word is not None else None,
+        word=serialize_words(db, [word], user)[0] if word is not None else None,
         total=total,
     )
 
@@ -236,6 +313,8 @@ def random_word(
 @router.get("/words", response_model=WordPage)
 def list_words(
     db: DB,
+    user: OptionalUser,
+    response: Response,
     group: str = "all",
     page: int = Query(1, ge=1),
     page_size: int = Query(20, ge=1, le=100),
@@ -246,6 +325,7 @@ def list_words(
     member_of: str | None = Query(None, max_length=200),
     senior_types: str | None = Query(None, max_length=50),
 ):
+    response.headers["Cache-Control"] = "no-store"
     query = words_in_group(db, group)
     if member_of is not None:
         slugs = {slug.strip() for slug in member_of.split(",")}
@@ -257,31 +337,40 @@ def list_words(
         if len(membership_groups) != len(slugs):
             raise HTTPException(404, "Group not found.")
         query = query.where(
-            exists().where(
+            exists()
+            .where(
                 WordGroup.word_id == Word.id,
                 WordGroup.group_id.in_(membership_groups),
-            ).correlate(Word)
+            )
+            .correlate(Word)
         )
     if senior_types is not None:
         types = {item.strip() for item in senior_types.split(",")}
         if not types <= {"core", "extend", "basic"}:
             raise HTTPException(422, "Unknown Senior type.")
-        senior_id = select(VocabularyGroup.id).where(
-            VocabularyGroup.slug == "senior"
-        ).scalar_subquery()
+        senior_id = (
+            select(VocabularyGroup.id)
+            .where(VocabularyGroup.slug == "senior")
+            .scalar_subquery()
+        )
         pattern = rf"^({'|'.join(sorted(types))})[0-9]+$"
         query = query.where(
-            exists().where(
+            exists()
+            .where(
                 WordGroup.word_id == Word.id,
                 WordGroup.group_id == senior_id,
                 or_(
                     WordGroup.list_code.op("~")(pattern),
                     func.jsonb_path_exists(
                         WordGroup.source_entries,
-                        cast('$[*] ? (@.list_code like_regex "' + pattern + '")', JSONPATH),
+                        cast(
+                            '$[*] ? (@.list_code like_regex "' + pattern + '")',
+                            JSONPATH,
+                        ),
                     ),
                 ),
-            ).correlate(Word)
+            )
+            .correlate(Word)
         )
     search = canonical_term(q)
     if search:
@@ -321,9 +410,7 @@ def list_words(
     if locate_id is not None:
         ranked = query.with_only_columns(
             Word.id.label("word_id"),
-            func.row_number()
-            .over(order_by=orderings)
-            .label("position"),
+            func.row_number().over(order_by=orderings).label("position"),
         ).subquery()
         position = db.scalar(
             select(ranked.c.position).where(ranked.c.word_id == locate_id)
@@ -333,13 +420,11 @@ def list_words(
         page = (position - 1) // page_size + 1
     words = list(
         db.scalars(
-            query.order_by(*orderings)
-            .limit(page_size)
-            .offset((page - 1) * page_size)
+            query.order_by(*orderings).limit(page_size).offset((page - 1) * page_size)
         )
     )
     return WordPage(
-        items=serialize_words(db, words),
+        items=serialize_words(db, words, user),
         total=total,
         page=page,
         page_size=page_size,
@@ -347,8 +432,12 @@ def list_words(
     )
 
 
-@router.patch("/words/{word_id}", response_model=WordOut)
-def edit_word(word_id: int, data: WordInput, db: DB):
+@router.patch(
+    "/words/{word_id}",
+    response_model=WordOut,
+    dependencies=[Depends(require_admin), Depends(require_mutation_header)],
+)
+def edit_word(word_id: int, data: WordInput, db: DB, user: CurrentUser):
     word = lock_word(db, word_id)
     try:
         word.term = data.term
@@ -362,10 +451,14 @@ def edit_word(word_id: int, data: WordInput, db: DB):
         raise HTTPException(
             409, "This English word already exists. Edit its existing entry instead."
         ) from None
-    return serialize_words(db, [word])[0]
+    return serialize_words(db, [word], user)[0]
 
 
-@router.delete("/words/{word_id}", status_code=204)
+@router.delete(
+    "/words/{word_id}",
+    status_code=204,
+    dependencies=[Depends(require_admin), Depends(require_mutation_header)],
+)
 def delete_word(word_id: int, db: DB, group: str = Query(...)):
     word = lock_word(db, word_id)
     if group == "all":
@@ -385,3 +478,39 @@ def delete_word(word_id: int, db: DB, group: str = Query(...)):
             db.delete(word)
     db.commit()
     return Response(status_code=204)
+
+
+class AnswerInput(BaseModel):
+    answer: Literal["yes", "not_sure", "no"]
+
+
+@router.post(
+    "/words/{word_id}/progress",
+    response_model=WordOut,
+    dependencies=[Depends(require_mutation_header)],
+)
+def record_answer(word_id: int, data: AnswerInput, db: DB, user: CurrentUser):
+    # Serialize answers and vocabulary deletion for this word; increment atomically.
+    word = lock_word(db, word_id)
+    change = {"yes": 1, "not_sure": 0, "no": -1}[data.answer]
+    db.execute(
+        insert(LearningProgress)
+        .values(
+            user_id=user.id,
+            word_id=word_id,
+            score=max(0, change),
+            attempts=1,
+        )
+        .on_conflict_do_update(
+            index_elements=[LearningProgress.user_id, LearningProgress.word_id],
+            set_={
+                "score": func.greatest(
+                    0, func.least(5, LearningProgress.score + change)
+                ),
+                "attempts": LearningProgress.attempts + 1,
+                "updated_at": func.now(),
+            },
+        )
+    )
+    db.commit()
+    return serialize_words(db, [word], user)[0]

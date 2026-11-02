@@ -1,9 +1,11 @@
+import { cn } from "@/lib/utils";
+import { AccountMenu } from "@/components/auth/account-menu";
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
 
-export function Header() {
+export function Header({ className }: { className?: string }) {
   return (
-    <header className="fixed inset-x-0 top-0 z-40 flex h-14 items-center bg-background shadow-[0_3px_12px_-4px_rgba(0,0,0,0.15)]">
+    <header className={cn("fixed inset-x-0 top-0 z-40 flex h-14 items-center bg-background shadow-[0_3px_12px_-4px_rgba(0,0,0,0.15)]", className)}>
       <Link
         href="/"
         aria-label="Envocab home"
@@ -16,6 +18,7 @@ export function Header() {
       <span className="text-lg font-semibold tracking-widest text-emerald-700">
         VOCAB
       </span>
+      <AccountMenu />
     </header>
   );
 }

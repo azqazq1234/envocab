@@ -2,6 +2,8 @@ from typing import Annotated
 
 from fastapi import FastAPI, HTTPException, Query
 
+from app.admin import router as admin_router
+from app.auth import router as auth_router
 from app.dictionary import DictionaryEntry, lookup_word
 from app.vocabulary import router as vocabulary_router
 
@@ -14,6 +16,8 @@ app = FastAPI(
 )
 
 
+app.include_router(auth_router)
+app.include_router(admin_router)
 app.include_router(vocabulary_router)
 
 

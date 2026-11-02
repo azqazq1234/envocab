@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import { Header } from "@/components/layout/header";
-import { AppShell } from "@/components/layout/app-shell";
 import "./globals.css";
+import { AuthProvider } from "@/components/auth/auth-provider";
 
 export const metadata: Metadata = {
   title: "vocab",
@@ -14,7 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="h-full antialiased">
+    // Browser tools can inject attributes on <html> before React hydrates.
+    <html lang="en" className="h-full antialiased" suppressHydrationWarning>
       <body className="min-h-full bg-stone-50 font-sans text-stone-900">
         <a
           href="#main-content"
@@ -22,8 +22,9 @@ export default function RootLayout({
         >
           Skip to main content
         </a>
-        <Header />
-        <AppShell>{children}</AppShell>
+        <AuthProvider>
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );

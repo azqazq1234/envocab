@@ -35,7 +35,6 @@ export function VocabularyPagination({
   pageSize,
   totalPages,
   totalWords,
-  selectedCount,
   loading,
   onPageChange,
   onPageSizeChange,
@@ -44,7 +43,6 @@ export function VocabularyPagination({
   pageSize: number;
   totalPages: number;
   totalWords: number;
-  selectedCount: number;
   loading: boolean;
   onPageChange: (page: number) => void;
   onPageSizeChange: (size: number) => void;
@@ -53,14 +51,13 @@ export function VocabularyPagination({
   const compactStart = Math.max(1, Math.min(page - 1, totalPages - 2));
 
   return (
-    <div className="@container/pagination grid h-[var(--app-footer-height)] shrink-0 grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 border-t text-sm text-muted-foreground">
+    <div className="@container/pagination grid h-[var(--app-footer-height)] shrink-0 grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 border-t text-sm text-muted-foreground @max-[432px]/vocabulary:grid-cols-[minmax(0,1fr)_auto_auto] @max-[432px]/vocabulary:gap-1">
       <span aria-live="polite" className="min-w-0 truncate pl-2 whitespace-nowrap">
         {totalWords} words
-        {selectedCount > 0 ? ` · ${selectedCount} selected` : ""}
       </span>
       <nav
         aria-label="Vocabulary pagination"
-        className="col-start-2 row-start-1 flex min-w-0 items-center justify-center gap-1 overflow-hidden @max-[680px]/pagination:gap-0.5"
+        className="col-start-2 row-start-1 flex min-w-0 items-center justify-center gap-1 overflow-hidden @max-[680px]/pagination:gap-0.5 @max-[400px]/pagination:[&_button]:size-7"
       >
         <IconButton
           aria-label="First page"
@@ -121,14 +118,14 @@ export function VocabularyPagination({
           <ChevronLast aria-hidden="true" />
         </IconButton>
       </nav>
-      <div className="col-start-3 row-start-1 w-[calc(var(--actions-width)+var(--actions-column-right,0px))] min-w-24 justify-self-end pl-2 pr-[calc(var(--actions-column-right,0px)+var(--spacing)*2)] @max-[400px]/pagination:w-full @max-[400px]/pagination:min-w-0 @max-[400px]/pagination:px-1">
+      <div className="col-start-3 row-start-1 w-24 min-w-24 justify-self-end px-2 @max-[400px]/pagination:w-22 @max-[400px]/pagination:min-w-22 @max-[400px]/pagination:px-1">
         <Menu.Root>
           <Menu.Trigger
             aria-label={`Rows per page: ${pageSize}`}
             disabled={loading}
             className="flex h-7 w-full cursor-pointer items-center justify-between gap-1 bg-transparent text-sm font-normal text-muted-foreground outline-none hover:text-emerald-700 focus-visible:ring-2 focus-visible:ring-emerald-700 disabled:cursor-not-allowed disabled:opacity-50"
           >
-            <span className="whitespace-nowrap">{pageSize}<span className="@max-[400px]/pagination:hidden"> / page</span></span>
+            <span className="whitespace-nowrap">{pageSize} / page</span>
             <ChevronDown ref={pageSizeIconRef} aria-hidden="true" className="size-3 shrink-0" />
           </Menu.Trigger>
           <Menu.Portal>

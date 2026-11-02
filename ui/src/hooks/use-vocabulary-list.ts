@@ -12,15 +12,15 @@ const LAST_PAGE = Number.MAX_SAFE_INTEGER;
 export function useVocabularyList({
   groupSlug,
   additionRevision,
+  refreshRevision = 0,
   focusTarget,
-  onTotalChange,
   memberOf,
   seniorTypes,
 }: {
   groupSlug: string;
   additionRevision: number;
+  refreshRevision?: number;
   focusTarget: WordFocusTarget;
-  onTotalChange: (total: number) => void;
   memberOf?: string[];
   seniorTypes?: string[];
 }) {
@@ -47,7 +47,7 @@ export function useVocabularyList({
   const [sort, setSort] = useState<"asc" | "desc" | null>(null);
   const sortBy = sort === null ? "id" : "english";
   const sortOrder = sort ?? "asc";
-  const keyPrefix = `${groupSlug}:${membershipKey}:${pageSize}:${retry}:${additionRevision}:${sortBy}:${sortOrder}:${focusTarget?.id ?? 0}:${focusTarget?.revision ?? 0}`;
+  const keyPrefix = `${refreshRevision}:${groupSlug}:${membershipKey}:${pageSize}:${retry}:${additionRevision}:${sortBy}:${sortOrder}:${focusTarget?.id ?? 0}:${focusTarget?.revision ?? 0}`;
   const key = `${keyPrefix}:${page}`;
   const [result, setResult] = useState<{
     key: string;
@@ -81,7 +81,6 @@ export function useVocabularyList({
           }
           setNavigation({ page: data.page, additionRevision, membershipKey });
           setResult({ key: `${keyPrefix}:${data.page}`, data, error: "" });
-          onTotalChange(data.total);
         }
       })
       .catch((cause: unknown) => {
@@ -108,7 +107,6 @@ export function useVocabularyList({
     keyPrefix,
     sortBy,
     sortOrder,
-    onTotalChange,
     focusTarget,
     additionRevision,
     result.key,
@@ -125,25 +123,15 @@ export function useVocabularyList({
     const table = container?.querySelector("table");
     const header = table?.querySelector("thead");
     if (!container || !table || !header) return;
-    const contents = Array.from(
-      table.querySelectorAll<HTMLElement>("[data-chinese-content]"),
-    );
     const rows = Array.from(table.querySelectorAll("tbody tr[data-word-id]"));
     const probe = table.querySelector("[data-page-size-probe]");
     let frame = 0;
 
     const measureActionsShadow = () => {
       const viewport = container.parentElement;
-      const actions = header.querySelector("th:last-child");
-      if (!viewport || !actions) return;
+      const actions = header.querySelector('th[data-column="actions"]');
+      if (!viewport || !actions || actions.getClientRects().length === 0) return;
       const bounds = actions.getBoundingClientRect();
-      // Share the actual scrollbar/sticky-column inset with the footer so its
-      // page-size text starts at the same padding as the Actions heading.
-      const list = viewport.parentElement;
-      list?.style.setProperty(
-        "--actions-column-right",
-        `${Math.max(0, list.getBoundingClientRect().right - bounds.right)}px`,
-      );
       viewport.style.setProperty(
         "--actions-shadow-height",
         `${Math.max(0, table.getBoundingClientRect().height - container.scrollTop)}px`,
@@ -155,26 +143,7 @@ export function useVocabularyList({
       );
     };
 
-    const measureWidth = () => {
-      const chineseWidth = Math.max(
-        0,
-        ...contents.map((content) => {
-          const style = getComputedStyle(content.parentElement!);
-          return (
-            content.getBoundingClientRect().width +
-            parseFloat(style.paddingLeft) +
-            parseFloat(style.paddingRight)
-          );
-        }),
-      );
-      table.style.setProperty(
-        "--chinese-content-width",
-        `${Math.ceil(chineseWidth)}px`,
-      );
-    };
-
     const measure = () => {
-      measureWidth();
       measureActionsShadow();
       if (manualPageSize !== null) return;
       const sizingRows = rows.length ? rows : probe ? [probe] : [];
@@ -206,11 +175,10 @@ export function useVocabularyList({
     });
     // Tabs can briefly lay out both panels during their layout effects. Measure
     // pagination on the next frame, after the inactive panel has been hidden.
-    measureWidth();
     measureActionsShadow();
     frame = requestAnimationFrame(measure);
     container.addEventListener("scroll", measureActionsShadow, { passive: true });
-    [container, table, header, ...contents, ...rows, ...(probe ? [probe] : [])].forEach((node) =>
+    [container, table, header, ...rows, ...(probe ? [probe] : [])].forEach((node) =>
       observer.observe(node),
     );
     return () => {

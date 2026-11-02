@@ -116,40 +116,33 @@ body,
 
 @layer components {
   .vocabulary-list {
-    --selection-width: calc(var(--spacing) * 10);
     --score-width: calc(var(--spacing) * 17);
     --english-width: calc(var(--spacing) * 30);
     --groups-width: calc(var(--spacing) * 24);
     --actions-width: calc(var(--spacing) * 17);
-    --visible-groups-width: 0px;
-    --fixed-width: calc(
-      var(--selection-width) + var(--score-width) + var(--english-width) +
-        var(--actions-width) + var(--visible-groups-width)
-    );
-    --chinese-min-width: 4.25rem;
+  }
+  .vocabulary-list[data-can-manage="false"] {
+    --actions-width: 0px;
+  }
+  .vocabulary-list[data-can-manage="false"] .vocabulary-table-viewport::after {
+    display: none;
   }
   .vocabulary-list[data-show-groups="true"] {
     --groups-width: calc(var(--spacing) * 40);
   }
-  .vocabulary-list:is([data-show-groups="true"], [data-show-types="true"]) {
-    --visible-groups-width: var(--groups-width);
-  }
-  .vocabulary-table td:not([colspan]):not(:nth-child(4)) {
+  .vocabulary-table td[data-column]:not([data-column="chinese"]) {
     @apply sticky z-10 bg-white;
   }
   .vocabulary-table th {
     @apply sticky top-0 z-20 bg-white;
   }
-  .vocabulary-table :is(th, td):first-child {
+  .vocabulary-table [data-column="score"] {
     left: 0;
   }
-  .vocabulary-table :is(th, td):nth-child(2) {
-    left: var(--selection-width);
+  .vocabulary-table [data-column="english"] {
+    left: var(--score-width);
   }
-  .vocabulary-table :is(th, td):nth-child(3) {
-    left: calc(var(--selection-width) + var(--score-width));
-  }
-  .vocabulary-table :is(th, td):last-child:not([colspan]) {
+  .vocabulary-table [data-column="actions"] {
     right: 0;
   }
   .vocabulary-table-viewport::after {
@@ -166,10 +159,16 @@ body,
     box-shadow: -3px 0 12px -4px rgb(0 0 0 / 0.15);
     clip-path: inset(0 100% 0 -12px);
   }
-  .vocabulary-list:is([data-show-groups="true"], [data-show-types="true"]) :is(th, td):nth-last-child(2) {
+  .vocabulary-table [data-column="classification"] {
     right: var(--actions-width);
   }
-  .vocabulary-table tr[data-word-id]:is(:hover, [data-state="selected"]) td {
+  .vocabulary-table tr[data-word-id]:hover td {
     background-color: var(--color-emerald-50);
+  }
+
+  @media (width < 640px) {
+    .vocabulary-list[data-show-groups="true"] [data-column="classification"] {
+      display: none;
+    }
   }
 }

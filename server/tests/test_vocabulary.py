@@ -19,7 +19,8 @@ def client():
         ) as session:
             app.dependency_overrides[get_session] = lambda: session
             try:
-                with TestClient(app) as test_client:
+                with TestClient(app, headers={"X-Envocab-Request": "1"}) as test_client:
+                    assert test_client.post("/api/auth/login", json={"username": "harvey"}).status_code == 200
                     yield test_client, session
             finally:
                 app.dependency_overrides.clear()
