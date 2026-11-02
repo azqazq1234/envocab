@@ -1,8 +1,8 @@
 # Coolify deployment
 
 This Compose application contains only Next.js and FastAPI. It uses the existing
-PostgreSQL database restored through Coolify; it does not create a database or
-publish container ports on the host.
+PostgreSQL database restored through Coolify; it does not create a database.
+The frontend publishes port 3000 only on the host loopback interface for Caddy.
 
 ## Configuration
 
@@ -21,6 +21,8 @@ publish container ports on the host.
 - This server uses an existing host Caddy rather than Coolify's managed proxy.
   Public website routing therefore needs a separate host Caddy configuration;
   selecting a domain in Coolify alone does not configure the existing host Caddy.
+  The website uses `https://envocab.azqazq1234.xyz:2407`, with Caddy proxying to
+  `127.0.0.1:3000`. It shares the HTTPS listener with the Coolify hostname.
 
 ## First deployment and updates
 
